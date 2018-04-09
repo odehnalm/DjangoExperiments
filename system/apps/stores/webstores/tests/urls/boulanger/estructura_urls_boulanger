@@ -1,0 +1,219 @@
+
+
+****************************
+  REFRIGERADOR REFRIGERADOR
+****************************
+
+orden de filtros en url:
+URL_BASE
+       brand~xxxx
+                facetting_tous_les_refs_____hauteur_du_refrigerateur~xxxxxx
+                                   facetting_tous_les_refs_____hauteur_du_refrigerateur~xxxxxx
+                                                facetting_tous_les_refs_____largeur~xxxxxxx
+                                                          facetting_tous_les_refs_____profondeur_du_refrigerateur~xxxxxxx
+                                                                    facetting_tous_les_refs_____volume~xxxxxxx
+                                                                                      facetting_tous_les_refs_____classe_energetique~xxxxxxx
+                                                                                                          facetting_tous_les_refs_____type_de_froid~xxxxxxx
+
+
+
+
+url sin filtros:
+URL_BASE = https://www.boulanger.com/c/refrigerateur-1-porte
+
+*) Si se selecciona refrigeradores compactos, la url base cambia: 
+https://www.boulanger.com/c/petit-refrigerateur
+
+
+
+
+
+
+****************************
+  REFRIGERADOR COMBINADO
+****************************
+
+orden de filtros en url:
+URL_BASE
+       brand~xxxx
+               facetting_tous_les_refs_____configuration~xxxxxx
+                            facetting_tous_les_refs_____largeur~xxxxxxx
+                                      facetting_tous_les_refs_____profondeur_du_refrigerateur~xxxxxxx
+                                                facetting_tous_les_refs_____volume~xxxxxxx
+                                                                  facetting_tous_les_refs_____classe_energetique~xxxxxxx
+                                                                                      facetting_tous_les_refs_____type_de_froid~xxxxxxx
+                                                                                                    facetting_tous_les_refs_____type_de_froid_du_congelateur~xxxxxxx
+                                                                                                                    facetting_tous_les_refs_____technologie~xxxxxxx
+
+
+
+
+url sin filtros:
+URL_BASE = https://www.boulanger.com/c/refrigerateur-avec-congelateur
+
+*) Si se selecciona refrigerador americano, la url base cambia: 
+https://www.boulanger.com/c/refrigerateur-americain
+
+*) Cuando el subtipo es refrigerador con congelador en base o tope,
+este pasa como parametro de facetting_tous_les_refs_____configuration
+en lugar de alterar la URL base.
+
+
+
+
+
+
+
+****************************
+  CONGELADOR CONGELADOR
+****************************
+
+orden de filtros en url:
+URL_BASE
+       brand~xxxx
+                facettes_congelateurs_____Hateur~xxxxxx
+                                   facettes_congelateurs_____largeur~xxxxxx
+                                                facettes_congelateurs_____volume~xxxxxxx
+                                                          facettes_congelateurs_____classe_energetique~xxxxxxx
+                                                                                      facettes_congelateurs_____type_de_froid~xxxxxxx
+
+
+
+
+url sin filtros:
+URL_BASE = https://www.boulanger.com/c/congelateur
+
+*) Si se selecciona congelador armario, la url base cambia: 
+https://www.boulanger.com/c/congelateur-armoire
+
+*) Si se selecciona congelador cofre, la url base cambia: 
+https://www.boulanger.com/c/congelateur-coffre
+
+
+
+****************************
+    CAVE A VIN CAVE A VIN
+****************************
+
+orden de filtros en url:
+URL_BASE
+       brand~xxxx
+                facettes_cave_a_vin_____hauteur_en_cm~xxxxxx
+                                   facettes_cave_a_vin_____largeur_en_cm~xxxxxx
+                                                facettes_cave_a_vin_____profondeur_en_cm~xxxxxxx
+                                                          facettes_cave_a_vin_____capacite_avec_clayettes~xxxxxxx
+                                                                                      facettes_cave_a_vin_____classe_energetique~xxxxxxx
+
+
+
+
+url sin filtros:
+URL_BASE = https://www.boulanger.com/c/toutes-les-caves-a-vin'
+
+*) Si se selecciona cava de servicio, la url base cambia: 
+https://www.boulanger.com/c/cave-de-service
+
+*) Si se selecciona cava de enjevecimiento, la url base cambia: 
+https://www.boulanger.com/c/cave-de-vieillissement
+
+*) Si se selecciona cava multitemperaturas, la url base cambia: 
+https://www.boulanger.com/c/cave-polyvalente
+
+****************************
+TELEFONO  TELEFONO  TELEFONO
+****************************
+
+orden de filtros en url:
+URL_BASE
+       brand~xxxx
+               facettes_gsm_____systeme_d_exploitation~xxxxxx
+                            facettes_gsm_____memoire_interne~xxxxxxx
+
+
+
+
+url sin filtros:
+URL_BASE = https://www.boulanger.com/c/smartphone-telephone-portable
+
+
+
+
+
+*) Si se selecciona la marca, no hace falta marcar en la url el OS
+   Ahora, si no se selecciona marca, y se ha enviado el OS, se usa
+   facettes_gsm_____systeme_d_exploitation
+
+
+***************************
+LAPTOP LAPTOP LAPTOP LAPTOP
+***************************
+
+orden de filtros en url:
+URL_BASE
+        brand~xxxx
+
+Solo PC portable:  nouvelles_facettes_ordinateurs_____ecran~xxxxx
+						nouvelles_facettes_ordinateurs_____taille_de_l_ecran~xxxxx
+								nouvelles_facettes_ordinateurs_____resolution~xxxx
+										points_comparateurs_____processeur~xxxxxx
+												nouvelles_facettes_ordinateurs_____memoire_vive=sss
+														nouvelles_facettes_ordinateurs_____stockage=asasa
+Solo PC portable:												nouvelles_facettes_ordinateurs_____capacite_disque_dur=xxxx
+Solo PC portable:												         nouvelles_facettes_ordinateurs_____systeme_d_exploitation=sdcsds
+
+
+url sin filtros:
+URL_BASE = https://www.boulanger.com/c/tous-les-ordinateurs-portables
+
+*) Al seleccionar mas de un filtro, la url base cambia:
+De https://www.boulanger.com/c/tous-les-ordinateurs-portables
+A  https://www.boulanger.com/c/nav-filtre/tous-les-ordinateurs-portables
+
+se le agrega '?' antes de los filtros, y los éstos se separan con el caracter '|'
+
+------ Indicando la MARCA
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/brand~xxxx
+
+*) Para los caracteres de espacio en la marca, se sustituye por '20'
+
+------ Indicando si es tactil (Solo PC portable)
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/nouvelles_facettes_ordinateurs_____ecran~tactile
+
+------ Indicando las medidas
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/nouvelles_facettes_ordinateurs_____taille_de_l_ecran~de20152220e020162c922
+
+------ Indicando resolucion
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/nouvelles_facettes_ordinateurs_____resolution~4k
+
+------ Indicando procesador
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/points_comparateurs_____processeur~intel20core20i5
+
+------ Indicando memoria RAM
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/nouvelles_facettes_ordinateurs_____memoire_vive~3220go
+
+------ Indicando capacidad SSD
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/nouvelles_facettes_ordinateurs_____stockage~51220go
+
+------ Indicando capacidad disco duro (Solo PC portable)
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/nouvelles_facettes_ordinateurs_____capacite_disque_dur~120to
+
+------ Indicando OS (Solo PC portable)
+
+https://www.boulanger.com/c/tous-les-ordinateurs-portables/nouvelles_facettes_ordinateurs_____systeme_d_exploitation~windows2010
+
+
+Para ordenar: sorting_price=asc
+
+
+
+
+
+

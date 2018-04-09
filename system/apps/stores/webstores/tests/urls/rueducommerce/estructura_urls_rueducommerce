@@ -1,0 +1,125 @@
+***************************
+LAPTOP LAPTOP LAPTOP LAPTOP
+***************************
+
+orden de filtros en url:
+URL_BASE
+		&it_display_size_max_pouces=xxxxx
+							&marque=xxxxxxxxxxx
+										&it_cpu_type=sdscdscds
+Para PC portables
+										             &it_storage_type=dnjndcdcd
+
+Para mac
+													 &it_data_storage_ssd_capacity_go=ddd
+Para ambos:													 		&it_memory_ram_installed_go=16
+Para PC portables
+																					&it_computer_os_type=kadcdkj
+																					            &it_burner_driver_type_computer=dsds
+																					                     &it_is_tactile=sdsd
+																					                           &it_panel_type=sddsd
+
+
+urls sin filtros (productos ordenados):
+https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&it_computer_os_type=windows.n-a
+https://www.rueducommerce.fr/rayon/ordinateurs-64/macbook-8022?sort=prix-croissants&view=list
+
+
+---- Eligiendo Marca
+
+-- Si es APPLE:
+   URL_BASE = https://www.rueducommerce.fr/rayon/ordinateurs-64/macbook-8022?sort=prix-croissants&view=list
+
+   Sino:
+   URL_BASE = https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&marque=xxxxx
+
+---- Eligiendo Taille
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&it_display_size_max_pouces=xx-x
+
+---- Eligiendo procesador
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&it_cpu_type=intel-core-i5
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/macbook-8022?sort=prix-croissants&view=list&it_cpu_type=intel-core-i5
+
+---- Eligiendo tipo de disco (PC portables)
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&it_storage_type=disque-dur
+
+---- Eligiendo tamano de disco SSD (Mac)
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/macbook-8022?sort=prix-croissants&view=list&it_data_storage_ssd_capacity_go=512
+
+---- Eligiendo RAM
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/macbook-8022?sort=prix-croissants&view=list&it_memory_ram_installed_go=16
+
+---- Eligiendo tipo de OS (PC portables)
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&it_computer_os_type=windows
+
+---- Eligiendo burner driver (PC portables)
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&it_burner_driver_type_computer=pas-de-lecteur-graveur
+
+---- Ecran tactile (PC portables)
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&it_is_tactile=ecran-tactile
+
+---- Tipo de panel (PC portables)
+
+   https://www.rueducommerce.fr/rayon/ordinateurs-64/pc-portable-5875?sort=prix-croissants&view=list&it_panel_type=brillant
+
+***************************
+MOBILE MOBILE MOBILE MOBILE
+***************************
+
+orden de filtros en url:
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list
+              &marque=xxxxxxx
+             		&it_memory_rom_integrated_go=X
+             		            color_group=xxxxxxxxx
+			                              	&it_smartphone_resolution=XX
+			                              					it_memory_ram_installed_go=x-x
+			                              									it_tablette_os=xxxxxxx
+                                        
+url sin filtros (productos ordenados): 
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list
+
+
+---- Eligiendo Marca
+
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list&marque=samsung
+
+
+---- Eligiendo ROM integrado
+
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list&it_memory_rom_integrated_go=8
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list&it_memory_rom_integrated_go=64.4.n-a
+
+
+---- Eligiendo Couleur
+
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list&color_group=blanc
+
+
+---- Eligiendo definition d'lecran
+
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list&it_smartphone_resolution=hd
+
+
+---- Eligiendo RAM
+
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list&it_memory_ram_installed_go=1-5
+
+
+---- Eligiendo OS
+
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list&it_tablette_os=android
+https://www.rueducommerce.fr/rayon/telephonie-92/smartphone-classique-6774?sort=prix-croissants&view=list&it_tablette_os=ios
+
+
+*) Para separar distintas opciones de un mismo campo, se usa el caracter '.' (Ver Eligiendo ROM integrado)
+
+
+

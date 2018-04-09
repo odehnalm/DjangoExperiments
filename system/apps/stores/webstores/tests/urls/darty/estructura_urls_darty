@@ -1,0 +1,259 @@
+*****************
+TV TV TV TV TV TV
+*****************
+
+orden de filtros en url:
+
+El orden en general no importa, sin embargo hubo buenos resultados ordenando de acuerdo a la siguiente estructura:
+
+https://www.darty.com/nav/extra/list?s=prix_asc
+                                                &c=xxxxxxxxx
+                                                            &cat=xxxxxxxxxxxxxxx
+                                                                                &m=xxxxxxxxxxxxxxx
+                                                                                                  &npk=1
+
+Notemos que en sí, ya los productos vendrán ordenados
+
+url sin filtros: https://www.darty.com/nav/extra/list?s=prix_asc&cat=97056&npk=1
+
+------ Sustituyendo las categorías que no son tipo (LED,OLED) ni marca
+
+Se concatenan con guiones en el pedazo &c=xxxxxxxxx
+
+-- Tamaño de pantalla:
+Se concatena cada una de las pulgadas hasta 76 pulgadas, ya que los rangos que ofrece la página son dependientes de la base de datos
+que tienen.
+
+str(pulgadas) + '0000321600' for pulgadas in range(int(filtros['TaillePounce']), 76)
+
+-- Resolución:
+Se busca siempre de ofrecer un producto igual o mejor, por lo tanto se ingluyen las categorías superiores:
+
+* 720p: 885093-mk_54112_11624652-1627160-1531132
+* 1080p: mk_54112_11624652-1627160-1531132
+* 4K: 1627160-1531132
+
+-- Design:
+
+** Incurve: 367267
+
+------ Sustituyendo TYPE
+
+Si el tipo es OLED, se agrega 97056&fa=149552-292059 a &cat=xxxxxxxxxxx, lo cual incluye OLED y QLED. De caso contrario, es decir, 
+si el filtro llega vacío o con LED y LCD, se enviará &cat=97056, la cual incluye todos los tipos de TV disponibles, no hay LCD.
+
+------ Sustituyendo MARCA
+
+Se incluyen los primeros 5 caracteres en mayúsculas a &m=xxxxxx, pero hay casos particulares:
+
+*PHILIPS: &m=MP_philips_tv-PHILI (PHILIPS Y PHILIPS TV)
+*MEDIAMARKET: &m=MP_mediamarket
+*SMART TECH: &m=MP_smart_tech
+
+Al final se realiza una limpieza para mantener la consistencia (un solo guión, no hay guiones al lado de otros símbolos)
+
+*************************
+REFRIGERADOR REFRIGERADOR
+*************************
+
+orden de filtros en url:
+
+El orden en general no importa, sin embargo hubo buenos resultados ordenando de acuerdo a la siguiente estructura:
+
+https://www.darty.com/nav/extra/list?s=prix_asc
+                                                &c=xxxxxxxxx
+                                                            &cat=xxxxxxxxxxxxxxx
+                                                                                &m=xxxxxxxxxxxxxxx
+                                                                                                  &npk=1
+
+Notemos que en sí, ya los productos vendrán ordenados
+
+url sin filtros: https://www.darty.com/nav/extra/list?s=prix_asc&cat=23561&npk=1
+
+------ Sustituyendo las categorías que no son tipo (ESTANDAR, COMPACTO) ni marca
+
+Se concatenan con guiones en el pedazo &c=xxxxxxxxx
+
+-- Largeur:
+La única medida de dimensión que estará disponible. Esto es debido a que la base de datos de Darty busca la disponibilidad de productos
+que estén dentro de un cierto rango y retorna sólo aquellas medidas disponibles, pero como no tenemos acceso, debemos hacer la búsqueda
+por fuerza bruta. Esto nos puede llevar a una URL excesivamente larga, por lo tanto, como el rango de longitud va de 10 en 10, como se
+incluyen los milimetros, a lo sumo tendríamos 101 cadenas de caracteres asociadas al filtro de longitud.
+
+            [str(centimetros) + '000266616' for centimetros in range(a, b)])
+
+------ Sustituyendo SUBTYPE
+
+* STANDARD : &cat=11601
+* COMPACT : &cat=23561
+
+------ Sustituyendo MARCA
+
+Hay unos cuantos casos particulares listados en el código
+
+*************************
+REFRIGERADOR CONGELATEUR
+*************************
+
+orden de filtros en url:
+
+El orden en general no importa, sin embargo hubo buenos resultados ordenando de acuerdo a la siguiente estructura:
+
+https://www.darty.com/nav/extra/list?s=prix_asc
+                                                &c=xxxxxxxxx
+                                                            &cat=xxxxxxxxxxxxxxx
+                                                                                &m=xxxxxxxxxxxxxxx
+                                                                                                  &npk=1
+
+Notemos que en sí, ya los productos vendrán ordenados
+
+url sin filtros: https://www.darty.com/nav/extra/list?s=prix_asc&cat=12448&npk=1
+
+------ Sustituyendo las categorías que no son tipo (AMERICAIN, CONG EN HAUT/BASE) ni marca
+
+Se concatenan con guiones en el pedazo &c=xxxxxxxxx
+
+-- Largeur:
+La única medida de dimensión que estará disponible. Esto es debido a que la base de datos de Darty busca la disponibilidad de productos
+que estén dentro de un cierto rango y retorna sólo aquellas medidas disponibles, pero como no tenemos acceso, debemos hacer la búsqueda
+por fuerza bruta. Esto nos puede llevar a una URL excesivamente larga, por lo tanto, como el rango de longitud va de 10 en 10, como se
+incluyen los milimetros, a lo sumo tendríamos 101 cadenas de caracteres asociadas al filtro de longitud.
+
+            [str(centimetros) + '000266616' for centimetros in range(a, b)])
+
+------ Sustituyendo SUBTYPE
+
+* SIN FILTRO : &cat=12448
+* AMÉRICAIN : &cat=515
+* CONG. EN HAUT : &cat=514
+* CONG. EN BAS : &cat=17001
+
+------ Sustituyendo MARCA
+
+Hay unos cuantos casos particulares listados en el código
+
+Al final se realiza una limpieza para mantener la consistencia (un solo guión, no hay guiones al lado de otros símbolos)
+
+*************************
+ CONGELATEUR CONGELATEUR
+*************************
+
+orden de filtros en url:
+
+El orden en general no importa, sin embargo hubo buenos resultados ordenando de acuerdo a la siguiente estructura:
+
+https://www.darty.com/nav/extra/list?s=prix_asc
+                                                &c=xxxxxxxxx
+                                                            &cat=xxxxxxxxxxxxxxx
+                                                                                &m=xxxxxxxxxxxxxxx
+                                                                                                  &npk=1
+
+Notemos que en sí, ya los productos vendrán ordenados
+
+url sin filtros: https://www.darty.com/nav/extra/list?s=prix_asc&cat=23564&npk=1
+
+------ Sustituyendo las categorías que no son tipo (COFRE, ARMOIRE) ni marca
+
+Se concatenan con guiones en el pedazo &c=xxxxxxxxx
+
+-- Largeur:
+La única medida de dimensión que estará disponible. Esto es debido a que la base de datos de Darty busca la disponibilidad de productos
+que estén dentro de un cierto rango y retorna sólo aquellas medidas disponibles, pero como no tenemos acceso, debemos hacer la búsqueda
+por fuerza bruta. Esto nos puede llevar a una URL excesivamente larga, por lo tanto, como el rango de longitud va de 10 en 10, como se
+incluyen los milimetros, a lo sumo tendríamos 101 cadenas de caracteres asociadas al filtro de longitud.
+
+            [str(centimetros) + '000266616' for centimetros in range(a, b)])
+
+------ Sustituyendo SUBTYPE
+
+* SIN FILTRO : &cat=23564
+* COFRE : &cat=522
+* ARMARIO : &cat=524
+
+------ Sustituyendo MARCA
+
+Hay unos cuantos casos particulares listados en el código
+
+Al final se realiza una limpieza para mantener la consistencia (un solo guión, no hay guiones al lado de otros símbolos)
+
+*************************
+ CONGELATEUR CONGELATEUR
+*************************
+
+orden de filtros en url:
+
+El orden en general no importa, sin embargo hubo buenos resultados ordenando de acuerdo a la siguiente estructura:
+
+https://www.darty.com/nav/extra/list?s=prix_asc
+                                                &c=xxxxxxxxx
+                                                            &cat=xxxxxxxxxxxxxxx
+                                                                                &m=xxxxxxxxxxxxxxx
+                                                                                                  &npk=1
+
+Notemos que en sí, ya los productos vendrán ordenados
+
+url sin filtros: https://www.darty.com/nav/extra/list?s=prix_asc&cat=23564&npk=1
+
+------ Sustituyendo las categorías que no son tipo (COFRE, ARMOIRE) ni marca
+
+Se concatenan con guiones en el pedazo &c=xxxxxxxxx
+
+-- Largeur:
+La única medida de dimensión que estará disponible. Esto es debido a que la base de datos de Darty busca la disponibilidad de productos
+que estén dentro de un cierto rango y retorna sólo aquellas medidas disponibles, pero como no tenemos acceso, debemos hacer la búsqueda
+por fuerza bruta. Esto nos puede llevar a una URL excesivamente larga, por lo tanto, como el rango de longitud va de 10 en 10, como se
+incluyen los milimetros, a lo sumo tendríamos 101 cadenas de caracteres asociadas al filtro de longitud.
+
+            [str(centimetros) + '000266616' for centimetros in range(a, b)])
+
+------ Sustituyendo SUBTYPE
+
+* SIN FILTRO : &cat=23564
+* COFRE : &cat=522
+* ARMARIO : &cat=524
+
+------ Sustituyendo MARCA
+
+Hay unos cuantos casos particulares listados en el código
+
+Al final se realiza una limpieza para mantener la consistencia (un solo guión, no hay guiones al lado de otros símbolos)
+
+*************************
+  CAVE A VIN CAVE A VIN
+*************************
+
+orden de filtros en url:
+
+El orden en general no importa, sin embargo hubo buenos resultados ordenando de acuerdo a la siguiente estructura:
+
+https://www.darty.com/nav/extra/list?s=prix_asc
+                                                &c=xxxxxxxxx
+                                                            &cat=xxxxxxxxxxxxxxx
+                                                                                &m=xxxxxxxxxxxxxxx
+                                                                                                  &npk=1
+
+Notemos que en sí, ya los productos vendrán ordenados
+
+url sin filtros: https://www.darty.com/nav/extra/list?s=prix_asc&cat=12410&npk=1
+
+------ Sustituyendo las categorías que no son tipo (SERVICE, VIELLISSEMENT, MULTITEMP) ni marca
+
+Se concatenan con guiones en el pedazo &c=xxxxxxxxx
+
+-- Largeur: en esta categoría no está porque el filtro está encriptado
+
+-- Stockage
+La única medida de almacenamiento que estará disponible. Tomado a partir de los filtros que estaban disponibles en el html
+
+------ Sustituyendo SUBTYPE
+
+* SIN FILTRO : &cat=12410
+* SERVICE : &cat=24567
+* VIELLISSEMENT : &cat=513
+* MULTITEMP : &cat=24570
+
+------ Sustituyendo MARCA
+
+Hay unos cuantos casos particulares listados en el código
+
+Al final se realiza una limpieza para mantener la consistencia (un solo guión, no hay guiones al lado de otros símbolos)

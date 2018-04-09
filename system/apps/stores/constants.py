@@ -1,0 +1,25 @@
+STORES = {
+    "DARTY": "1",
+    "KELKOO": "2",
+    "BOULANGER": "3",
+    "PRICERUNNER": "4",
+    "RUEDUCOMMERCE": "5",
+    "GROUPDIGITAL": "6",
+    "AMAZON": "7",
+    "MEDIAMARKT": "8",
+    "PRODUCTSCOMPARE": "9",
+}
+
+FORM_TYPES = {
+    "LAPTOP": "COMPU_000",
+    "TELEVISOR": "TV_000",
+    "MOVIL": "TLF_000",
+    "LAVADORA": "5",
+    "SECADORA": "6",
+    "REFRIGERADOR": "FRIGO_000",
+    "REFRIGERADOR_COMBINADO": "FRIGO_001",
+    "CONGELADOR": "FRIGO_002",
+    "CAVA_DE_VINO": "FRIGO_003",
+}
+
+ITEM_CATEGORIES = FORM_TYPES.copy()

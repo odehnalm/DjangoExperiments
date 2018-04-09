@@ -1,0 +1,196 @@
+{
+	"1": {
+		"name": "Evaluacion Substitucion Bienes Equivalentes",
+		"TV_000": {
+			"name": "Televisor"
+		},
+
+		"FRIGO_000": {
+			"name": "Refrigerador"
+		},
+
+		"FRIGO_001": {
+			"name": "Refrigerador combinado"
+		},
+
+		"FRIGO_002": {
+			"name": "Congelador"
+		},
+
+		"FRIGO_003": {
+			"name": "Cava de vino"
+		},
+
+		"TLF_000": {
+			"name": "Movil"
+		},
+
+		"COMPU_000": {
+			"name": "Laptops"
+		}
+	},
+
+	"2": {
+		"name": "Evaluacion Reparacion por Baremo",
+
+		"TLF_000": {
+			"name": "Movil"
+		}
+	},
+
+	"3": {
+		"name": "Evaluacion Segunda Mano",
+
+		"TLF_000": {
+			"name": "Movil"
+		}
+	},
+
+	"4": {
+		"name": "Evaluacion Reparacion ML",
+
+		"TV_000": {
+			"name": "Televisor"
+		},
+
+		"FRIGO_000": {
+			"name": "Refrigerador"
+		},
+
+		"FRIGO_001": {
+			"name": "Refrigerador combinado"
+		},
+
+		"FRIGO_002": {
+			"name": "Congelador"
+		},
+
+		"FRIGO_003": {
+			"name": "Cava de vino"
+		},
+
+		"COMPU_000": {
+			"name": "Laptops"
+		}
+	},
+
+	"5": {
+		"name": "Resultados de GFK",
+
+		"32001": {
+			"name": "Multifonctions (MFD)"
+		},
+
+		"32022": {
+			"name": "Plaques de Cuisson"
+		},
+
+		"32026": {
+			"name": "Hottes"
+		},
+
+		"32310": {
+			"name": "Appareils Photo Numériques"
+		},
+
+		"32506": {
+			"name": "Cafetière et Expresso"
+		},
+
+		"32512": {
+			"name": "Lave Vaisselle"
+		},
+
+		"32516": {
+			"name": "Lave Linge"
+		},
+
+		"32519": {
+			"name": "Sèche Linge"
+		},
+
+		"32521": {
+			"name": "Radio/Radio-réveil"
+		},
+
+		"32533": {
+			"name": "Réception satellite"
+		},
+
+		"32535": {
+			"name": "Casques"
+		},
+
+		"c32539": {
+			"name": "Camescopes"
+		},
+
+		"32547": {
+			"name": "Moniteurs"
+		},
+
+		"32548": {
+			"name": "Lecteur DVD"
+		},
+
+		"32553": {
+			"name": "Fer à Repasser"
+		},
+
+		"32557": {
+			"name": "Robots"
+		},
+
+		"32561": {
+			"name": "Aspirateurs"
+		},
+
+		"32562": {
+			"name": "Cuisinière et Four"
+		},
+
+		"32632": {
+			"name": "Desktops/Serveurs"
+		},
+
+		"32643": {
+			"name": "Kits Oreillette"
+		},
+
+		"32669": {
+			"name": "Disques Durs"
+		},
+
+		"32683": {
+			"name": "Data/Video-Projecteurs"
+		},
+
+		"32696": {
+			"name": "Enceintes PC / Stations MP3"
+		},
+
+		"32758": {
+			"name": "Navigation Embarquée"
+		},
+
+		"32798": {
+			"name": "Consoles de jeu"
+		},
+
+		"321272": {
+			"name": "Baladeur Numérique (MP3/MP4)"
+		},
+
+		"321373": {
+			"name": "Tablette"
+		},
+
+		"329728": {
+			"name": "Mini Fours"
+		},
+
+		"329801": {
+			"name": "Tireuse à Bière"
+		}
+	}
+}

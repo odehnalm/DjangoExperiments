@@ -1,0 +1,4912 @@
+[
+{
+   "modelo": "AMD A10 Micro-6700T APU",
+   "item_mark": "1890",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10 PRO-7350B APU",
+   "item_mark": "3241",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD A10-4600M APU",
+   "item_mark": "3116",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-4655M APU",
+   "item_mark": "2594",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-4657M APU",
+   "item_mark": "2906",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-5745M APU",
+   "item_mark": "2762",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-5750M APU",
+   "item_mark": "3341",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-5757M APU",
+   "item_mark": "3091",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-7300 APU",
+   "item_mark": "2911",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-7400P",
+   "item_mark": "3631",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-8700P",
+   "item_mark": "3459",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-9600P",
+   "item_mark": "3817",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-9620P",
+   "item_mark": "3892",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A10-9630P",
+   "item_mark": "4492",
+   "serie": "A10"
+},
+{
+   "modelo": "AMD A12-9700P",
+   "item_mark": "3759",
+   "serie": "A12"
+},
+{
+   "modelo": "AMD A12-9720P",
+   "item_mark": "3981",
+   "serie": "A12"
+},
+{
+   "modelo": "AMD A12-9730P",
+   "item_mark": "4389",
+   "serie": "A12"
+},
+{
+   "modelo": "AMD A4 Micro-6400T APU",
+   "item_mark": "1544",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4 PRO-3340B",
+   "item_mark": "2402",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD A4-1200 APU",
+   "item_mark": "640",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-1250 APU",
+   "item_mark": "610",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-3300M APU",
+   "item_mark": "1183",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-3305M APU",
+   "item_mark": "1224",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-3310MX APU",
+   "item_mark": "1291",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-3320M APU",
+   "item_mark": "1256",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-3330MX APU",
+   "item_mark": "1217",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-4300M APU",
+   "item_mark": "1614",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-4355M APU",
+   "item_mark": "1173",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-5000 APU",
+   "item_mark": "1903",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-5050 APU",
+   "item_mark": "2134",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-5100 APU",
+   "item_mark": "2082",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-5150M APU",
+   "item_mark": "1820",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-6210 APU",
+   "item_mark": "2146",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-7210 APU",
+   "item_mark": "2516",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A4-9120",
+   "item_mark": "1798",
+   "serie": "A4"
+},
+{
+   "modelo": "AMD A6 Micro-6500T APU",
+   "item_mark": "1834",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6 PRO-7050B APU",
+   "item_mark": "1582",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD A6-1450 APU",
+   "item_mark": "1523",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-3400M APU",
+   "item_mark": "1897",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-3410MX APU",
+   "item_mark": "2059",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-3420M APU",
+   "item_mark": "2011",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-3430MX APU",
+   "item_mark": "2225",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-4400M APU",
+   "item_mark": "1629",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-4455M APU",
+   "item_mark": "1284",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-5200 APU",
+   "item_mark": "2417",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-5345M APU",
+   "item_mark": "1476",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-5350M APU",
+   "item_mark": "1903",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-5357M APU",
+   "item_mark": "1938",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-6310 APU",
+   "item_mark": "2434",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-7000 ",
+   "item_mark": "1671",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-7310 APU",
+   "item_mark": "2686",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-8500P",
+   "item_mark": "2183",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-9210",
+   "item_mark": "1876",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-9220",
+   "item_mark": "2326",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A6-9220e",
+   "item_mark": "1459",
+   "serie": "A6"
+},
+{
+   "modelo": "AMD A8 PRO-7150B APU",
+   "item_mark": "2711",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD A8-3500M APU",
+   "item_mark": "1974",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-3510MX APU",
+   "item_mark": "2382",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-3520M APU",
+   "item_mark": "2178",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-3530MX APU",
+   "item_mark": "2382",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-3550MX APU",
+   "item_mark": "2610",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-4500M APU",
+   "item_mark": "2662",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-4555M APU",
+   "item_mark": "2126",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-5545M APU",
+   "item_mark": "2580",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-5550M APU",
+   "item_mark": "2998",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-5557M APU",
+   "item_mark": "2958",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-6410 APU",
+   "item_mark": "2560",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-7050",
+   "item_mark": "1986",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-7100 APU",
+   "item_mark": "2821",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-7200P",
+   "item_mark": "3315",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-7410 APU",
+   "item_mark": "2739",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A8-8600P",
+   "item_mark": "3248",
+   "serie": "A8"
+},
+{
+   "modelo": "AMD A9-9400",
+   "item_mark": "2257",
+   "serie": "A9"
+},
+{
+   "modelo": "AMD A9-9410",
+   "item_mark": "2575",
+   "serie": "A9"
+},
+{
+   "modelo": "AMD A9-9420",
+   "item_mark": "2320",
+   "serie": "A9"
+},
+{
+   "modelo": "AMD Athlon 64 X2 QL-60",
+   "item_mark": "921",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon 64 X2 QL-62",
+   "item_mark": "1015",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon 64 X2 QL-64",
+   "item_mark": "987",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon 64 X2 QL-65",
+   "item_mark": "1041",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon 64 X2 QL-66",
+   "item_mark": "945",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon 64 X2 QL-67",
+   "item_mark": "1006",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon II Neo K125",
+   "item_mark": "467",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon II Neo K145",
+   "item_mark": "525",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon II Neo K325 Dual-Core",
+   "item_mark": "778",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon II Neo K345 Dual-Core",
+   "item_mark": "856",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD Athlon II Neo N36L Dual-Core",
+   "item_mark": "793",
+   "serie": "Athlon"
+},
+{
+   "modelo": "AMD C-30",
+   "item_mark": "310",
+   "serie": ""
+},
+{
+   "modelo": "AMD C-50",
+   "item_mark": "463",
+   "serie": ""
+},
+{
+   "modelo": "AMD E-240",
+   "item_mark": "318",
+   "serie": "E"
+},
+{
+   "modelo": "AMD E-300 APU",
+   "item_mark": "612",
+   "serie": "E"
+},
+{
+   "modelo": "AMD E-350",
+   "item_mark": "747",
+   "serie": "E"
+},
+{
+   "modelo": "AMD E-350 APU",
+   "item_mark": "770",
+   "serie": "E"
+},
+{
+   "modelo": "AMD E-450 APU",
+   "item_mark": "766",
+   "serie": "E"
+},
+{
+   "modelo": "AMD E1 Micro-6200T APU",
+   "item_mark": "960",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E1-1200 APU",
+   "item_mark": "661",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E1-1500 APU",
+   "item_mark": "685",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E1-2100 APU",
+   "item_mark": "631",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E1-2200 APU",
+   "item_mark": "767",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E1-2500 APU",
+   "item_mark": "888",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E1-6010 APU",
+   "item_mark": "854",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E1-6015 APU",
+   "item_mark": "899",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E1-7010 APU",
+   "item_mark": "1000",
+   "serie": "E1"
+},
+{
+   "modelo": "AMD E2-2000 APU",
+   "item_mark": "827",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD E2-3000 APU",
+   "item_mark": "1088",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD E2-3000M APU",
+   "item_mark": "1092",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD E2-3800 APU",
+   "item_mark": "1643",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD E2-6110 APU",
+   "item_mark": "1901",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD E2-7110 APU",
+   "item_mark": "2288",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD E2-9000",
+   "item_mark": "1819",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD E2-9000e",
+   "item_mark": "1362",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD E2-9010",
+   "item_mark": "1837",
+   "serie": "E2"
+},
+{
+   "modelo": "AMD Embedded G-Series GX-215JJ Radeon R2E",
+   "item_mark": "1750",
+   "serie": "G"
+},
+{
+   "modelo": "AMD Embedded G-Series GX-224IJ Radeon R4E",
+   "item_mark": "2088",
+   "serie": "G"
+},
+{
+   "modelo": "AMD Embedded G-Series GX-420GI Radeon R7E",
+   "item_mark": "2512",
+   "serie": "G"
+},
+{
+   "modelo": "AMD Embedded R-Series RX-216GD",
+   "item_mark": "2409",
+   "serie": "RX"
+},
+{
+   "modelo": "AMD Embedded R-Series RX-418GD Radeon R6",
+   "item_mark": "5068",
+   "serie": "RX"
+},
+{
+   "modelo": "AMD Embedded R-Series RX-421BD",
+   "item_mark": "4635",
+   "serie": "RX"
+},
+{
+   "modelo": "AMD FX-7500 APU",
+   "item_mark": "3219",
+   "serie": "FX"
+},
+{
+   "modelo": "AMD FX-7600P",
+   "item_mark": "4051",
+   "serie": "FX"
+},
+{
+   "modelo": "AMD FX-7600P APU",
+   "item_mark": "4627",
+   "serie": "FX"
+},
+{
+   "modelo": "AMD FX-8800P",
+   "item_mark": "4163",
+   "serie": "FX"
+},
+{
+   "modelo": "AMD FX-9800P",
+   "item_mark": "4011",
+   "serie": "FX"
+},
+{
+   "modelo": "AMD FX-9830P",
+   "item_mark": "4791",
+   "serie": "FX"
+},
+{
+   "modelo": "AMD G-T40E",
+   "item_mark": "485",
+   "serie": "G"
+},
+{
+   "modelo": "AMD G-T40N",
+   "item_mark": "516",
+   "serie": "G"
+},
+{
+   "modelo": "AMD G-T44R",
+   "item_mark": "227",
+   "serie": "G"
+},
+{
+   "modelo": "AMD G-T48E",
+   "item_mark": "716",
+   "serie": "G"
+},
+{
+   "modelo": "AMD G-T52R",
+   "item_mark": "303",
+   "serie": "G"
+},
+{
+   "modelo": "AMD G-T56E",
+   "item_mark": "751",
+   "serie": "G"
+},
+{
+   "modelo": "AMD G-T56N",
+   "item_mark": "783",
+   "serie": "G"
+},
+{
+   "modelo": "AMD GX-210JA SOC",
+   "item_mark": "401",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD GX-212JC SOC ",
+   "item_mark": "744",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD GX-217GA SOC",
+   "item_mark": "1097",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD GX-218GL SOC",
+   "item_mark": "1115",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD GX-222GC SOC",
+   "item_mark": "1255",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD GX-412HC",
+   "item_mark": "1497",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD GX-415GA SOC",
+   "item_mark": "1929",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD GX-420CA SOC",
+   "item_mark": "2299",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD GX-424CC SOC",
+   "item_mark": "2476",
+   "serie": "GX"
+},
+{
+   "modelo": "AMD Phenom II N620 Dual-Core",
+   "item_mark": "1677",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N640 Dual-Core",
+   "item_mark": "1740",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N660 Dual-Core",
+   "item_mark": "1851",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N830 3+1",
+   "item_mark": "2652",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N830 Triple-Core",
+   "item_mark": "1885",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N850 Triple-Core",
+   "item_mark": "1933",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N870 Triple-Core",
+   "item_mark": "1980",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N930 Quad-Core",
+   "item_mark": "2269",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N950 Quad-Core",
+   "item_mark": "2488",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II N970 Quad-Core",
+   "item_mark": "2518",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II P650 Dual-Core",
+   "item_mark": "1603",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II P820 Triple-Core",
+   "item_mark": "1611",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II P840 Triple-Core",
+   "item_mark": "1731",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II P860 Triple-Core",
+   "item_mark": "1759",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II P920 Quad-Core",
+   "item_mark": "1881",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II P940 Quad-Core",
+   "item_mark": "1820",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II P960 Quad-Core",
+   "item_mark": "2092",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II X620 Dual-Core",
+   "item_mark": "2189",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II X920 Quad-Core",
+   "item_mark": "2638",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD Phenom II X940 Quad-Core",
+   "item_mark": "2695",
+   "serie": "Phenom"
+},
+{
+   "modelo": "AMD PRO A10-8700B",
+   "item_mark": "3595",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A10-8730B",
+   "item_mark": "3837",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A10-9700B",
+   "item_mark": "4393",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A12-8800B",
+   "item_mark": "4193",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A12-8830B",
+   "item_mark": "4192",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A12-9800B",
+   "item_mark": "4336",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A4-3350B APU",
+   "item_mark": "2833",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A6-7350B",
+   "item_mark": "2759",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A6-8500B",
+   "item_mark": "2516",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A6-8530B",
+   "item_mark": "2435",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A6-9500B",
+   "item_mark": "2303",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A8-8600B",
+   "item_mark": "3812",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD PRO A8-9600B",
+   "item_mark": "4019",
+   "serie": "PRO"
+},
+{
+   "modelo": "AMD QC-4000",
+   "item_mark": "1657",
+   "serie": ""
+},
+{
+   "modelo": "AMD R-260H APU",
+   "item_mark": "1576",
+   "serie": "R"
+},
+{
+   "modelo": "AMD R-460L APU",
+   "item_mark": "1954",
+   "serie": "R"
+},
+{
+   "modelo": "AMD RX-427BB",
+   "item_mark": "4498",
+   "serie": "RX"
+},
+{
+   "modelo": "AMD Ryzen 3 2200U",
+   "item_mark": "5439",
+   "serie": "Ryzen"
+},
+{
+   "modelo": "AMD Ryzen 5 2500U",
+   "item_mark": "7777",
+   "serie": "Ryzen"
+},
+{
+   "modelo": "AMD Ryzen 7 2700U",
+   "item_mark": "7255",
+   "serie": "Ryzen"
+},
+{
+   "modelo": "AMD Sempron M120",
+   "item_mark": "580",
+   "serie": "Sempron"
+},
+{
+   "modelo": "AMD Sempron SI-40",
+   "item_mark": "443",
+   "serie": "Sempron"
+},
+{
+   "modelo": "AMD Sempron SI-42",
+   "item_mark": "453",
+   "serie": "Sempron"
+},
+{
+   "modelo": "AMD Turion 64 Mobile MK-36",
+   "item_mark": "465",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile MK-38",
+   "item_mark": "513",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile ML-28",
+   "item_mark": "390",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile ML-30",
+   "item_mark": "402",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile ML-32",
+   "item_mark": "410",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile ML-34",
+   "item_mark": "425",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile ML-37",
+   "item_mark": "447",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile ML-40",
+   "item_mark": "520",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile ML-42",
+   "item_mark": "615",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile ML-44",
+   "item_mark": "591",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile MT-28",
+   "item_mark": "419",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile MT-30",
+   "item_mark": "378",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile MT-32",
+   "item_mark": "426",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile MT-34",
+   "item_mark": "429",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile MT-37",
+   "item_mark": "484",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 Mobile MT-40",
+   "item_mark": "536",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-50",
+   "item_mark": "753",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-52",
+   "item_mark": "762",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-56",
+   "item_mark": "884",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-58",
+   "item_mark": "940",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-60",
+   "item_mark": "990",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-62",
+   "item_mark": "1096",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-64",
+   "item_mark": "1115",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-66",
+   "item_mark": "1112",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion 64 X2 Mobile TL-68",
+   "item_mark": "1149",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion Dual-Core RM-70",
+   "item_mark": "895",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion Dual-Core RM-72",
+   "item_mark": "860",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion Dual-Core RM-74",
+   "item_mark": "1016",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion Dual-Core RM-75",
+   "item_mark": "961",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Dual-Core Mobile M500",
+   "item_mark": "1295",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Dual-Core Mobile M520",
+   "item_mark": "1306",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Dual-Core Mobile M540",
+   "item_mark": "1338",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II N530 Dual-Core",
+   "item_mark": "1583",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II N550 Dual-Core",
+   "item_mark": "1521",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Neo K625 Dual-Core",
+   "item_mark": "973",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Neo K685 Dual-Core",
+   "item_mark": "1186",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Neo N40L Dual-Core",
+   "item_mark": "918",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Neo N54L Dual-Core",
+   "item_mark": "1378",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II P520 Dual-Core",
+   "item_mark": "1362",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II P540 Dual-Core",
+   "item_mark": "1445",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II P560 Dual-Core",
+   "item_mark": "1511",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Ultra Dual-Core Mobile M600",
+   "item_mark": "1408",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Ultra Dual-Core Mobile M620",
+   "item_mark": "1427",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Ultra Dual-Core Mobile M640",
+   "item_mark": "1669",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion II Ultra Dual-Core Mobile M660",
+   "item_mark": "1533",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion Neo X2 Dual Core L625",
+   "item_mark": "815",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Dual Core L510",
+   "item_mark": "923",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Dual Core Mobile RM-70",
+   "item_mark": "858",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Dual Core Mobile RM-76",
+   "item_mark": "1059",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Dual-Core Mobile RM-70",
+   "item_mark": "989",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Dual-Core Mobile RM-72",
+   "item_mark": "1089",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Dual-Core Mobile RM-74",
+   "item_mark": "1056",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Dual-Core Mobile RM-75",
+   "item_mark": "1145",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Dual-Core Mobile RM-77",
+   "item_mark": "1230",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Ultra Dual-Core Mobile ZM-80",
+   "item_mark": "1017",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Ultra Dual-Core Mobile ZM-82",
+   "item_mark": "1081",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Ultra Dual-Core Mobile ZM-84",
+   "item_mark": "1213",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Ultra Dual-Core Mobile ZM-85",
+   "item_mark": "1234",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Ultra Dual-Core Mobile ZM-86",
+   "item_mark": "1297",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD Turion X2 Ultra Dual-Core Mobile ZM-87",
+   "item_mark": "1348",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD TurionX2 Dual Core Mobile RM-70",
+   "item_mark": "997",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD TurionX2 Dual Core Mobile RM-72",
+   "item_mark": "1026",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD TurionX2 Ultra DualCore Mobile ZM-85",
+   "item_mark": "1454",
+   "serie": "Turion"
+},
+{
+   "modelo": "AMD V105",
+   "item_mark": "286",
+   "serie": ""
+},
+{
+   "modelo": "AMD V120",
+   "item_mark": "622",
+   "serie": ""
+},
+{
+   "modelo": "AMD V140",
+   "item_mark": "643",
+   "serie": ""
+},
+{
+   "modelo": "AMD V160",
+   "item_mark": "681",
+   "serie": ""
+},
+{
+   "modelo": "AMD Z-60 APU",
+   "item_mark": "485",
+   "serie": ""
+},
+{
+   "modelo": "Celeron Dual-Core T3000 @ 1.80GHz",
+   "item_mark": "1088",
+   "serie": ""
+},
+{
+   "modelo": "Celeron Dual-Core T3100 @ 1.90GHz",
+   "item_mark": "1174",
+   "serie": ""
+},
+{
+   "modelo": "Celeron Dual-Core T3300 @ 2.00GHz",
+   "item_mark": "1209",
+   "serie": ""
+},
+{
+   "modelo": "Celeron Dual-Core T3500 @ 2.10GHz",
+   "item_mark": "1275",
+   "serie": ""
+},
+{
+   "modelo": "Intel Atom C2338 @ 1.74GHz",
+   "item_mark": "898",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom C2358 @ 1.74GHz",
+   "item_mark": "961",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom C2558 @ 2.40GHz",
+   "item_mark": "2169",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom C2758 @ 2.40GHz",
+   "item_mark": "3162",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom D2701 @ 2.13GHz",
+   "item_mark": "720",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom E3826 @ 1.46GHz",
+   "item_mark": "489",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom E3827 @ 1.74GHz",
+   "item_mark": "849",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom E3950 @ 1.60GHz",
+   "item_mark": "2034",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom E660 @ 1.30GHz",
+   "item_mark": "271",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N2100 @ 1.60GHz",
+   "item_mark": "309",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N2600 @ 1.60GHz",
+   "item_mark": "526",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N270 @ 1.60GHz",
+   "item_mark": "270",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N280 @ 1.66GHz",
+   "item_mark": "283",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N2800 @ 1.86GHz",
+   "item_mark": "628",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N450 @ 1.66GHz",
+   "item_mark": "300",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N455 @ 1.66GHz",
+   "item_mark": "284",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N470 @ 1.83GHz",
+   "item_mark": "307",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N475 @ 1.83GHz",
+   "item_mark": "314",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N550 @ 1.50GHz",
+   "item_mark": "523",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom N570 @ 1.66GHz",
+   "item_mark": "574",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x5-E3930 @ 1.30GHz",
+   "item_mark": "811",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x5-E8000 @ 1.04GHz",
+   "item_mark": "1609",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x5-Z8300 @ 1.44GHz",
+   "item_mark": "1203",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x5-Z8330 @ 1.44GHz",
+   "item_mark": "1005",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x5-Z8350 @ 1.44GHz",
+   "item_mark": "1289",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x5-Z8500 @ 1.44GHz",
+   "item_mark": "1690",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x5-Z8550 @ 1.44GHz",
+   "item_mark": "1867",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x7-Z8700 @ 1.60GHz",
+   "item_mark": "1911",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom x7-Z8750 @ 1.60GHz",
+   "item_mark": "1937",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z2760 @ 1.80GHz",
+   "item_mark": "567",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3735D @ 1.33GHz",
+   "item_mark": "914",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3735E @ 1.33GHz",
+   "item_mark": "927",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3735F @ 1.33GHz",
+   "item_mark": "906",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3735G @ 1.33GHz",
+   "item_mark": "909",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3736F @ 1.33GHz",
+   "item_mark": "920",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3740 @ 1.33GHz",
+   "item_mark": "1062",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3740D @ 1.33GHz",
+   "item_mark": "1020",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3745 @ 1.33GHz",
+   "item_mark": "1071",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3745D @ 1.33GHz",
+   "item_mark": "1019",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3770 @ 1.46GHz",
+   "item_mark": "1243",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3770D @ 1.49GHz",
+   "item_mark": "805",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3775 @ 1.46GHz",
+   "item_mark": "1252",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3775D @ 1.49GHz",
+   "item_mark": "1278",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z3795 @ 1.60GHz",
+   "item_mark": "1772",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z510 @ 1.10GHz",
+   "item_mark": "194",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z515 @ 1.20GHz",
+   "item_mark": "218",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z520 @ 1.33GHz",
+   "item_mark": "215",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z530 @ 1.60GHz",
+   "item_mark": "281",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z540 @ 1.86GHz",
+   "item_mark": "348",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z550 @ 2.00GHz",
+   "item_mark": "381",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Atom Z670 @ 1.50GHz",
+   "item_mark": "249",
+   "serie": "Atom"
+},
+{
+   "modelo": "Intel Celeron 1000M @ 1.80GHz",
+   "item_mark": "1671",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 1005M @ 1.90GHz",
+   "item_mark": "1821",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 1007U @ 1.50GHz",
+   "item_mark": "1398",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 1017U @ 1.60GHz",
+   "item_mark": "1520",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 1020E @ 2.20GHz",
+   "item_mark": "2232",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 1037U @ 1.80GHz",
+   "item_mark": "1733",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 2000E @ 2.20GHz",
+   "item_mark": "2365",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 215 @ 1.33GHz",
+   "item_mark": "322",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 2950M @ 2.00GHz",
+   "item_mark": "2008",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 2955U @ 1.40GHz",
+   "item_mark": "1437",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 2957U @ 1.40GHz",
+   "item_mark": "1453",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 2961Y @ 1.10GHz",
+   "item_mark": "1110",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 2970M @ 2.20GHz",
+   "item_mark": "2312",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 2980U @ 1.60GHz",
+   "item_mark": "1576",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 2981U @ 1.60GHz",
+   "item_mark": "1576",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 3205U @ 1.50GHz",
+   "item_mark": "1547",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 3215U @ 1.70GHz",
+   "item_mark": "1606",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 3755U @ 1.70GHz",
+   "item_mark": "1702",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 3765U @ 1.90GHz",
+   "item_mark": "2038",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 3855U @ 1.60GHz",
+   "item_mark": "1662",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 3865U @ 1.80GHz",
+   "item_mark": "1952",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 3955U @ 2.00GHz",
+   "item_mark": "1755",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 3965U @ 2.20GHz",
+   "item_mark": "2433",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 530 @ 1.73GHz",
+   "item_mark": "465",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 540 @ 1.86GHz",
+   "item_mark": "511",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 550 @ 2.00GHz",
+   "item_mark": "504",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 560 @ 2.13GHz",
+   "item_mark": "535",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 570 @ 2.26GHz",
+   "item_mark": "526",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 723 @ 1.20GHz",
+   "item_mark": "408",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 743 @ 1.30GHz",
+   "item_mark": "436",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 807 @ 1.50GHz",
+   "item_mark": "751",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 807UE @ 1.00GHz",
+   "item_mark": "369",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 827E @ 1.40GHz",
+   "item_mark": "613",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 847 @ 1.10GHz",
+   "item_mark": "936",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 847E @ 1.10GHz",
+   "item_mark": "1026",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 857 @ 1.20GHz",
+   "item_mark": "1172",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 867 @ 1.30GHz",
+   "item_mark": "1199",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 877 @ 1.40GHz",
+   "item_mark": "1288",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 887 @ 1.50GHz",
+   "item_mark": "1294",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron 925 @ 2.30GHz",
+   "item_mark": "687",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron B710 @ 1.60GHz",
+   "item_mark": "186",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron B720 @ 1.70GHz",
+   "item_mark": "814",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron B800 @ 1.50GHz",
+   "item_mark": "1278",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron B810 @ 1.60GHz",
+   "item_mark": "1381",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron B815 @ 1.60GHz",
+   "item_mark": "1366",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron B820 @ 1.70GHz",
+   "item_mark": "1430",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron B830 @ 1.80GHz",
+   "item_mark": "1528",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron B840 @ 1.90GHz",
+   "item_mark": "1725",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron G3900E @ 2.40GHz",
+   "item_mark": "2679",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron J3355 @ 2.00GHz",
+   "item_mark": "1291",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 1.00GHz",
+   "item_mark": "207",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 1.30GHz",
+   "item_mark": "316",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 1.50GHz",
+   "item_mark": "343",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 1.60GHz",
+   "item_mark": "365",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 1.70GHz",
+   "item_mark": "393",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 1300MHz",
+   "item_mark": "303",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 1500MHz",
+   "item_mark": "332",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 360 1.40GHz",
+   "item_mark": "327",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 410 @ 1.46GHz",
+   "item_mark": "316",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 420 @ 1.60GHz",
+   "item_mark": "339",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 430 @ 1.73GHz",
+   "item_mark": "367",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 440 @ 1.86GHz",
+   "item_mark": "413",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 443 @ 1.20GHz",
+   "item_mark": "253",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 450 @ 2.00GHz",
+   "item_mark": "455",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 520 @ 1.60GHz",
+   "item_mark": "434",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 530 @ 1.73GHz",
+   "item_mark": "459",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 540 @ 1.86GHz",
+   "item_mark": "542",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 600MHz",
+   "item_mark": "151",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 723 @ 1.20GHz",
+   "item_mark": "457",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M 900MHz",
+   "item_mark": "207",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron M ULV 800MHz",
+   "item_mark": "184",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2805 @ 1.46GHz",
+   "item_mark": "454",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2806 @ 1.60GHz",
+   "item_mark": "782",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2807 @ 1.58GHz",
+   "item_mark": "853",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2808 @ 1.58GHz",
+   "item_mark": "929",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2810 @ 2.00GHz",
+   "item_mark": "774",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2815 @ 1.86GHz",
+   "item_mark": "862",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2820 @ 2.13GHz",
+   "item_mark": "949",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2830 @ 2.16GHz",
+   "item_mark": "952",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2840 @ 2.16GHz",
+   "item_mark": "1007",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2910 @ 1.60GHz",
+   "item_mark": "1208",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2920 @ 1.86GHz",
+   "item_mark": "1516",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2930 @ 1.83GHz",
+   "item_mark": "1636",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N2940 @ 1.83GHz",
+   "item_mark": "1733",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N3000 @ 1.04GHz",
+   "item_mark": "906",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N3010 @ 1.04GHz",
+   "item_mark": "936",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N3050 @ 1.60GHz",
+   "item_mark": "883",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N3060 @ 1.60GHz",
+   "item_mark": "997",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N3150 @ 1.60GHz",
+   "item_mark": "1661",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N3160 @ 1.60GHz",
+   "item_mark": "1705",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N3350 @ 1.10GHz",
+   "item_mark": "1115",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron N3450 @ 1.10GHz",
+   "item_mark": "1833",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron P4500 @ 1.87GHz",
+   "item_mark": "1139",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron P4505 @ 1.87GHz",
+   "item_mark": "994",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron P4600 @ 2.00GHz",
+   "item_mark": "1340",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron SU2300 @ 1.20GHz",
+   "item_mark": "774",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron T1600 @ 1.66GHz",
+   "item_mark": "950",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron T1700 @ 1.83GHz",
+   "item_mark": "1058",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron U3400 @ 1.07GHz",
+   "item_mark": "735",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron U3405 @ 1.07GHz",
+   "item_mark": "684",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Celeron U3600 @ 1.20GHz",
+   "item_mark": "805",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Intel Core Duo L2400 @ 1.66GHz",
+   "item_mark": "711",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo L2500 @ 1.83GHz",
+   "item_mark": "728",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo T2250 @ 1.73GHz",
+   "item_mark": "758",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo T2300 @ 1.66GHz",
+   "item_mark": "732",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo T2350 @ 1.86GHz",
+   "item_mark": "760",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo T2400 @ 1.83GHz",
+   "item_mark": "795",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo T2450 @ 2.00GHz",
+   "item_mark": "826",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo T2500 @ 2.00GHz",
+   "item_mark": "871",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo T2600 @ 2.16GHz",
+   "item_mark": "942",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo T2700 @ 2.33GHz",
+   "item_mark": "1024",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo U2400 @ 1.06GHz",
+   "item_mark": "544",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core Duo U2500 @ 1.20GHz",
+   "item_mark": "517",
+   "serie": ""
+},
+{
+   "modelo": "Intel Core i3-2310E @ 2.10GHz",
+   "item_mark": "2839",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2310M @ 2.10GHz",
+   "item_mark": "2425",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2312M @ 2.10GHz",
+   "item_mark": "2381",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2328M @ 2.20GHz",
+   "item_mark": "2532",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2330M @ 2.20GHz",
+   "item_mark": "2524",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2332M @ 2.20GHz",
+   "item_mark": "2382",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2340UE @ 1.30GHz",
+   "item_mark": "1719",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2348M @ 2.30GHz",
+   "item_mark": "2617",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2350M @ 2.30GHz",
+   "item_mark": "2618",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2357M @ 1.30GHz",
+   "item_mark": "1589",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2365M @ 1.40GHz",
+   "item_mark": "1677",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2367M @ 1.40GHz",
+   "item_mark": "1703",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2370M @ 2.40GHz",
+   "item_mark": "2767",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2375M @ 1.50GHz",
+   "item_mark": "1778",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-2377M @ 1.50GHz",
+   "item_mark": "1829",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-3110M @ 2.40GHz",
+   "item_mark": "3072",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-3120M @ 2.50GHz",
+   "item_mark": "3216",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-3130M @ 2.60GHz",
+   "item_mark": "3374",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-3217U @ 1.80GHz",
+   "item_mark": "2300",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-3217UE @ 1.60GHz",
+   "item_mark": "2162",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-3227U @ 1.90GHz",
+   "item_mark": "2464",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-330E @ 2.13GHz",
+   "item_mark": "1935",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-330M @ 2.13GHz",
+   "item_mark": "1791",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-330UM @ 1.20GHz",
+   "item_mark": "1074",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-350M @ 2.27GHz",
+   "item_mark": "1894",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-370M @ 2.40GHz",
+   "item_mark": "2019",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-380M @ 2.53GHz",
+   "item_mark": "2095",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-380UM @ 1.33GHz",
+   "item_mark": "1169",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-390M @ 2.67GHz",
+   "item_mark": "2176",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4000M @ 2.40GHz",
+   "item_mark": "3236",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4005U @ 1.70GHz",
+   "item_mark": "2449",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4010U @ 1.70GHz",
+   "item_mark": "2442",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4012Y @ 1.50GHz",
+   "item_mark": "2188",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4025U @ 1.90GHz",
+   "item_mark": "2774",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4030U @ 1.90GHz",
+   "item_mark": "2704",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4030Y @ 1.60GHz",
+   "item_mark": "2507",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4100M @ 2.50GHz",
+   "item_mark": "3479",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4110M @ 2.60GHz",
+   "item_mark": "3873",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4110U @ 1.90GHz",
+   "item_mark": "2902",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4120U @ 2.00GHz",
+   "item_mark": "3050",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4158U @ 2.00GHz",
+   "item_mark": "2914",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-4350T @ 3.10GHz",
+   "item_mark": "4302",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-5005U @ 2.00GHz",
+   "item_mark": "2910",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-5010U @ 2.10GHz",
+   "item_mark": "3064",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-5015U @ 2.10GHz",
+   "item_mark": "3028",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-5020U @ 2.20GHz",
+   "item_mark": "3182",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-5157U @ 2.50GHz",
+   "item_mark": "3670",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-6006U @ 2.00GHz",
+   "item_mark": "3160",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-6100E @ 2.70GHz",
+   "item_mark": "3769",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-6100H @ 2.70GHz",
+   "item_mark": "4212",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-6100U @ 2.30GHz",
+   "item_mark": "3561",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-6157U @ 2.40GHz",
+   "item_mark": "3830",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-7100H @ 3.00GHz",
+   "item_mark": "4747",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-7100U @ 2.40GHz",
+   "item_mark": "3779",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i3-7130U @ 2.70GHz",
+   "item_mark": "4148",
+   "serie": "Core i3"
+},
+{
+   "modelo": "Intel Core i5-2410M @ 2.30GHz",
+   "item_mark": "3166",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2430M @ 2.40GHz",
+   "item_mark": "3280",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2435M @ 2.40GHz",
+   "item_mark": "3261",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2450M @ 2.50GHz",
+   "item_mark": "3399",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2467M @ 1.60GHz",
+   "item_mark": "2334",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2510E @ 2.50GHz",
+   "item_mark": "3676",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2520M @ 2.50GHz",
+   "item_mark": "3583",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2537M @ 1.40GHz",
+   "item_mark": "2084",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2540M @ 2.60GHz",
+   "item_mark": "3785",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-2557M @ 1.70GHz",
+   "item_mark": "2651",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3210M @ 2.50GHz",
+   "item_mark": "3818",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3230M @ 2.60GHz",
+   "item_mark": "3934",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3317U @ 1.70GHz",
+   "item_mark": "3090",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3320M @ 2.60GHz",
+   "item_mark": "4102",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3337U @ 1.80GHz",
+   "item_mark": "3215",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3340M @ 2.70GHz",
+   "item_mark": "4233",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3360M @ 2.80GHz",
+   "item_mark": "4430",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3380M @ 2.90GHz",
+   "item_mark": "4421",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3427U @ 1.80GHz",
+   "item_mark": "3545",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3437U @ 1.90GHz",
+   "item_mark": "3627",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-3610ME @ 2.70GHz",
+   "item_mark": "3786",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4200M @ 2.50GHz",
+   "item_mark": "4040",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4200U @ 1.60GHz",
+   "item_mark": "3282",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4210H @ 2.90GHz",
+   "item_mark": "4546",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4210M @ 2.60GHz",
+   "item_mark": "4186",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4210U @ 1.70GHz",
+   "item_mark": "3399",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4220Y @ 1.60GHz",
+   "item_mark": "2262",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4250U @ 1.30GHz",
+   "item_mark": "3452",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4258U @ 2.40GHz",
+   "item_mark": "4093",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4260U @ 1.40GHz",
+   "item_mark": "3584",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4278U @ 2.60GHz",
+   "item_mark": "4346",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4288U @ 2.60GHz",
+   "item_mark": "4371",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4300M @ 2.60GHz",
+   "item_mark": "4396",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4300U @ 1.90GHz",
+   "item_mark": "3742",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4308U @ 2.80GHz",
+   "item_mark": "4084",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-430M @ 2.27GHz",
+   "item_mark": "2100",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-430UM @ 1.20GHz",
+   "item_mark": "1339",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4310M @ 2.70GHz",
+   "item_mark": "4595",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4310U @ 2.00GHz",
+   "item_mark": "3703",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4330M @ 2.80GHz",
+   "item_mark": "4564",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4340M @ 2.90GHz",
+   "item_mark": "4810",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4350U @ 1.40GHz",
+   "item_mark": "3610",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4402E @ 1.60GHz",
+   "item_mark": "3947",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-4422E @ 1.80GHz",
+   "item_mark": "2806",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-450M @ 2.40GHz",
+   "item_mark": "2109",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-460M @ 2.53GHz",
+   "item_mark": "2334",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-470UM @ 1.33GHz",
+   "item_mark": "1273",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-480M @ 2.67GHz",
+   "item_mark": "2414",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-520 @ 2.40GHz",
+   "item_mark": "2244",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-5200U @ 2.20GHz",
+   "item_mark": "3495",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-520M @ 2.40GHz",
+   "item_mark": "2374",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-520UM @ 1.07GHz",
+   "item_mark": "1356",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-5250U @ 1.60GHz",
+   "item_mark": "3594",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-5257U @ 2.70GHz",
+   "item_mark": "4415",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-5287U @ 2.90GHz",
+   "item_mark": "4681",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-5300U @ 2.30GHz",
+   "item_mark": "3785",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-5350U @ 1.80GHz",
+   "item_mark": "3316",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-540M @ 2.53GHz",
+   "item_mark": "2450",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-540UM @ 1.20GHz",
+   "item_mark": "1400",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-560M @ 2.67GHz",
+   "item_mark": "2589",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-560UM @ 1.33GHz",
+   "item_mark": "1664",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-580M @ 2.67GHz",
+   "item_mark": "2624",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6198DU @ 2.30GHz",
+   "item_mark": "4176",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6200U @ 2.30GHz",
+   "item_mark": "4013",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6260U @ 1.80GHz",
+   "item_mark": "4360",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6267U @ 2.90GHz",
+   "item_mark": "4950",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6287U @ 3.10GHz",
+   "item_mark": "4751",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6300HQ @ 2.30GHz",
+   "item_mark": "6072",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6300U @ 2.40GHz",
+   "item_mark": "4372",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6360U @ 2.00GHz",
+   "item_mark": "4836",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6440EQ @ 2.70GHz",
+   "item_mark": "5778",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-6440HQ @ 2.60GHz",
+   "item_mark": "6771",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7200U @ 2.50GHz",
+   "item_mark": "4657",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7260U @ 2.20GHz",
+   "item_mark": "5733",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7267U @ 3.10GHz",
+   "item_mark": "5060",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7300HQ @ 2.50GHz",
+   "item_mark": "6849",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7300U @ 2.60GHz",
+   "item_mark": "5121",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7360U @ 2.30GHz",
+   "item_mark": "5960",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7440HQ @ 2.80GHz",
+   "item_mark": "8008",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7Y54 @ 1.20GHz",
+   "item_mark": "3618",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-7Y57 @ 1.20GHz",
+   "item_mark": "3777",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-8250U @ 1.60GHz",
+   "item_mark": "7614",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i5-8350U @ 1.70GHz",
+   "item_mark": "8654",
+   "serie": "Core i5"
+},
+{
+   "modelo": "Intel Core i7-2610UE @ 1.50GHz",
+   "item_mark": "2481",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2617M @ 1.50GHz",
+   "item_mark": "2818",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2620M @ 2.70GHz",
+   "item_mark": "3835",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2630QM @ 2.00GHz",
+   "item_mark": "5542",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2630UM @ 1.60GHz",
+   "item_mark": "2584",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2635QM @ 2.00GHz",
+   "item_mark": "5460",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2637M @ 1.70GHz",
+   "item_mark": "2904",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2640M @ 2.80GHz",
+   "item_mark": "3929",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2670QM @ 2.20GHz",
+   "item_mark": "5908",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2675QM @ 2.20GHz",
+   "item_mark": "5536",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2677M @ 1.80GHz",
+   "item_mark": "2829",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2710QE @ 2.10GHz",
+   "item_mark": "5768",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2715QE @ 2.10GHz",
+   "item_mark": "5365",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2720QM @ 2.20GHz",
+   "item_mark": "6115",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2760QM @ 2.40GHz",
+   "item_mark": "6580",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2820QM @ 2.30GHz",
+   "item_mark": "6634",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2840QM @ 2.40GHz",
+   "item_mark": "6766",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2860QM @ 2.50GHz",
+   "item_mark": "7003",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2920XM @ 2.50GHz",
+   "item_mark": "7108",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-2960XM @ 2.70GHz",
+   "item_mark": "7148",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3517U @ 1.90GHz",
+   "item_mark": "3589",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3517UE @ 1.70GHz",
+   "item_mark": "3323",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3520M @ 2.90GHz",
+   "item_mark": "4531",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3537U @ 2.00GHz",
+   "item_mark": "3845",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3540M @ 3.00GHz",
+   "item_mark": "4637",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3555LE @ 2.50GHz",
+   "item_mark": "4130",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3610QE @ 2.30GHz",
+   "item_mark": "6451",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3610QM @ 2.30GHz",
+   "item_mark": "7471",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3612QE @ 2.10GHz",
+   "item_mark": "6428",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3612QM @ 2.10GHz",
+   "item_mark": "6826",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3615QE @ 2.30GHz",
+   "item_mark": "7340",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3615QM @ 2.30GHz",
+   "item_mark": "7367",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3630QM @ 2.40GHz",
+   "item_mark": "7591",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3632QM @ 2.20GHz",
+   "item_mark": "6931",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3635QM @ 2.40GHz",
+   "item_mark": "6649",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3667U @ 2.00GHz",
+   "item_mark": "3997",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3687U @ 2.10GHz",
+   "item_mark": "4183",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3689Y @ 1.50GHz",
+   "item_mark": "3269",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3720QM @ 2.60GHz",
+   "item_mark": "8117",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3740QM @ 2.70GHz",
+   "item_mark": "8343",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3820QM @ 2.70GHz",
+   "item_mark": "8451",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3840QM @ 2.80GHz",
+   "item_mark": "8801",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3920XM @ 2.90GHz",
+   "item_mark": "9146",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-3940XM @ 3.00GHz",
+   "item_mark": "9312",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4500U @ 1.80GHz",
+   "item_mark": "3788",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4510U @ 2.00GHz",
+   "item_mark": "3936",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4550U @ 1.50GHz",
+   "item_mark": "3759",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4558U @ 2.80GHz",
+   "item_mark": "4361",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4560U @ 1.60GHz",
+   "item_mark": "4329",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4578U @ 3.00GHz",
+   "item_mark": "4745",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4600M @ 2.90GHz",
+   "item_mark": "4835",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4600U @ 2.10GHz",
+   "item_mark": "4110",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4610M @ 3.00GHz",
+   "item_mark": "4955",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4650U @ 1.70GHz",
+   "item_mark": "3988",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4700HQ @ 2.40GHz",
+   "item_mark": "7745",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4700MQ @ 2.40GHz",
+   "item_mark": "7696",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4702HQ @ 2.20GHz",
+   "item_mark": "7495",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4702MQ @ 2.20GHz",
+   "item_mark": "7134",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4710HQ @ 2.50GHz",
+   "item_mark": "7749",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4710MQ @ 2.50GHz",
+   "item_mark": "7983",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4712HQ @ 2.30GHz",
+   "item_mark": "7521",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4712MQ @ 2.30GHz",
+   "item_mark": "7160",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4720HQ @ 2.60GHz",
+   "item_mark": "8015",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4722HQ @ 2.40GHz",
+   "item_mark": "8052",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4750HQ @ 2.00GHz",
+   "item_mark": "8301",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4760HQ @ 2.10GHz",
+   "item_mark": "8595",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4770HQ @ 2.20GHz",
+   "item_mark": "8967",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4800MQ @ 2.70GHz",
+   "item_mark": "8492",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4810MQ @ 2.80GHz",
+   "item_mark": "8651",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4850HQ @ 2.30GHz",
+   "item_mark": "9027",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4860EQ @ 1.80GHz",
+   "item_mark": "7925",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4860HQ @ 2.40GHz",
+   "item_mark": "9228",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4870HQ @ 2.50GHz",
+   "item_mark": "9331",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4900MQ @ 2.80GHz",
+   "item_mark": "9061",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4910MQ @ 2.90GHz",
+   "item_mark": "9466",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4930MX @ 3.00GHz",
+   "item_mark": "9513",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4940MX @ 3.10GHz",
+   "item_mark": "9900",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4960HQ @ 2.60GHz",
+   "item_mark": "9785",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-4980HQ @ 2.80GHz",
+   "item_mark": "10185",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5500U @ 2.40GHz",
+   "item_mark": "3971",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5550U @ 2.00GHz",
+   "item_mark": "4254",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5557U @ 3.10GHz",
+   "item_mark": "4946",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5600U @ 2.60GHz",
+   "item_mark": "4306",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5650U @ 2.20GHz",
+   "item_mark": "4224",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5700EQ @ 2.60GHz",
+   "item_mark": "8239",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5700HQ @ 2.70GHz",
+   "item_mark": "8388",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5850HQ @ 2.70GHz",
+   "item_mark": "9459",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-5950HQ @ 2.90GHz",
+   "item_mark": "10949",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-610E @ 2.53GHz",
+   "item_mark": "2544",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-620LM @ 2.00GHz",
+   "item_mark": "1952",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-620M @ 2.67GHz",
+   "item_mark": "2729",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-620UM @ 1.07GHz",
+   "item_mark": "1323",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-640LM @ 2.13GHz",
+   "item_mark": "2245",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-640M @ 2.80GHz",
+   "item_mark": "2849",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-640UM @ 1.20GHz",
+   "item_mark": "1672",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6498DU @ 2.50GHz",
+   "item_mark": "4562",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6500U @ 2.50GHz",
+   "item_mark": "4434",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6560U @ 2.20GHz",
+   "item_mark": "4809",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6567U @ 3.30GHz",
+   "item_mark": "5630",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6600U @ 2.60GHz",
+   "item_mark": "4807",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-660UM @ 1.33GHz",
+   "item_mark": "1745",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6650U @ 2.20GHz",
+   "item_mark": "4947",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6700HQ @ 2.60GHz",
+   "item_mark": "8144",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6770HQ @ 2.60GHz",
+   "item_mark": "9709",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-680UM @ 1.47GHz",
+   "item_mark": "1686",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6820EQ @ 2.80GHz",
+   "item_mark": "8968",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6820HK @ 2.70GHz",
+   "item_mark": "9156",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6820HQ @ 2.70GHz",
+   "item_mark": "8787",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6822EQ @ 2.00GHz",
+   "item_mark": "6427",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-6920HQ @ 2.90GHz",
+   "item_mark": "9606",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-720QM @ 1.60GHz",
+   "item_mark": "3020",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-740QM @ 1.73GHz",
+   "item_mark": "3200",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7500U @ 2.70GHz",
+   "item_mark": "5214",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7560U @ 2.40GHz",
+   "item_mark": "5910",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7567U @ 3.50GHz",
+   "item_mark": "6536",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7600U @ 2.80GHz",
+   "item_mark": "5584",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7660U @ 2.50GHz",
+   "item_mark": "6171",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7700HQ @ 2.80GHz",
+   "item_mark": "8875",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7820HK @ 2.90GHz",
+   "item_mark": "10070",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7820HQ @ 2.90GHz",
+   "item_mark": "9479",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7920HQ @ 3.10GHz",
+   "item_mark": "10183",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-7Y75 @ 1.30GHz",
+   "item_mark": "3789",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-820QM @ 1.73GHz",
+   "item_mark": "3245",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-840QM @ 1.87GHz",
+   "item_mark": "3408",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-8550U @ 1.80GHz",
+   "item_mark": "8212",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-8650U @ 1.90GHz",
+   "item_mark": "9187",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-8705G @ 3.10GHz",
+   "item_mark": "9339",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-8809G @ 3.10GHz",
+   "item_mark": "10124",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-920XM @ 2.00GHz",
+   "item_mark": "3782",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core i7-940XM @ 2.13GHz",
+   "item_mark": "3943",
+   "serie": "Core i7"
+},
+{
+   "modelo": "Intel Core M-5Y10 @ 0.80GHz",
+   "item_mark": "2749",
+   "serie": "Core M"
+},
+{
+   "modelo": "Intel Core M-5Y10a @ 0.80GHz",
+   "item_mark": "2150",
+   "serie": "Core M"
+},
+{
+   "modelo": "Intel Core M-5Y10c @ 0.80GHz",
+   "item_mark": "2820",
+   "serie": "Core M"
+},
+{
+   "modelo": "Intel Core M-5Y31 @ 0.90GHz",
+   "item_mark": "2652",
+   "serie": "Core M"
+},
+{
+   "modelo": "Intel Core M-5Y51 @ 1.10GHz",
+   "item_mark": "2527",
+   "serie": "Core M"
+},
+{
+   "modelo": "Intel Core M-5Y70 @ 1.10GHz",
+   "item_mark": "3016",
+   "serie": "Core M"
+},
+{
+   "modelo": "Intel Core M-5Y71 @ 1.20GHz",
+   "item_mark": "3056",
+   "serie": "Core M"
+},
+{
+   "modelo": "Intel Core m3-6Y30 @ 0.90GHz",
+   "item_mark": "3051",
+   "serie": "Core M3"
+},
+{
+   "modelo": "Intel Core m3-7Y30 @ 1.00GHz",
+   "item_mark": "3543",
+   "serie": "Core M3"
+},
+{
+   "modelo": "Intel Core m3-7Y32 @ 1.10GHz",
+   "item_mark": "3527",
+   "serie": "Core M3"
+},
+{
+   "modelo": "Intel Core m5-6Y54 @ 1.10GHz",
+   "item_mark": "3357",
+   "serie": "Core M5"
+},
+{
+   "modelo": "Intel Core m5-6Y57 @ 1.10GHz",
+   "item_mark": "3200",
+   "serie": "Core M5"
+},
+{
+   "modelo": "Intel Core m7-6Y75 @ 1.20GHz",
+   "item_mark": "3527",
+   "serie": "Core M7"
+},
+{
+   "modelo": "Intel Core Solo T1300 @ 1.66GHz",
+   "item_mark": "395",
+   "serie": "Core Solo"
+},
+{
+   "modelo": "Intel Core Solo T1350 @ 1.86GHz",
+   "item_mark": "396",
+   "serie": "Core Solo"
+},
+{
+   "modelo": "Intel Core Solo T1400 @ 1.83GHz",
+   "item_mark": "470",
+   "serie": "Core Solo"
+},
+{
+   "modelo": "Intel Core Solo U1300 @ 1.06GHz",
+   "item_mark": "276",
+   "serie": "Core Solo"
+},
+{
+   "modelo": "Intel Core Solo U1400 @ 1.20GHz",
+   "item_mark": "278",
+   "serie": "Core Solo"
+},
+{
+   "modelo": "Intel Core Solo U1500 @ 1.33GHz",
+   "item_mark": "330",
+   "serie": "Core Solo"
+},
+{
+   "modelo": "Intel Core2 Duo E8135 @ 2.66GHz",
+   "item_mark": "1765",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo E8235 @ 2.80GHz",
+   "item_mark": "1953",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo E8335 @ 2.66GHz",
+   "item_mark": "1846",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo E8335 @ 2.93GHz",
+   "item_mark": "2128",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo E8435 @ 3.06GHz",
+   "item_mark": "2127",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo L7100 @ 1.20GHz",
+   "item_mark": "746",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo L7200 @ 1.33GHz",
+   "item_mark": "684",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo L7300 @ 1.40GHz",
+   "item_mark": "841",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo L7400 @ 1.50GHz",
+   "item_mark": "846",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo L7500 @ 1.60GHz",
+   "item_mark": "967",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo L7700 @ 1.80GHz",
+   "item_mark": "965",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo L9300 @ 1.60GHz",
+   "item_mark": "1069",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo L9600 @ 2.13GHz",
+   "item_mark": "1339",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P7350 @ 2.00GHz",
+   "item_mark": "1292",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P7370 @ 2.00GHz",
+   "item_mark": "1301",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P7450 @ 2.13GHz",
+   "item_mark": "1422",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P7550 @ 2.26GHz",
+   "item_mark": "1524",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P7570 @ 2.26GHz",
+   "item_mark": "1450",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P8400 @ 2.26GHz",
+   "item_mark": "1458",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P8600 @ 2.40GHz",
+   "item_mark": "1540",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P8700 @ 2.53GHz",
+   "item_mark": "1630",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P8800 @ 2.66GHz",
+   "item_mark": "1745",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P9300 @ 2.26GHz",
+   "item_mark": "1565",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P9500 @ 2.53GHz",
+   "item_mark": "1763",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P9600 @ 2.53GHz",
+   "item_mark": "1768",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P9600 @ 2.66GHz",
+   "item_mark": "1876",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo P9700 @ 2.80GHz",
+   "item_mark": "2012",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo SL9400 @ 1.86GHz",
+   "item_mark": "1267",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo SP9400 @ 2.40GHz",
+   "item_mark": "1672",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo SU9400 @ 1.40GHz",
+   "item_mark": "933",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5200 @ 1.60GHz",
+   "item_mark": "834",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5250 @ 1.50GHz",
+   "item_mark": "832",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5270 @ 1.40GHz",
+   "item_mark": "820",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5300 @ 1.73GHz",
+   "item_mark": "936",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5450 @ 1.66GHz",
+   "item_mark": "911",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5470 @ 1.60GHz",
+   "item_mark": "908",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5500 @ 1.66GHz",
+   "item_mark": "923",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5550 @ 1.83GHz",
+   "item_mark": "1046",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5600 @ 1.83GHz",
+   "item_mark": "1026",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5670 @ 1.80GHz",
+   "item_mark": "991",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5750 @ 2.00GHz",
+   "item_mark": "1093",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5800 @ 2.00GHz",
+   "item_mark": "1111",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5850 @ 2.16GHz",
+   "item_mark": "1189",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5870 @ 2.00GHz",
+   "item_mark": "1144",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T5900 @ 2.20GHz",
+   "item_mark": "1212",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T6400 @ 2.00GHz",
+   "item_mark": "1223",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T6500 @ 2.10GHz",
+   "item_mark": "1285",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T6570 @ 2.10GHz",
+   "item_mark": "1256",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T6600 @ 2.20GHz",
+   "item_mark": "1365",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T6670 @ 2.20GHz",
+   "item_mark": "1369",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7100 @ 1.80GHz",
+   "item_mark": "1011",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7200 @ 2.00GHz",
+   "item_mark": "1164",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7250 @ 2.00GHz",
+   "item_mark": "1110",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7300 @ 2.00GHz",
+   "item_mark": "1194",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7400 @ 2.16GHz",
+   "item_mark": "1243",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7500 @ 2.20GHz",
+   "item_mark": "1275",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7600 @ 2.33GHz",
+   "item_mark": "1376",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7700 @ 2.40GHz",
+   "item_mark": "1418",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T7800 @ 2.60GHz",
+   "item_mark": "1615",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T8100 @ 2.10GHz",
+   "item_mark": "1292",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T8300 @ 2.40GHz",
+   "item_mark": "1480",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T9300 @ 2.50GHz",
+   "item_mark": "1666",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T9400 @ 2.53GHz",
+   "item_mark": "1739",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T9500 @ 2.60GHz",
+   "item_mark": "1820",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T9550 @ 2.66GHz",
+   "item_mark": "1801",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T9600 @ 2.80GHz",
+   "item_mark": "1927",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T9800 @ 2.93GHz",
+   "item_mark": "2013",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo T9900 @ 3.06GHz",
+   "item_mark": "2124",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo U7300 @ 1.30GHz",
+   "item_mark": "869",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo U7500 @ 1.06GHz",
+   "item_mark": "582",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo U7600 @ 1.20GHz",
+   "item_mark": "664",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo U7700 @ 1.33GHz",
+   "item_mark": "713",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo U9300 @ 1.20GHz",
+   "item_mark": "859",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Duo U9600 @ 1.60GHz",
+   "item_mark": "1131",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Extreme X7800 @ 2.60GHz",
+   "item_mark": "1802",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Extreme X7900 @ 2.80GHz",
+   "item_mark": "1687",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Extreme X9000 @ 2.80GHz",
+   "item_mark": "1895",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Extreme X9100 @ 3.06GHz",
+   "item_mark": "2047",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Quad Q9000 @ 2.00GHz",
+   "item_mark": "2528",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Quad Q9100 @ 2.26GHz",
+   "item_mark": "3239",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Solo U2100 @ 1.06GHz",
+   "item_mark": "303",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Solo U2200 @ 1.20GHz",
+   "item_mark": "311",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Solo U3300 @ 1.20GHz",
+   "item_mark": "415",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Core2 Solo U3500 @ 1.40GHz",
+   "item_mark": "466",
+   "serie": "Core2"
+},
+{
+   "modelo": "Intel Pentium 2020M @ 2.40GHz",
+   "item_mark": "2289",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 2030M @ 2.50GHz",
+   "item_mark": "2420",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 2117U @ 1.80GHz",
+   "item_mark": "1660",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 2127U @ 1.90GHz",
+   "item_mark": "1824",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 2129Y @ 1.10GHz",
+   "item_mark": "1051",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 3550M @ 2.30GHz",
+   "item_mark": "2303",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 3556U @ 1.70GHz",
+   "item_mark": "1714",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 3558U @ 1.70GHz",
+   "item_mark": "1696",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 3560M @ 2.40GHz",
+   "item_mark": "2275",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 3560Y @ 1.20GHz",
+   "item_mark": "1266",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 3805U @ 1.90GHz",
+   "item_mark": "1988",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 3825U @ 1.90GHz",
+   "item_mark": "2539",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4 Mobile 1.40GHz",
+   "item_mark": "149",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4 Mobile 1.50GHz",
+   "item_mark": "197",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4 Mobile 1.60GHz",
+   "item_mark": "178",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4 Mobile 1.70GHz",
+   "item_mark": "208",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4 Mobile 1.80GHz",
+   "item_mark": "175",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4 Mobile 1.90GHz",
+   "item_mark": "209",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4 Mobile 2.00GHz",
+   "item_mark": "202",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4405U @ 2.10GHz",
+   "item_mark": "2969",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4405Y @ 1.50GHz",
+   "item_mark": "2059",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4410Y @ 1.50GHz",
+   "item_mark": "2094",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 4415U @ 2.30GHz",
+   "item_mark": "3203",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 957 @ 1.20GHz",
+   "item_mark": "1095",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 967 @ 1.30GHz",
+   "item_mark": "1153",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 977 @ 1.40GHz",
+   "item_mark": "1148",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium 987 @ 1.50GHz",
+   "item_mark": "1219",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium A1018 @ 2.10GHz",
+   "item_mark": "1605",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium B940 @ 2.00GHz",
+   "item_mark": "1725",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium B950 @ 2.10GHz",
+   "item_mark": "1716",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium B960 @ 2.20GHz",
+   "item_mark": "1852",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium B970 @ 2.30GHz",
+   "item_mark": "1958",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium B980 @ 2.40GHz",
+   "item_mark": "2047",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium III Mobile 1000MHz",
+   "item_mark": "245",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium III Mobile 1066MHz",
+   "item_mark": "268",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium III Mobile 1133MHz",
+   "item_mark": "251",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium III Mobile 1200MHz",
+   "item_mark": "262",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium III Mobile 750MHz",
+   "item_mark": "103",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium III Mobile 800MHz",
+   "item_mark": "182",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium III Mobile 866MHz",
+   "item_mark": "152",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium III Mobile 933MHz",
+   "item_mark": "218",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1.30GHz",
+   "item_mark": "301",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1.40GHz",
+   "item_mark": "345",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1.50GHz",
+   "item_mark": "368",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1.60GHz",
+   "item_mark": "363",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1.70GHz",
+   "item_mark": "405",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1.73GHz",
+   "item_mark": "414",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1.80GHz",
+   "item_mark": "408",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1.86GHz",
+   "item_mark": "438",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1000MHz",
+   "item_mark": "233",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1100MHz",
+   "item_mark": "259",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1200MHz",
+   "item_mark": "237",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1300MHz",
+   "item_mark": "303",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1400MHz",
+   "item_mark": "321",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1500MHz",
+   "item_mark": "354",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1600MHz",
+   "item_mark": "332",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 1700MHz",
+   "item_mark": "376",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 2.00GHz",
+   "item_mark": "464",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 2.10GHz",
+   "item_mark": "448",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 2.13GHz",
+   "item_mark": "510",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 2.26GHz",
+   "item_mark": "509",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium M 900MHz",
+   "item_mark": "217",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium N3510 @ 1.99GHz",
+   "item_mark": "1517",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium N3520 @ 2.16GHz",
+   "item_mark": "1796",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium N3530 @ 2.16GHz",
+   "item_mark": "1893",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium N3540 @ 2.16GHz",
+   "item_mark": "1943",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium N3700 @ 1.60GHz",
+   "item_mark": "1845",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium N3710 @ 1.60GHz",
+   "item_mark": "1873",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium N4200 @ 1.10GHz",
+   "item_mark": "2020",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium P6000 @ 1.87GHz",
+   "item_mark": "1254",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium P6100 @ 2.00GHz",
+   "item_mark": "1326",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium P6200 @ 2.13GHz",
+   "item_mark": "1348",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium P6300 @ 2.27GHz",
+   "item_mark": "1380",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium SU2700 @ 1.30GHz",
+   "item_mark": "407",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium SU4100 @ 1.30GHz",
+   "item_mark": "862",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T2060 @ 1.60GHz",
+   "item_mark": "668",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T2080 @ 1.73GHz",
+   "item_mark": "706",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T2130 @ 1.86GHz",
+   "item_mark": "709",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T2310 @ 1.46GHz",
+   "item_mark": "726",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T2330 @ 1.60GHz",
+   "item_mark": "836",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T2370 @ 1.73GHz",
+   "item_mark": "842",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T2390 @ 1.86GHz",
+   "item_mark": "941",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T3200 @ 2.00GHz",
+   "item_mark": "1026",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T3400 @ 2.16GHz",
+   "item_mark": "1116",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T4200 @ 2.00GHz",
+   "item_mark": "1147",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T4300 @ 2.10GHz",
+   "item_mark": "1238",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T4400 @ 2.20GHz",
+   "item_mark": "1281",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium T4500 @ 2.30GHz",
+   "item_mark": "1336",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium U5400 @ 1.20GHz",
+   "item_mark": "822",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Pentium U5600 @ 1.33GHz",
+   "item_mark": "938",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Intel Xeon D-1528 @ 1.90GHz",
+   "item_mark": "7946",
+   "serie": "Xeon"
+},
+{
+   "modelo": "Intel Xeon E3-1268L v5 @ 2.40GHz",
+   "item_mark": "9175",
+   "serie": "Xeon"
+},
+{
+   "modelo": "Intel Xeon E3-1505L v5 @ 2.00GHz",
+   "item_mark": "7082",
+   "serie": "Xeon"
+},
+{
+   "modelo": "Intel Xeon E3-1535M v5 @ 2.90GHz",
+   "item_mark": "9277",
+   "serie": "Xeon"
+},
+{
+   "modelo": "Intel Xeon E3-1535M v6 @ 3.10GHz",
+   "item_mark": "10757",
+   "serie": "Xeon"
+},
+{
+   "modelo": "Intel Xeon E3-1545M v5 @ 2.90GHz",
+   "item_mark": "10474",
+   "serie": "Xeon"
+},
+{
+   "modelo": "Intel Xeon E5-2648L v4 @ 1.80GHz",
+   "item_mark": "12883",
+   "serie": "Xeon"
+},
+{
+   "modelo": "Intel Xeon E5-4648 v3 @ 1.70GHz",
+   "item_mark": "11097",
+   "serie": "Xeon"
+},
+{
+   "modelo": "Mobile AMD Athlon 1400+",
+   "item_mark": "266",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 2500+",
+   "item_mark": "370",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 4",
+   "item_mark": "314",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 4 2400+",
+   "item_mark": "358",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 64 2700+",
+   "item_mark": "398",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 64 2800+",
+   "item_mark": "440",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 64 3000+",
+   "item_mark": "450",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 64 3200+",
+   "item_mark": "448",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 64 3400+",
+   "item_mark": "511",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 64 3700+",
+   "item_mark": "435",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon 64 4000+",
+   "item_mark": "576",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon MP-M 1800+",
+   "item_mark": "265",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon MP-M 2000+",
+   "item_mark": "378",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon MP-M 2400+",
+   "item_mark": "295",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon MP-M 2800+",
+   "item_mark": "496",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP",
+   "item_mark": "572",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M",
+   "item_mark": "512",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M (LV)",
+   "item_mark": "508",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M (LV) 1500+",
+   "item_mark": "288",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M (LV) 1600+",
+   "item_mark": "296",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M (LV) 2000+",
+   "item_mark": "335",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M (LV) 2200+",
+   "item_mark": "373",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M (LV) 2800+",
+   "item_mark": "475",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M (LV) 3200+",
+   "item_mark": "505",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 1400+",
+   "item_mark": "184",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 1500+",
+   "item_mark": "261",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 1600+",
+   "item_mark": "257",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 1700+",
+   "item_mark": "323",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 1800+",
+   "item_mark": "312",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 1900+",
+   "item_mark": "342",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 2000+",
+   "item_mark": "300",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 2200+",
+   "item_mark": "364",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 2400+",
+   "item_mark": "346",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 2500+",
+   "item_mark": "346",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 2600+",
+   "item_mark": "370",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 2800+",
+   "item_mark": "365",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 3000+",
+   "item_mark": "365",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 3100+",
+   "item_mark": "440",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Athlon XP-M 3200+",
+   "item_mark": "487",
+   "serie": "Athlon"
+},
+{
+   "modelo": "Mobile AMD Sempron 2100+",
+   "item_mark": "252",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 2600+",
+   "item_mark": "394",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 2800+",
+   "item_mark": "358",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 3000+",
+   "item_mark": "389",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 3100+",
+   "item_mark": "416",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 3200+",
+   "item_mark": "354",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 3300+",
+   "item_mark": "444",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 3400+",
+   "item_mark": "448",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 3500+",
+   "item_mark": "408",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 3600+",
+   "item_mark": "430",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile AMD Sempron 3800+",
+   "item_mark": "485",
+   "serie": "Sempron"
+},
+{
+   "modelo": "Mobile Intel Celeron 1.20GHz",
+   "item_mark": "170",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 1.50GHz",
+   "item_mark": "188",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 1.60GHz",
+   "item_mark": "188",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 1.70GHz",
+   "item_mark": "181",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 1.80GHz",
+   "item_mark": "186",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 1200MHz",
+   "item_mark": "294",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 1333MHz",
+   "item_mark": "309",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 2.00GHz",
+   "item_mark": "204",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 2.20GHz",
+   "item_mark": "226",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 2.40GHz",
+   "item_mark": "239",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Celeron 2.50GHz",
+   "item_mark": "281",
+   "serie": "Celeron"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 1.60GHz",
+   "item_mark": "195",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 1.70GHz",
+   "item_mark": "173",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 1.80GHz",
+   "item_mark": "176",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 1.90GHz",
+   "item_mark": "232",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 2.00GHz",
+   "item_mark": "202",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 2.20GHz",
+   "item_mark": "198",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 2.40GHz",
+   "item_mark": "213",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 2.50GHz",
+   "item_mark": "256",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 - M 2.60GHz",
+   "item_mark": "313",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 2.30GHz",
+   "item_mark": "278",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 3.33GHz",
+   "item_mark": "439",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium 4 3.46GHz",
+   "item_mark": "478",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium III - M 1000MHz",
+   "item_mark": "250",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium III - M 1133MHz",
+   "item_mark": "289",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium III - M 1200MHz",
+   "item_mark": "224",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium III - M 1333MHz",
+   "item_mark": "289",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium III - M 866MHz",
+   "item_mark": "211",
+   "serie": "Pentium"
+},
+{
+   "modelo": "Mobile Intel Pentium III - M 933MHz",
+   "item_mark": "200",
+   "serie": "Pentium"
+},
+{
+   "modelo": "VIA C7-M 1000MHz",
+   "item_mark": "164",
+   "serie": ""
+},
+{
+   "modelo": "VIA C7-M 1600MHz",
+   "item_mark": "178",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano L2007@1600MHz",
+   "item_mark": "369",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano L2100@1800MHz",
+   "item_mark": "428",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano L2207@1600MHz",
+   "item_mark": "296",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano L3025@1600MHz",
+   "item_mark": "517",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano L3050@1800MHz",
+   "item_mark": "581",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano L3600@2000MHz",
+   "item_mark": "645",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano U2250 (1.6GHz Capable)",
+   "item_mark": "377",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano U2250@1300+MHz",
+   "item_mark": "274",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano U2500@1200MHz",
+   "item_mark": "306",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano U3100 (1.6GHz Capable)",
+   "item_mark": "501",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano U3300@1200MHz",
+   "item_mark": "409",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano U3500@1000MHz",
+   "item_mark": "275",
+   "serie": ""
+},
+{
+   "modelo": "VIA Nano X2 U4025 @ 1.2 GHz",
+   "item_mark": "605",
+   "serie": ""
+},
+{
+   "modelo": "VIA QuadCore L4700 @ 1.2+ GHz",
+   "item_mark": "1363",
+   "serie": ""
+}
+]

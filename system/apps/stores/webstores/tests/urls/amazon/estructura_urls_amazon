@@ -1,0 +1,15 @@
+*****************
+TV TV TV TV TV TV
+*****************
+
+En Amazon, los url pueden lucir muy complicados, eso es debido a que usan caracteres ASCII Hexadecimal en la URL, como por ejemplo:
+
+%2C = ","
+%3A = ":"
+%7C = "|"
+
+Para facilitar la legibilidad de la URL e identificar fragmentos que corresponden a filtros, se recomienza reemplazar estos códigos por sus respectivos caracteres.
+
+***PROBLEMA***
+PROBLEMA DE GENERACION URB CON FILTROS DE LA FAMILIA FEATURE6
+

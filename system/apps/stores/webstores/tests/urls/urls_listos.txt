@@ -1,0 +1,24 @@
+KELKOO:
+- tv  (99,9%)
+- refrigerador  (99,9%)
+- refrigerador combinado  (99,9%)
+- congelador  (99,9%)
+- cava de vino  (99,9%)
+- moviles  (99,9%)
+
+RUE DU COMMERCE
+- laptop (99,9%)
+- moviles (99,9%)
+
+GROUP DIGITAL
+- tv (99,9%)
+
+DARTY
+- tv (99,9%)
+
+BOULANGER
+- laptop (99,9%)
+- moviles (99,9%)
+
+PRICERUNNER
+- tv (99,9%)

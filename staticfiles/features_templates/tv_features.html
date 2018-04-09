@@ -1,0 +1,223 @@
+<div class="row" style="margin-top:20px;">
+					<div class="col-md-4" >
+						<h6 class="title-col">Placa</h6>
+						
+						<div class="form-group row">
+						  <label class="col-4 col-form-label filter-titlte ">Tamaño (pulgadas)</label>
+						  <div class="col-8">
+						    <input ng-model="$parent.taillePouce" ng-change="setCM()" class="form-control" type="number" ng-init="initPouce()" >
+						  </div>
+						</div>
+
+						<div class="form-group row">
+						  <label class="col-4 col-form-label filter-titlte ">Tamaño (cm)</label>
+						  <div class="col-8">
+						    <input ng-model="$parent.tailleCM" ng-change="setPouce()" class="form-control" type="number" value="" >
+						  </div>
+						</div>
+
+						<h6 class="separator-cel filter-titlte">Tipo</h6>
+
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.type" id="radio-type1" name="select-type" type="radio" class="custom-control-input" value="OLED">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">OLED</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.type" id="radio-type2" name="select-type" type="radio" class="custom-control-input" value="LED" ng-init="type='LED'">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">LED</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.type" id="radio-type3" name="select-type" type="radio" class="custom-control-input" value="LCD">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">LCD</span>
+						</label>
+
+
+
+
+						<h6 class="separator-cel filter-titlte">Resolucion</h6>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.resolution" id="radio-resolution1" name="select-resolution" type="radio" class="custom-control-input" value="720p">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">720p</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.resolution" id="radio-resolution2" name="select-resolution" type="radio" class="custom-control-input" value="1080p" ng-init="resolution='1080p'">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">1080p</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.resolution" id="radio-resolution3" name="select-resolution" type="radio" class="custom-control-input" value="4k">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">4k</span>
+						</label>
+
+						<h6 class="separator-cel filter-titlte">Frecuencia de actualizacion</h6>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.refresh" id="radio-refresh1" name="select-refresh" type="radio" class="custom-control-input" value="50">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">50hz</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.refresh" id="radio-refresh2" name="select-refresh" type="radio" class="custom-control-input" value="100">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">100Hz</span>
+						</label>
+
+						<div class="form-group row separator-cel">
+					      <label class="col-sm-4 col-form-label filter-titlte">Índice de flujo</label>				      
+					      <div class="col-sm-8">
+					      	<input type="text" ng-model="$parent.indiceRefresh" uib-typeahead="indiceRefresh for indiceRefresh in IndiceRefresh | filter:$viewValue " class="form-control custom-select" typeahead-min-length="0">					        
+							</select>
+					      </div>
+					    </div>
+												
+
+						<label class="col-4 separator-cel filter-titlte">3D</label>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.Selected3D" id="radio-3d-1" name="select3D" type="radio" class="custom-control-input" value="Oui">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">Si</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.Selected3D" id="radio-3d-2" name="select3D" type="radio" class="custom-control-input" value="Non">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">No</span>
+						</label>
+
+						<div class="form-group row separator-cel">
+					      <label class="col-sm-4 col-form-label filter-titlte">HDR</label>
+					      <div class="col-sm-8">
+					         <select ng-model="$parent.hdrSelected" class="custom-select form-control">
+							  <option selected></option>
+							  <option ng-repeat="hdr in HDR" value="{{hdr}}">{{hdr}}</option>
+							</select>
+					      </div>
+					    </div>
+
+						
+					</div>
+					<div class="col-md-4" >
+						<h6 class="title-col">Conexiones</h6>
+
+						<label class="col-4 separator-cel filter-titlte">Internet </label>
+						<label class="custom-control custom-radio">
+						  <input ng-model="$parent.internet" id="radio-internet1" name="select-internet" type="radio" class="custom-control-input" value="Oui" ng-init="internet='Oui'">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">Si</span>
+						</label>
+						<label class=" custom-control custom-radio">
+						  <input ng-model="$parent.internet" id="radio-internet2" name="select-internet" type="radio" class="custom-control-input" value="Non">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">No</span>
+						</label>
+						<div></div>
+						
+
+						<label class="col-4 separator-cel filter-titlte">Wifi incorporado </label>
+						<label class=" custom-control custom-radio">
+						  <input ng-model="$parent.wifiIntegre" id="radio-wifiIntegre1" name="select-wifiIntegre" type="radio" class="custom-control-input" value="Oui">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">Si</span>
+						</label>
+						<label class=" custom-control custom-radio">
+						  <input ng-model="$parent.wifiIntegre" id="radio-wifiIntegre2" name="select-wifiIntegre" type="radio" class="custom-control-input" value="Non">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">No</span>
+						</label>
+						
+
+						<div></div>
+						<label class="col-4 separator-cel filter-titlte">Inteligente</label>
+						<label class=" custom-control custom-radio">
+						  <input ng-model="$parent.smart" id="radio-smart1" name="select-smart" type="radio" class="custom-control-input" value="Oui" ng-init="smart='Oui'">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">Si</span>
+						</label>
+						<label class=" custom-control custom-radio">
+						  <input ng-model="$parent.smart" id="radio-smart2" name="select-smart" type="radio" class="custom-control-input" value="Non">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">No</span>
+						</label>
+						
+					</div>
+					<div class="col-md-4" >
+						<h6 class="title-col">Otros</h6>
+
+						<div class="form-group row">
+					      <label class="col-sm-4 col-form-label filter-titlte">Proporcion</label>
+					      <div class="col-sm-8">
+					         <select ng-model="$parent.ratioSelected" class="custom-select form-control">
+							  <option selected></option>
+							  <option ng-repeat="ratio in Ratio"value="{{ratio}}">{{ratio}}</option>
+							</select>
+					      </div>
+					    </div>
+
+					    <div class="form-group row">
+					      <label class="col-sm-4 col-form-label filter-titlte">Color</label>
+					      <div class="col-sm-8">
+					         <select ng-model="$parent.colorSelected" class="custom-select form-control">
+							  <option selected></option>
+							  <option ng-repeat="couleur in Couleur"value="{{couleur}}">{{couleur}}</option>
+							</select>
+					      </div>
+					    </div>
+
+					    <div class="form-group row">
+					      <label class="col-sm-4 col-form-label filter-titlte">Tipo panel</label>
+					      <div class="col-sm-8">
+					         <select ng-model="$parent.typePannelSelected" class="custom-select form-control">
+							  <option selected></option>
+							  <option ng-repeat="pannelType in PannelType"value="{{pannelType}}">{{pannelType}}</option>
+							</select>
+					      </div>
+					    </div>
+
+					    <div class="form-group row">
+					      <label class="col-sm-4 col-form-label filter-titlte">Velocidad fotogramas</label>
+					      <div class="col-sm-8">
+					         <select ng-model="$parent.framerateSelected" class="custom-select form-control">
+							  <option selected></option>
+							  <option ng-repeat="frameRate in FrameRate"value="{{frameRate}}">{{frameRate}}</option>
+							</select>
+					      </div>
+					    </div>
+
+					    <div class="form-group row">
+					      <label class="col-sm-4 col-form-label filter-titlte">Diseño</label>
+					      <div class="col-sm-8">
+					         <select ng-model="$parent.designSelected" class="custom-select form-control">
+							  <option selected></option>
+							  <option ng-repeat="design in Design"value="{{design}}">{{design}}</option>
+							</select>
+					      </div>
+					    </div>
+
+					    <div class="form-group row">
+					      <label class="col-sm-4 col-form-label filter-titlte">Energia</label>
+					      <div class="col-sm-8">
+					         <select ng-model="$parent.energySelected" class="custom-select form-control">
+							  <option selected></option>
+							  <option ng-repeat="energy in Energy"value="{{energy}}">{{energy}}</option>
+							</select>
+					      </div>
+					    </div>
+
+						
+						<div style="margin-top:180px;" class="row">
+							<div class="col-sm-8"></div>
+							<div class="col-sm-4">
+							  	<button ng-click="SendData()" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">Buscar</button>
+							</div>
+
+						</div>
+					    
+
+
+					</div>
+						
+					
+				</div>

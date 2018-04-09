@@ -1,0 +1,16 @@
+*****************
+TV TV TV TV TV TV
+*****************
+
+orden de filtros en url:
+
+El orden en general no importa, los filtros vienen separados por el signo "&", a excepción del primer filtro, sin importar que sea único.
+
+url sin filtros: http://www.pricerunner.fr/cl/2/Televiseurs#sort=3
+
+Un ejemplo de url común sería (notar el # y los &):      
+http://www.pricerunner.fr/cl/2/Televiseurs?man_id=18#s_2000000=50_100&attr_59671628=59671630%2C59671629&attr_47421171=60269395&attr_60045863=60045864&attr_49210333=60269397&attr_57477290=57479665%2C57479664%2C57479663&sort=3            
+
+IMPORTANTE: los nombres de las marcas tienen un identificador único que sólo tiene la página de pricerunner
+
+Al final se realiza una limpieza para asegurarnos de que aparece un '#' antes de cualquier '&' y se agrega el 'sort=3' para garantizar búsqueda ordenada por precio.

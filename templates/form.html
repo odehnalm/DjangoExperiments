@@ -1,0 +1,925 @@
+{% load static i18n %} 
+<!DOCTYPE html>
+<html lang="en" ng-app="formApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+	<link rel="stylesheet" href="{% static 'angularMultipleSelect-master/build/multiple-select.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/ui-bootstrap-2.5.0-csp.css' %}">
+	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+
+	<script src="https://use.fontawesome.com/5443e48865.js"></script>
+
+
+
+
+</head>
+<body>
+	
+	<div class="container principal-form" ng-controller="formCtrl">
+
+	  <form>
+
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+		  <li class="nav-item">
+		    <a id="nouvelle-mission-tab" class="nav-link active" data-toggle="tab" href="#nouvelle-mission" role="tab">{% trans "NEW MISSION" %}</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="identification-bien-tab" class="nav-link" data-toggle="tab" href="#identification-bien" role="tab">{% trans "IDENTIFICATION WELL" %}</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="tele-evaluation-tab" class="nav-link" data-toggle="tab" href="#tele-evaluation" role="tab">{% trans "TELE-ASSESSMENT" %}</a>
+		  </li>
+		  <li class="nav-item">
+		    <a id="evaluation-tab" class="nav-link" data-toggle="tab" href="#evaluation" role="tab">{% trans "EVALUATION" %}</a>
+		  </li>
+		  
+		</ul>
+
+	
+
+
+			   
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		  <div class="tab-pane active" id="nouvelle-mission" role="tabpanel">
+			<h6 class="sub-title-form principal-sub-titles">{% trans "Mission" %}</h6>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group row">
+				      <label class="col-sm-6 col-form-label filter-titlte">{% trans "Mission type" %}</label>
+				      <div class="col-sm-6">
+				         <select ng-model="missionSelected" class="custom-select form-control">
+						  <option selected>Evaluation </option>
+						  <option selected>Evaluation2 </option>
+						  <option selected>Evaluation3 </option>
+						 <!--  <option ng-repeat="ratio in Ratio"value="{% verbatim %}{{ratio}}{% endverbatim %}">{% verbatim %}{{ratio}}{% endverbatim %}</option> -->
+						</select>
+				      </div>
+				    </div>
+				    <div class="form-group row">
+				      <label class="col-sm-6 col-form-label filter-titlte">{% trans "Mission Reference Company" %}</label>
+				      <div class="col-sm-6">
+				         <select ng-model="missionCompagnieSelected" class="custom-select form-control">
+						  <option selected>Mission Allianz </option>
+						  <option selected>Mission Allianz2 </option>
+						  <option selected>Mission Allianz3 </option>
+						 <!--  <option ng-repeat="ratio in Ratio"value="{% verbatim %}{{ratio}}{% endverbatim %}">{% verbatim %}{{ratio}}{% endverbatim %}</option> -->
+						</select>
+				      </div>
+					</div>
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "Date of occurrence" %}</label>
+					  <input class="col-sm-6 form-control" type="date" value="">
+					</div>
+					  		
+				    
+				</div>
+				<div class="col-sm-1"></div>
+				<div class="col-sm-5">
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "Company" %}</label>
+					  <input class="col-sm-6 form-control" type="number" value="">
+					</div>
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "Claim Number" %}</label>
+					  <input class="col-sm-6 form-control" type="number" value="">
+					</div>					
+					<div class="form-group row">
+				      <label class="col-sm-6 col-form-label filter-titlte">{% trans "Guarantee" %}</label>
+				      <div class="col-sm-6">
+				         <select ng-model="missionCompagnieSelected" class="custom-select form-control">
+						  <option selected>Mission Allianz </option>
+						  <option selected>Mission Allianz2 </option>
+						  <option selected>Mission Allianz3 </option>
+						 <!--  <option ng-repeat="ratio in Ratio"value="{% verbatim %}{{ratio}}{% endverbatim %}">{% verbatim %}{{ratio}}{% endverbatim %}</option> -->
+						</select>
+				      </div>
+					</div>
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "Franchise" %}</label>
+					  <input class="col-sm-6 form-control" type="number" value="">
+					</div>
+				</div>
+			</div>
+			
+			
+			<h6 class="sub-title-form principal-sub-titles">{% trans "Insured" %}</h6>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "First name" %}</label>
+					  <input class="col-sm-6 form-control" type="text" value="">
+					</div>
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "Name" %}</label>
+					  <input class="col-sm-6 form-control" type="text" value="">
+					</div>
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "Address" %}</label>
+					  <input class="col-sm-6 form-control" type="text" value="">
+					</div>
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "City" %}</label>
+					  <input class="col-sm-6 form-control" type="text" value="">
+					</div>
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "Postal code" %}</label>
+					  <input class="col-sm-6 form-control" type="text" value="">
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<label class="col-form-label filter-titlte">{% trans "Téléphonne (s)" %}</label>
+							<input type="number"  class="form-control">
+
+						</div>
+						<div class="col-sm-4">
+							<label class="col-form-label filter-titlte text-center">{% trans "Availability" %}</label>
+							<div class="row">
+								<div class="col-sm-6"><input type="number"  class="form-control"></div>
+								<div class="col-sm-6"><input type="number"  class="form-control"></div>
+							</div>
+							
+							
+						</div>
+						<div class="col-sm-4">
+						      <label class="col-form-label filter-titlte">{% trans "Type" %}</label>
+						      <div class="">
+						         <select ng-model="missionCompagnieSelected" class="custom-select form-control">
+								  <option selected>Mission Allianz </option>
+								  <option selected>Mission Allianz2 </option>
+								  <option selected>Mission Allianz3 </option>
+								 <!--  <option ng-repeat="ratio in Ratio"value="{% verbatim %}{{ratio}}{% endverbatim %}">{% verbatim %}{{ratio}}{% endverbatim %}</option> -->
+								</select>
+						      </div>
+						</div>
+					</div>
+					<label class="col-form-label filter-titlte">{% trans "Email" %}</label>
+					<input type="email"  class="form-control">
+
+				</div>
+				<div class="col-sm-1"></div>
+				<div class="col-sm-5">
+					<div class="form-group row">
+					  <label class="col-sm-6 col-form-label filter-titlte">{% trans "Police" %}</label>
+					  <input class="col-sm-6 form-control" type="text" value="">
+					</div>
+					<label class="col-4 separator-cel filter-titlte">{% trans "Vip" %}</label>
+					<label class="custom-control custom-radio">
+					  <input ng-model="vipSelected" id="radio-vip1" name="selectVip" type="radio" class="custom-control-input" value="Oui">
+					  <span class="custom-control-indicator"></span>
+					  <span class="custom-control-description">{% trans "Yes" %}</span>
+					</label>
+					<label class="custom-control custom-radio">
+					  <input ng-model="vipSelected" id="radio-vip2" name="selectVip" type="radio" class="custom-control-input" value="Non">
+					  <span class="custom-control-indicator"></span>
+					  <span class="custom-control-description">{% trans "No" %}</span>
+					</label>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="form-group col-md-12 text-right" >
+			        <button ng-click="ClickSuivant1()" type="submit" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">{% trans "Following" %}</button>
+			    </div>
+			</div>
+			<div class="separator-cel"></div>
+		  </div>
+		  <div class="tab-pane" id="identification-bien" role="tabpanel">
+
+		    <div class="sr-only" ng-init="links_aiude={{links_aiude}}"></div>
+		    <div class="sr-only" ng-init="categorias_con_ids={{categorias_con_ids}}"></div>
+		    <div class="sr-only" ng-init="marcas_con_ids={{marcas_con_ids}}"></div>
+		  	
+			<h6 class="sub-title-form principal-sub-titles">{% trans "Type de bien" %}</h6>
+			
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-12">
+						<multiple-autocomplete ng-model="selectedList"
+								object-property="name"
+								after-select-item="selectItemCallback"
+								after-remove-item="removeItemCallback"
+								suggestions-arr="typeBien">
+						</multiple-autocomplete>
+				    </div>
+
+					<div class="col-sm-12" style="margin-top: 5px; font-style:italic; font-size: 12px; text-align: justify; "> 
+					
+						<div ng-switch on="selectedItem.name">
+
+							<div ng-switch-default><p>  </p></div>
+
+							<div ng-switch-when="Téléviseurs"><p>{% blocktrans %}The TV market is booming! Flat screens plasma, LCD, LED, OLED, arrival of the very high definition TV called" 4K "... Not easy to find in such an abundance of offers and techniques .
+  							The first question to ask yourself when choosing a TV is: what will it do for me? If you want to lay the foundation stone of a home theater installation, a widescreen stereo TV is a minimum. If it's an extra TV for the kitchen you need, a small 4-inch screen with mono sound is more than enough{% endblocktrans %}</p></div>
+
+							<div ng-switch-when="Réfrigétateur combiné"><p>{% blocktrans %}Also called combined refrigerators (or combined inverted). They have at least two main advantages: the freezer portion has a larger volume than when the freezer is at the top. There are generally at least 2 bins that can be pulled to either, allowing for better storage and faster food availability. Frozen foods can be seen quickly through bins or from above. This is the version most sought after by the majority of users. It is a good general compromise{% endblocktrans %}</p></div>
+
+							<div ng-switch-when="Réfrigérateur compact"><p>{% blocktrans %}Regardless of their height, they are those with a width of less than 55cm. This makes it easier to fit them in a small place{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Réfrigérateur américain"><p>{% blocktrans %}The American fridge, inaccessible in terms of price for a few years, tends to become more reasonable thanks to some brands that pull prices down while offering similar services. If you are looking for a double compartment fridge / freezer separated on the height, with storage volumes multiplied by 2 or 3 compared to the refrigerators combined, with the possibility of having a water dispenser, or even ice on the front, sometimes a home-bar, an air now often ventilated type "no frost", so the American refrigerator is for you{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Congélateur coffre"><p>{% blocktrans %}They have an opening from the top and can have a large capacity for storing food. Practical and easy to use they are nevertheless rather bulky and require a certain space. This type of freezer is often equipped with bins to distinguish several levels of storage{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Cave à vin service"><p>{% blocktrans %}It can hold from 6 to 52 bottles on average, and is easily integrated into a kitchen or dining room. It is aimed at a wide audience and allows optimal temperature. Ideal for refreshing your bottles. For this, it uses a compressor that guarantees low energy consumption{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Laptops"><p>{% blocktrans %}A laptop is a personal computer whose weight and limited dimensions allow easy transport. A laptop is equipped with the same types of components as a typical desktop computer, including a screen, speakers, and a physical keyboard. Since the 2010s, most have an integrated webcam and a pre-installed microphone. A laptop is equipped with an electric accumulator, or battery, rechargeable by means of a power socket{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Téléphonie mobile"><p>{% blocktrans %}A mobile phone makes it possible to communicate by telephone without being connected by cable to a central station. Sounds are transmitted by electromagnetic waves in a specific network. It is therefore possible to communicate from any place where a relay antenna captures the emissions of the apparatus used{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Lave Linge"><p>{% blocktrans %}You are in the right place to begin your search for a porthole washing machine among the brands and dealers listed on the appliance.
+  							The front washing machine has the particularity of giving you room to put your laundry basket on top, or for some to let you stack a dryer to save space. Do not forget to check that you have enough room to open the door and also think that you will probably have to bend down to get out or get the laundry into the machine.
+  							The strong point of front-loading washing machines and having the possibility of greater loading capacity than top-loading washing machines{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Sèche Linge"><p>{% blocktrans %}The condensing dryer dries the humid air into a condenser, where the water condenses on contact with the cold walls, and the air is then released into the room.
+							The water is collected in a recovery tank, which must be emptied after each cycle. It can also be sent directly to the drain (as for a washing machine) if a direct vent kit is installed. The recovered water contains traces of laundry and lint of clothing and can not be used for other purposes. In particular, it is not recommended to use it for its steam plant: it is not demineralised water.
+
+							Benefits A condensing dryer can be installed anywhere, as long as you have an electrical outlet nearby. There is no need to install an air intake, which is an advantage when you live in an apartment or you can not do work. DisadvantagesThe purchase price is higher than for a dryer -level to evacuation. Maintenance is more complex: empty the waste container each time (unless a drain kit is installed), and clean the condenser about once a quarter (except for newer models with automatic cleaning). Since the condenser is not perfect, the humidity of the room where the dryer is located can rise if ventilation is not sufficient.{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Lave Vaisselle"><p>{% blocktrans %}Classic dishwashers (12 seats). These are the most common, with a width of 60 cm, they have sufficient capacity for a couple with children. You can aim bigger if you with the opportunity and the means to do it.{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Réfrigérateur congélateur en bas"><p>{% blocktrans %}Also called combined refrigerators (or combined inverted). They have at least two main advantages: the freezer portion has a larger volume than when the freezer is at the top. There are generally at least 2 bins that can be pulled to either, allowing for better storage and faster food availability. Frozen foods can be seen quickly through bins or from above. This is the version most sought after by the majority of users. It is a good general compromise.{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Réfrigérateur congélateur en haut"><p>{% blocktrans %}Also called refrigerators 2 doors or double doors. Unlike the handset, it leaves more room for the refrigerator part, it is at the top and is a little more accessible at eye level. All food is stacked on 2 shelves in general, making access to foods that are at the bottom less easy than bins that can be pulled towards you. It is well suited for normal use of the freezer (2/3 people).{% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Congélateur armoire"><p>{% blocktrans %}They are composed mostly of drawers allowing you to organize and classify your food. It is practical and always finds its place, whether in the kitchen, in the garage, or in any other place in your home. Their size can vary in height and width, the number of drawers varies depending on the size of the freezer. (greater than 86 cm){% endblocktrans %}
+									</p></div>
+
+							<div ng-switch-when="Cave à vin vieillissement"><p>{% blocktrans %}Pouvant contenir de 6 à 52 bouteilles en moyenne, elle est facilement intégrable dans une cuisine ou une salle à manger. Elle s’adresse à un public large et permet une temperature optimale. Idéal pour rafraichir vos bouteilles. Pour cela, elle utilise un compresseur qui garantit une faible consommation d'énergie.{% endblocktrans %}
+							</p></div>
+
+							<div ng-switch-when="Cave à vin multi-températures"><p>{% blocktrans %}
+							Mainly used by oenophiles, this cellar allows to combine the temperatures according to the stages to preserve, refresh and age the wine. It has on average 2 to 3 different temperature levels and has an average capacity of 16 to 200 bottles.{% endblocktrans %}
+							</p></div>
+
+							<div ng-switch-when="Réfrigérateur standard"><p>{% blocktrans %}
+							These freestanding refrigerators are designed to be simply placed in a place in a room, without being locked and especially leaving their rear part well ventilated from above because the heat is evacuated there in most cases.
+  							The peculiarity is that the sides will generally be the same color as the door (sometimes not, it is specified in our sheets). If you plan to put your refrigerator in a garage or cellar, more generally in a room outside the house, also check that the room temperature will allow you to install your future fridge (see climate class).{% endblocktrans %}
+							</p></div
+
+
+
+			
+									
+
+							<div ng-switch on="removeItemCallback">
+
+								<div ng-switch-default><p>  </p></div>
+							</div>
+					</div>	
+					
+				</div>
+				
+			</div>
+
+			<div style="margin-bottom:20px;"></div>
+
+
+			<div class="row">
+			  <div class="col-3">
+			  	
+
+				<label>{% trans "Mark" %} </label>
+				<input type="text" ng-model="marqueSelected" uib-typeahead="marque for marque in marques | filter:$viewValue " ng-blur="select_id_marque()" class="form-control custom-select" typeahead-min-length="0">
+
+			  </div>
+
+			  <div class="col-3" ng-show="showModele_gfk"> 
+			  	
+			  	<label>{%trans "Model" %}</label>
+			  	<input type="text" class="form-control" name="models" ng-model="modele">
+
+			  </div>
+			  <div class="col-3" ng-show="showModele">
+			  	<label>{% trans "Model" %}  </label>
+				<input type="text" ng-model="modele" uib-typeahead="model for model in models | filter:$viewValue " ng-focus="update_model()" class="form-control custom-select" typeahead-min-length="0"> 
+			  </div>
+
+				<div class="col-3">
+			  	<div class="form-group">
+				  <label>{% trans "Invoice" %}</label>
+				  <div class="row">
+				    <div class="col-10">
+				      <label id="facture-filename" style="width: 100%; margin-bottom: 0; height: 100%; background-color: #dfe8f2; font-size: 14px; overflow:hidden;" ng-bind="factureFilename"></label>
+				    </div>
+				    <div class="col-2 text-center">
+				      <label for="file-upload" class="custom-file-upload" style="font-size: 25px; margin-bottom:0;">
+					    <i class="fa fa-upload" aria-hidden="true"></i>
+				      </label>
+				      <input id="file-upload" type="file" ng-model="file" on-file-change="onFilesSelected" style="display: none;"/>
+				    </div>
+				  </div>
+				</div>			  	
+				</div>
+				<div class="col-3">
+			  	<button ng-click="SearchFeatures()" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">{% trans "Search" %}</button>
+			  </div>
+			</div>
+			<br/>
+			<div class="row"> 
+			  <div class="col-3" id="wrapper-facture-date" ng-show="loadedFacture">
+			  	<div class="form-group">
+				  <label>{% trans "Date of purchase" %}</label>
+				  <i class="fa fa-cog fa-spin fa-fw sr-only" aria-hidden="true" style="position: absolute;left: 1.2rem;bottom: 1.7rem;"></i>
+				  <input id="facture-date" ng-model="factureDate" class="form-control" type="date" value="" style="padding:.375rem .75rem .375rem 1.4rem">
+				</div>			  	
+			  </div>
+			  <div class="col-3" id="wrapper-facture-boutique" ng-show="loadedFacture">
+			  	<div class="form-group">
+				  <label>{% trans "Buying shop" %}</label>
+				  <i class="fa fa-cog fa-spin fa-fw sr-only" aria-hidden="true" style="position: absolute;left: 1.2rem;bottom: 1.7rem;"></i>
+				  <input id="facture-boutique" class="form-control" type="text" value="" style="padding:.375rem .75rem .375rem 1.4rem">
+				</div>			  	
+			  </div>
+			 
+			</div>			
+			
+			<div class="principal-features" ng-show="showFeatures">
+				<h6 style="margin-top:30px;" class="sub-title-form" ng-show="!is_gfk_modeles">{% trans "Main Features" %}</h6>
+
+				<div  ng-show="is_tv">
+					{% include 'features_templates/tv_features.html' %}
+				</div>
+
+				<div  ng-show="is_telephone">
+					{% include 'features_templates/telephones_features.html' %}
+				</div>
+
+				<div  ng-show="is_froid">
+					{% include 'features_templates/froids_features.html' %}
+				</div>
+
+				<div  ng-show="is_lave_linge">
+					{% include 'features_templates/lave_linge_features.html' %}
+				</div>
+				
+				<!--<div ng-include="'{% static 'features_templates/seche_linge_features.html' %}'" ng-show="is_seche_linge"></div>-->
+				 
+				<div  ng-show="is_laptop">
+					{% include 'features_templates/laptop_features.html' %}
+				</div>
+
+				<div  ng-show="is_gfk_modeles">
+					{% include 'features_templates/modeles_features.html' %}
+				</div>
+				
+				
+
+			</div>
+			
+
+
+			
+			<div style="margin-bottom:150px;"></div>
+
+
+
+
+
+
+
+		  </div>
+
+
+
+
+
+
+
+		  <div class="tab-pane" id="tele-evaluation" role="tabpanel">
+
+
+			<h6 style="margin-top:30px;" class="sub-title-form">{% trans "Nature of the damage" %}</h6>
+
+			<div class="separator-cel">
+			  	<label class="custom-control custom-checkbox">
+				  <input type="checkbox" class="custom-control-input">
+				  <span class="custom-control-indicator"></span>
+				  <span class="custom-control-description">{% trans "Damage total / vol" %}</span>
+				</label>
+			</div>
+
+
+			
+			<div class="separator-cel"></div>
+
+			<div class="form-group">
+				<div class="row">
+				    <div class="col-sm-11">
+				    	<multiple-autocomplete ng-model="selectedList_damage"
+						    object-property="name"
+						    suggestions-arr="typeBien_damage">
+						</multiple-autocomplete>
+				    </div>
+					<div class="col-sm-1">
+			  			<a ng-show="exist_link_aiude" title="lien d'aide" href="{% verbatim %}{{link_aiude}}{% endverbatim %}" class="btn" target="_blank" style="background-color:#1565C0; color:white;"><i class="fa fa-external-link"></i></a>
+					</div>
+				</div>
+			</div>
+			
+			<h6 class="sub-title-form" style="margin-top:25px;">{% trans "Disaster Information" %}</h6>
+			
+			<div class="row separator-cel" >
+				<div class="col-md-3">
+					<h6 class="">{% trans "Date of the claim" %}</h6>
+				    <input class="form-control" type="date" value="">
+				</div>
+				<div class="col-md-3">
+					<h6 class="">{% trans "Shop purchase" %}</h6>
+				    <input type="number" class="form-control" id="" placeholder="">
+				</div>
+			</div>
+
+			<h6 class="sub-title-form" style="margin-top:25px;">{% trans "Information provided by the insured" %}</h6>
+						
+			<div class="row separator-cel" >
+				<div class="col-md-3">
+					<div class="form-group">
+					    <label >{% trans "Assured reparation amount" %}</label>
+					    <input ng-model="reparationAssure" type="number" class="form-control" id="" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="form-group">
+					    <label >{% trans "Insured substitution amount" %}</label>
+					    <input ng-model="substitutionAssure" type="number" class="form-control" id="" placeholder="">
+					</div>
+				</div>
+
+
+				<div class="form-group col-md-6 text-right" >
+			        <button ng-click="ClickSuivant()" type="submit" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">{% trans "Following" %}</button>
+			    </div>
+			</div>
+
+			<h6 class="sub-title-form" style="margin-top:25px;">{% trans "Parts provided by the insured" %}</h6>
+
+			<div class="row">
+
+			  <div class="col-12">
+			  	<label style="font-style: italic;">{% trans "Repair" %}</label>
+			  </div>
+			  <div class="col-3">
+			  	<div class="form-group">
+				  <label></label>
+				  <div class="row">
+				    <div class="col-10">
+				      <label id="repair-facture-filename" style="width: 100%; margin-bottom: 0; height: 100%; background-color: #dfe8f2; font-size: 14px; overflow:hidden;" ng-bind="repairFactureFilename"></label>
+				    </div>
+				    <div class="col-2 text-center">
+				      <label for="file-upload-2" class="custom-file-upload" style="font-size: 25px; margin-bottom:0;">
+					    <i class="fa fa-upload" aria-hidden="true"></i>
+				      </label>
+				      <input id="file-upload-2" type="file" ng-model="file_2" on-file-change="onFilesSelected2" style="display: none;"/>
+				    </div>
+				  </div>
+				</div>			  	
+			  </div>
+			  <div class="col-3" id="wrapper-montant" ng-show="loadedRepairFacture">
+			  	<div class="form-group">
+				  <label>{% trans "Amount" %}</label>
+				  <i class="fa fa-cog fa-spin fa-fw sr-only" aria-hidden="true" style="position: absolute;left: 1.2rem;bottom: 1.7rem;"></i>
+				  <input id="montant" ng-model="montant" class="form-control" type="number" value="" style="padding:.375rem .75rem .375rem 1.4rem">
+				</div>			  	
+			  </div>
+			  <div class="col-3" id="wrapper-siren" ng-show="loadedRepairFacture">
+			  	<div class="form-group">
+				  <label>{% trans "Siren" %}</label>
+				  <i class="fa fa-cog fa-spin fa-fw sr-only" aria-hidden="true" style="position: absolute;left: 1.2rem;bottom: 1.7rem;"></i>
+				  <input id="siren" class="form-control" type="text" value="" style="padding:.375rem .75rem .375rem 1.4rem">
+				</div>			  	
+			  </div>
+
+			  <br/>
+
+			  <div class="col-12">
+			  	<label style="font-style: italic;">{% trans "Substitution" %}</label>
+			  </div>
+
+			  <div class="col-3">
+			  	<div class="form-group">
+				  <label></label>
+				  <div class="row">
+				    <div class="col-10">
+				      <label id="substitution-facture-filename" style="width: 100%; margin-bottom: 0; height: 100%; background-color: #dfe8f2; font-size: 14px; overflow:hidden;" ng-bind="substitutionFactureFilename"></label>
+				    </div>
+				    <div class="col-2 text-center">
+				      <label for="file-upload-3" class="custom-file-upload" style="font-size: 25px; margin-bottom:0;">
+					    <i class="fa fa-upload" aria-hidden="true"></i>
+				      </label>
+				      <input id="file-upload-3" type="file" ng-model="file_3" on-file-change="onFilesSelected3" style="display: none;"/>
+				    </div>
+				  </div>
+				</div>			  	
+			  </div>
+			  <div class="col-3" id="wrapper-montant2" ng-show="loadedSubstitutionFacture">
+			  	<div class="form-group">
+				  <label>{% trans "Amount" %}</label>
+				  <i class="fa fa-cog fa-spin fa-fw sr-only" aria-hidden="true" style="position: absolute;left: 1.2rem;bottom: 1.7rem;"></i>
+				  <input id="montant2" ng-model="montant2" class="form-control" type="number" value="" style="padding:.375rem .75rem .375rem 1.4rem">
+				</div>			  	
+			  </div>
+			  <div class="col-3" id="wrapper-siren2" ng-show="loadedSubstitutionFacture">
+			  	<div class="form-group">
+				  <label>{% trans "Siren" %}</label>
+				  <i class="fa fa-cog fa-spin fa-fw sr-only" aria-hidden="true" style="position: absolute;left: 1.2rem;bottom: 1.7rem;"></i>
+				  <input id="siren2" class="form-control" type="text" value="" style="padding:.375rem .75rem .375rem 1.4rem">
+				</div>			  	
+			  </div>
+				
+			</div>
+			
+
+
+
+
+
+		  </div>
+		  <div class="tab-pane" id="evaluation" role="tabpanel">
+			
+			<div style="margin-top:30px;"></div>
+			<div id="accordion1" role="tablist" aria-multiselectable="true">
+			  <div class="card">
+			    <div class="card-header title-acordion" role="tab" id="headingOne">
+			      <h5>{% trans "Indemnisation  -  Base substitution" %}</h5> 
+
+			      	<div class="d-flex justify-content-end">
+					  <h5 class="mr-auto p-2"></h5>
+					  <h5 class="p-2 ">
+					  	<a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				          <i class="fa fa-arrow-down arrow-acordion" aria-hidden="true"></i>
+				        </a>
+					  </h5>
+					</div>			     
+			    </div>
+
+			    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+			      <div class="card-block">
+					
+					<div class="container-acordion">
+						<div class="row">
+							<h5 class="mr-auto p-2 sub-title-form ">{% trans "Repair value" %}</h5>
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-3 info-acordion">
+								<h6>{% trans "Statistical evaluation" %}</h6>
+								<h6>{% verbatim %}{{value_reparation}}{% endverbatim %}</h6>
+
+							</div>
+							<div class="col-sm-6 info-acordion">
+								<h6>{% trans "Evaluation Scale" %}</h6>
+								<h6>{% verbatim %}{{reparation_baremo}}{% endverbatim %}</h6>
+							</div>
+							<div class="col-sm-3 info-acordion">
+								<h6>{% trans "Assured evaluation" %}</h6>
+								<h6>{% verbatim %}{{reparationAssure}}{% endverbatim %}€</h6>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="container-acordion">
+						<h5 class="mr-auto p-2">Valeur de réparation</h5>
+									        <div class="d-flex justify-content-between">
+							<div class="">
+								<h6>Evaluation Statistique</h6>
+								<h6>1.300€</h6>
+							</div>
+							<div class="">
+								<h6>Evaluation Barème</h6>
+								<h6>N/A</h6>
+							</div>
+							<div class="">
+								<h6>Evaluation assuré</h6>
+								<h6>1.500€</h6>
+							</div>
+									        </div>
+					</div>
+					 -->
+			      	
+					
+					<div class="container-acordion">
+						<div class="row">
+							<h5 class="mr-auto p-2 sub-title-form ">{% trans "Substitution value" %}</h5>
+						</div>
+						
+						<div class="row">
+							<div class="col-sm-3 info-acordion">
+								<h6>{% trans "Statistical evaluation" %}</h6>
+								<h6>{% verbatim %}{{substitution_statistique}}{% endverbatim %}</h6>
+							</div>
+							<div class="col-sm-3 info-acordion">
+								<h6>{% trans "Value to nine identical model" %}</h6>
+								<h6>N/A</h6>
+							</div>
+							<div id="model-value" class="col-sm-3 info-acordion value-color-green">
+								<h6>{% trans "Value to nine similar model" %}</h6>
+								<h6 ng-show="!exist_value">N/A</h6>
+								<h6 ng-show="exist_value">{% verbatim %}{{valeur_neuf_similar}}{% endverbatim %} €</h6>
+							</div>
+							<div id="substitution-assure" class="col-sm-3 info-acordion value-color-orange">
+								<h6>{% trans "Assured evaluation" %}</h6>
+								<h6 class="" >{% verbatim %}{{substitutionAssure}}{% endverbatim %} €</h6>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="container-acordion">
+						<h5 class="mr-auto p-2">Valeur de substitution</h5>
+									        <div class="d-flex justify-content-between">
+							<div class="">
+								<h6>Evaluation Statistique</h6>
+								<h6>1.100€</h6>
+							</div>
+							<div class="">
+								<h6>Valeur à neuf modèle identique</h6>
+								<h6>N/A</h6>
+							</div>
+							<div class="">
+								<h6>Valeur à neuf modèle similaire</h6>
+								<h6>1.300€</h6>
+							</div>
+							<div class="">
+								<h6>Evaluation assuré</h6>
+								<h6>1.600€</h6>
+							</div>
+									        </div>
+					</div> -->
+			        
+
+
+
+
+			      </div>
+			    </div>
+			  </div>			  
+			</div>
+			
+			<!-- <div id="accordion2" role="tablist" aria-multiselectable="true">
+				<div class="card">
+			    <div class="card-header title-acordion" role="tab" id="headingTwo">
+			      
+			      <!--	<div class="d-flex justify-content-end">
+					  <h5 class="mr-auto p-2">Mode Indemnisation</h5>
+					  <h5 class="p-2 ">					  	
+					  	<a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+				          <i class="fa fa-arrow-down arrow-acordion" aria-hidden="true"></i>
+				        </a>
+					  </h5>
+					</div>		
+			    </div>
+			    <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo">
+			      <div class="card-block">
+			      	<form action="">
+			      		<div class="row">
+					       	<div class="col-sm-10">
+					       		<div class="row">
+					       			<div class="text-center col-sm-3 container-acordion-mode">
+					       				<div class="">
+					       					<i class="fa fa-truck fa-4x icons-color" aria-hidden="true"></i>
+					       				</div>
+					       				<h5 class="">Livraison</h5>
+					       				<label class="custom-control custom-radio custom-radio-rw">
+										  <input id="radio-truck" name="truck" type="radio" class="custom-control-input">
+										  <span class="custom-control-indicator"></span>
+										  <span class="custom-control-description"></span>
+										</label>					       			
+					       			</div>
+					       			<div class="col-sm-3 container-acordion-mode text-center">
+					       				<div class="">
+					       					<i class="fa fa-cogs fa-4x icons-color" aria-hidden="true"></i>
+					       				</div>
+					       				<h5 class="">Réparation MA</h5>
+					       				<label class="custom-control custom-radio custom-radio-rw">
+										  <input id="radio-gear" name="gear" type="radio" class="custom-control-input">
+										  <span class="custom-control-indicator"></span>
+										  <span class="custom-control-description"></span>
+										</label>
+					       			</div>
+					       			<div class="col-sm-3 container-acordion-mode text-center">
+					       				<div class="">
+					       					<i class="fa fa-gift fa-4x icons-color" aria-hidden="true"></i>
+					       				</div>
+					       				<h5 class="">Express</h5>
+					       				<label class="custom-control custom-radio custom-radio-rw">
+										  <input id="radio-gif" name="gif" type="radio" class="custom-control-input">
+										  <span class="custom-control-indicator"></span>
+										  <span class="custom-control-description"></span>
+										</label>
+					       			</div>
+					       			<div class="col-sm-3 container-acordion-mode text-center">
+					       				<div class="">
+					       					<i class="fa fa-credit-card fa-4x icons-color" aria-hidden="true"></i>
+					       				</div>
+					       				<h5 class="">Indem</h5>
+					       				<label class="custom-control custom-radio custom-radio-rw">
+										  <input id="radio-credit-card" name="credit-card" type="radio" class="custom-control-input">
+										  <span class="custom-control-indicator"></span>
+										  <span class="custom-control-description"></span>
+										</label>
+					       			</div>
+					       		</div>
+					       	</div>
+					       	<div class="col-sm-2">
+					       		<button class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">Autre bien</button>
+
+					       		<button class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">Cloturer</button>
+					       	</div>
+				      	</div>
+			      	</form>				      
+			      </div>
+			    </div>
+			  </div>
+			</div> -->
+			<div id="accordion3" role="tablist" aria-multiselectable="true">
+			  <div class="card">
+			    <div class="card-header title-acordion" role="tab" id="headingThree">
+			      	<div class="d-flex justify-content-end">
+					  <h5 class="mr-auto p-2">{% trans "Basis of Assessment - Similar Models" %}</h5>
+					  <h5 class="p-2">
+					    <i class="fa fa-spinner fa-spin fa-fw" aria-hidden="true" ng-show="creatingExcel"></i>
+					  	<a id="link-excel" target="_blank"><i class="fa fa-files-o arrow-acordion" aria-hidden="true"></i></a>
+					  </h5>
+					  <h5 class="p-2 ">
+					  	<a data-toggle="collapse" data-parent="#accordion3" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+				          <i class="fa fa-arrow-down arrow-acordion" aria-hidden="true"></i>
+				        </a>
+					  </h5>
+					</div>		
+			    </div>
+			    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="card-block">
+			        <table class="table table-bordered">
+					  <thead>
+					    <tr>
+					      <th>#</th>
+					      <th>First Name</th>
+					      <th>Last Name</th>
+					      <th>Username</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>Mark</td>
+					      <td>Otto</td>
+					      <td>@mdo</td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td>Mark</td>
+					      <td>Otto</td>
+					      <td>@TwBootstrap</td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td>Jacob</td>
+					      <td>Thornton</td>
+					      <td>@fat</td>
+					    </tr>
+					    <tr>
+					      <th scope="row">4</th>
+					      <td colspan="2">Larry the Bird</td>
+					      <td>@twitter</td>
+					    </tr>
+					  </tbody>
+					</table>
+			      </div>
+			    </div>
+			  </div>
+			</div>	
+			<div id="accordion4" role="tablist" aria-multiselectable="true">
+				<div class="card">
+			    <div class="card-header title-acordion" role="tab" id="headingFour">
+			      
+			      	<div class="d-flex justify-content-end">
+					  <h5 class="mr-auto p-2">{% trans "Stores" %}</h5>
+					  <h5 class="p-2 ">					  	
+					  	<a data-toggle="collapse" data-parent="#accordion4" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+				          <i class="fa fa-arrow-down arrow-acordion" aria-hidden="true"></i>
+				        </a>
+					  </h5>
+					</div>		
+			    </div>
+			    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+			      <div class="card-block">
+			      	<table class="table table-bordered">
+					  <thead>
+					    <tr>
+					      <th>#</th>
+					      <th>Store</th>
+					    </tr>
+					  </thead>
+
+					  <tbody>
+					    <tr ng-repeat="(domain, url) in store_urls">
+					      <th scope="row">{% verbatim %}{{$index + 1}}{% endverbatim %}</th>
+					      <td><a href="{% verbatim %}{{url}}{% endverbatim %}" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;{% verbatim %}{{domain}}{% endverbatim %}</a></td>
+					    </tr>
+					  </tbody>
+					  <!-- <tbody ng-show="stores_tv">
+					    <tr>
+					      <th scope="row">1</th>
+					      <td><a href="http://www.kelkoo.fr" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.kelkoo.fr</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td><a href="http://www.pricerunner.fr" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.pricerunner.fr</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td><a href="https://www.darty.com" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.darty.com</a></td>
+					    </tr>
+					  </tbody>
+					  <tbody ng-show="stores_frigo">
+					    <tr>
+					      <th scope="row">1</th>
+					      <td><a href="http://www.kelkoo.fr" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.kelkoo.fr</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td><a href="http://www.pricerunner.fr" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.pricerunner.fr</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td><a href="https://www.darty.com" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.darty.com</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td><a href="https://www.boulanger.com" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.boulanger.com</a></td>
+					    </tr>
+					  </tbody>
+					  <tbody ng-show="stores_cel">
+					    <tr>
+					      <th scope="row">1</th>
+					      <td><a href="http://www.kelkoo.fr" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.kelkoo.fr</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td><a href="http://www.pricerunner.fr" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.pricerunner.fr</a></td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td><a href="https://www.boulanger.com" target="_blank"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>&nbsp;www.boulanger.com</a></td>
+					    </tr>
+					  </tbody> -->
+					</table>				      
+			      </div>
+			    </div>
+			  </div>
+			</div>  
+		  </div>
+		</div>	   
+	  </form>
+	</div>
+</body>
+<script type="text/ng-template" id="customTemplate.html">
+  <a>
+      <span ng-bind-html="marque | uibTypeaheadHighlight:query"></span>
+  </a>
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-animate.min.js"></script>
+ <script src="{% static 'js/ui-bootstrap-tpls-2.5.0.min.js' %}"></script>
+<script src="{% static 'angularMultipleSelect-master/build/multiple-select.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/bower_components/tree.js/tree.min.js' %}"></script>
+<script src="{% static 'js/lodash.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/bower_components/angularjs-dropdown-multiselect/src/angularjs-dropdown-multiselect.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/checklist-model.js' %}"></script>
+<!-- If you want to build hookable tree (see below) -->
+<script type="text/javascript" src="{% static 'js/bower_components/q/q.js' %}"></script>
+<script src="{% static 'js/controllers/formCtrl.js' %}"></script>
+</html>

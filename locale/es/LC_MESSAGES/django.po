@@ -1,0 +1,1266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-23 03:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ma_value/settings/base.py:228 system/apps/ma_profiles/choices.py:4
+msgid "French"
+msgstr ""
+
+#: ma_value/settings/base.py:229
+msgid "English"
+msgstr ""
+
+#: system/apps/api/views.py:241
+msgid "modelos de Producto GFK"
+msgstr ""
+
+#: system/apps/home/views.py:45
+msgid "User not authenticate"
+msgstr ""
+
+#: system/apps/home/views.py:48
+msgid "User not found"
+msgstr ""
+
+#: system/apps/items/choices.py:4 system/apps/scrapy_model/choices.py:4
+msgid "Television"
+msgstr ""
+
+#: system/apps/items/choices.py:5 system/apps/scrapy_model/choices.py:5
+msgid "Laptop"
+msgstr ""
+
+#: system/apps/items/choices.py:6 system/apps/scrapy_model/choices.py:6
+msgid "Refrigerador"
+msgstr ""
+
+#: system/apps/items/choices.py:7 system/apps/scrapy_model/choices.py:7
+msgid "Refrigerador combinado"
+msgstr ""
+
+#: system/apps/items/choices.py:8 system/apps/scrapy_model/choices.py:8
+msgid "Congelador"
+msgstr ""
+
+#: system/apps/items/choices.py:9 system/apps/scrapy_model/choices.py:9
+msgid "Cava de vino"
+msgstr ""
+
+#: system/apps/items/choices.py:10 system/apps/scrapy_model/choices.py:10
+msgid "Mobile"
+msgstr ""
+
+#: system/apps/items/models.py:28 system/apps/scrapy_model/models.py:22
+msgid "Category"
+msgstr ""
+
+#: system/apps/items/models.py:34
+msgid "Item"
+msgstr ""
+
+#: system/apps/items/models.py:35
+msgid "Items"
+msgstr ""
+
+#: system/apps/ma_companies/choices.py:4 system/apps/stores/choices.py:16
+msgid "France"
+msgstr ""
+
+#: system/apps/ma_companies/choices.py:5 system/apps/stores/choices.py:17
+msgid "Spain"
+msgstr ""
+
+#: system/apps/ma_companies/models.py:18
+msgid "Name Company"
+msgstr ""
+
+#: system/apps/ma_companies/models.py:25 system/apps/stores/models.py:26
+msgid "Country"
+msgstr ""
+
+#: system/apps/ma_companies/models.py:35
+msgid "Company MA"
+msgstr ""
+
+#: system/apps/ma_companies/models.py:36
+msgid "Companies MA"
+msgstr ""
+
+#: system/apps/ma_incidents/models.py:15
+msgid "Reference"
+msgstr ""
+
+#: system/apps/ma_incidents/models.py:27
+msgid "Incident MA"
+msgstr ""
+
+#: system/apps/ma_incidents/models.py:28
+msgid "Incidents MA"
+msgstr ""
+
+#: system/apps/ma_items/models.py:17 system/apps/ma_items/models.py:108
+msgid "Model Id"
+msgstr ""
+
+#: system/apps/ma_items/models.py:22
+msgid "Model Name"
+msgstr ""
+
+#: system/apps/ma_items/models.py:33
+msgid "Temporal Model"
+msgstr ""
+
+#: system/apps/ma_items/models.py:34
+msgid "Temporal Models"
+msgstr ""
+
+#: system/apps/ma_items/models.py:51
+msgid "Brand Id"
+msgstr ""
+
+#: system/apps/ma_items/models.py:57
+msgid "Brand Name"
+msgstr ""
+
+#: system/apps/ma_items/models.py:61
+msgid "Item Brand"
+msgstr ""
+
+#: system/apps/ma_items/models.py:62
+msgid "Item Brands"
+msgstr ""
+
+#: system/apps/ma_items/models.py:79
+msgid "Item Type Id"
+msgstr ""
+
+#: system/apps/ma_items/models.py:85
+msgid "Item Type Name"
+msgstr ""
+
+#: system/apps/ma_items/models.py:91
+msgid "Item Type"
+msgstr ""
+
+#: system/apps/ma_items/models.py:92
+msgid "Item Types"
+msgstr ""
+
+#: system/apps/ma_items/models.py:119
+msgid "Item Model"
+msgstr ""
+
+#: system/apps/ma_items/models.py:120
+msgid "Item Models"
+msgstr ""
+
+#: system/apps/ma_profiles/choices.py:5
+msgid "Spanish"
+msgstr ""
+
+#: system/apps/ma_profiles/models.py:24
+msgid "Language"
+msgstr ""
+
+#: system/apps/ma_profiles/models.py:43
+msgid "User Profile MA"
+msgstr ""
+
+#: system/apps/ma_profiles/models.py:44
+msgid "User Profiles MA"
+msgstr ""
+
+#: system/apps/ma_records/models.py:15
+msgid "Record"
+msgstr ""
+
+#: system/apps/ma_records/models.py:27
+msgid "Record MA"
+msgstr ""
+
+#: system/apps/ma_records/models.py:28
+msgid "Records MA"
+msgstr ""
+
+#: system/apps/proxies/models.py:11
+msgid "Proxy IP"
+msgstr ""
+
+#: system/apps/proxies/models.py:17
+msgid "Proxy"
+msgstr ""
+
+#: system/apps/proxies/models.py:18
+msgid "Proxies"
+msgstr ""
+
+#: system/apps/reparation_baremo_model/models.py:16
+msgid "Baremo Value"
+msgstr ""
+
+#: system/apps/reparation_baremo_model/models.py:26
+msgid "Calculation by Scale"
+msgstr ""
+
+#: system/apps/reparation_baremo_model/models.py:27
+msgid "Calculations by Scale"
+msgstr ""
+
+#: system/apps/reparation_ml_model/models.py:24
+msgid "Calculation by ML"
+msgstr ""
+
+#: system/apps/reparation_ml_model/models.py:25
+msgid "Calculations by ML"
+msgstr ""
+
+#: system/apps/scrapy_model/models.py:37
+msgid "Product (Webscraping)"
+msgstr ""
+
+#: system/apps/scrapy_model/models.py:38
+msgid "Products (Webscraping)"
+msgstr ""
+
+#: system/apps/scrapy_urls/models.py:24
+msgid "Url (Webcraping)"
+msgstr ""
+
+#: system/apps/scrapy_urls/models.py:25
+msgid "Urls (Webcraping)"
+msgstr ""
+
+#: system/apps/second_hand_model/models.py:14
+msgid "Value Second Hand"
+msgstr ""
+
+#: system/apps/second_hand_model/models.py:24
+msgid "Calculation Second Hand ML"
+msgstr ""
+
+#: system/apps/second_hand_model/models.py:25
+msgid "Calculations Second Hand ML"
+msgstr ""
+
+#: system/apps/stores/models.py:19
+msgid "Store ID"
+msgstr ""
+
+#: system/apps/stores/models.py:31
+msgid "Store name"
+msgstr ""
+
+#: system/apps/stores/models.py:35
+msgid "Store"
+msgstr ""
+
+#: system/apps/stores/models.py:36 templates/form.html:784
+msgid "Stores"
+msgstr ""
+
+#: system/apps/users/models.py:17
+msgid "The email is required"
+msgstr ""
+
+#: system/apps/users/models.py:64
+msgid "This email is not registered"
+msgstr ""
+
+#: system/apps/users/models.py:80
+msgid "User"
+msgstr ""
+
+#: system/apps/users/models.py:81
+msgid "Users"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:5
+msgid "Weight and dimensions"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:8
+msgid "Height (cm)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:19
+#: templates/features_templates/lave_linge_features.html:105
+msgid "Width (cm)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:30
+#: templates/features_templates/lave_linge_features.html:138
+msgid "Depth (cm)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:42
+#: templates/features_templates/froids_features.html:126
+msgid "Useful volume (L)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:52
+#: templates/features_templates/froids_features.html:136
+msgid "Net volume (L)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:63
+msgid "Useful volume of the refrigerator (L)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:73
+msgid "Net volume of the refrigerator (L)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:83
+msgid "Effective volume of the freezer (L)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:93
+msgid "Net volume of the freezer (L)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:105
+msgid "Total useful volume (L)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:115
+msgid "Net total volume (L)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:150
+msgid "Detailed"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:155
+msgid "Type of installation"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:166
+msgid "Storage (bottles)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:177
+#: templates/features_templates/tv_features.html:202
+msgid "Energy"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:199
+#: templates/features_templates/lave_linge_features.html:39
+#: templates/features_templates/telephones_features.html:171
+#: templates/features_templates/tv_features.html:162
+msgid "Color"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:209
+msgid "Cold system"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:219
+msgid "Type of refrigeration"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:229
+msgid "Freezing type"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:239
+msgid "Technology"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:249
+#: templates/features_templates/lave_linge_features.html:437
+#: templates/features_templates/lave_linge_features.html:439
+msgid "Display"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:254
+#: templates/features_templates/froids_features.html:269
+#: templates/features_templates/lave_linge_features.html:277
+#: templates/features_templates/lave_linge_features.html:444
+#: templates/features_templates/tv_features.html:84
+#: templates/features_templates/tv_features.html:111
+#: templates/features_templates/tv_features.html:125
+#: templates/features_templates/tv_features.html:139 templates/form.html:184
+msgid "Yes"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:259
+#: templates/features_templates/froids_features.html:274
+#: templates/features_templates/lave_linge_features.html:282
+#: templates/features_templates/lave_linge_features.html:449
+#: templates/features_templates/tv_features.html:89
+#: templates/features_templates/tv_features.html:116
+#: templates/features_templates/tv_features.html:130
+#: templates/features_templates/tv_features.html:144 templates/form.html:189
+msgid "No"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:264
+msgid "Dispenser"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:279
+#: templates/features_templates/lave_linge_features.html:389
+msgid "Consumption (kWh / year)"
+msgstr ""
+
+#: templates/features_templates/froids_features.html:294
+#: templates/features_templates/laptop_features.html:352
+#: templates/features_templates/lave_linge_features.html:495
+#: templates/features_templates/modeles_features.html:26
+#: templates/features_templates/telephones_features.html:190
+#: templates/features_templates/tv_features.html:215 templates/form.html:305
+msgid "Search"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:5
+msgid "Specs"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:7
+msgid "RAM (GB)"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:16
+msgid "CPU"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:26
+#: templates/features_templates/telephones_features.html:95
+msgid "Core CPU"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:49
+msgid "GPU"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:66
+#: templates/features_templates/telephones_features.html:129
+msgid "Other"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:68
+msgid "Video output"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:82
+msgid "Reader / Writer"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:130
+#: templates/features_templates/telephones_features.html:8
+msgid "Operating system"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:156
+msgid "Storage"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:157
+msgid "Type of storage"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:162
+msgid "IDE"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:167
+msgid "SATA"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:172
+msgid "SSD"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:177
+msgid "Hybrid"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:182
+msgid "Flash memory"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:185
+msgid "HDD Size (GB)"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:217
+msgid "SSD Size (GB)"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:262
+msgid "Screen"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:264
+msgid "Size (inches)"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:269
+msgid "Up to 8"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:309
+msgid "More than 18"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:311
+#: templates/features_templates/tv_features.html:42
+msgid "Resolution"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:316
+msgid "HD Ready"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:321
+msgid "HD+"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:326
+msgid "Full HD"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:331
+msgid "QHD"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:336
+msgid "Ultra HD (4K)"
+msgstr ""
+
+#: templates/features_templates/laptop_features.html:340
+msgid "Properties"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:5
+#: templates/features_templates/lave_linge_features.html:9
+#: templates/features_templates/tv_features.html:21 templates/form.html:159
+msgid "Type"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:13
+msgid "Washing machine"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:18
+msgid "Mixed"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:25
+msgid "Load type"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:29
+msgid "Porthole"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:34
+msgid "From above"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:44
+msgid "Silver"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:49
+msgid "White"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:54
+msgid "Blue"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:59
+msgid "Cream"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:64
+msgid "Black"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:69
+msgid "Pink"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:75
+msgid "Dimensions"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:77
+msgid "Top"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:82
+msgid "Less than 60"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:87
+msgid "61 to 69 cm"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:92
+msgid "70 to 79 cm"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:97
+msgid "80 to 89 cm"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:102
+msgid "More than 90"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:110
+msgid "Less than 45"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:115
+msgid "45 to 49 cm"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:120
+msgid "50 to 54 cm"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:125
+msgid "55 to 59 cm"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:130
+#: templates/features_templates/lave_linge_features.html:153
+msgid "60 (Standard)"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:135
+msgid "More than 60"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:143
+#: templates/features_templates/lave_linge_features.html:264
+#: templates/features_templates/lave_linge_features.html:417
+msgid "Less than 50"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:148
+msgid "50 to 55 cm"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:158
+msgid "61 to 70 cm"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:163
+#: templates/features_templates/lave_linge_features.html:432
+msgid "More than 70"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:168
+#: templates/features_templates/lave_linge_features.html:170
+msgid "Type Installation"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:175
+msgid "Build"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:180
+msgid "Integrable"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:185
+msgid "Free Installation"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:188
+msgid "Maximum spin speed (rpm)"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:193
+msgid "Less than 1100"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:198
+msgid "1100 to 1299"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:203
+msgid "1300 to 1499"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:208
+msgid "1500 to 1699"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:213
+msgid "More than 1699"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:216
+msgid "Loading capacity (kg)"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:221
+#: templates/features_templates/lave_linge_features.html:312
+msgid "Less than 5"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:226
+#: templates/features_templates/lave_linge_features.html:317
+msgid "5 to 5,9"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:231
+#: templates/features_templates/lave_linge_features.html:322
+msgid "6 to 6,9"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:236
+#: templates/features_templates/lave_linge_features.html:327
+msgid "7 to 7,9"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:241
+msgid "8 to 9"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:246
+msgid "9 to 10"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:251
+msgid "10 to 11"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:256
+msgid "More than 11"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:259
+msgid "Centrifugal noise level (dcB)"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:269
+msgid "51 to 55"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:272
+msgid "Drying function"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:287
+#: templates/features_templates/lave_linge_features.html:289
+msgid "Dryer type"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:294
+msgid "Evacuation"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:299
+msgid "Condensation"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:304
+msgid "Heat pump"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:307
+msgid "Drying capacity (kg)"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:332
+msgid "More than 7,9"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:335
+msgid "Dry noise level (dcB)"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:340
+msgid "Less than 72"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:345
+msgid "73 to 76"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:350
+msgid "Consommation"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:351
+msgid "Energy consumption"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:409
+msgid "More than 480"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:412
+msgid "Water consumption (liters)"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:422
+msgid "50 to 60"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:427
+msgid "60 to 70"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:452
+msgid "Wash programs"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:457
+msgid "Add Wash"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:462
+msgid "QuickDrive"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:467
+msgid "6th Sense"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:472
+msgid "TwinWash"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:477
+msgid "TurboWash"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:482
+msgid "Eco Bubble"
+msgstr ""
+
+#: templates/features_templates/lave_linge_features.html:487
+msgid "Eco Bubble + Add Wash"
+msgstr ""
+
+#: templates/features_templates/modeles_features.html:9
+msgid "Corresponding models"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:5
+msgid "Hardware and software"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:18
+msgid "Screen size (pounces)"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:25
+msgid "Screen size (cm)"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:32
+msgid "Screen resolution"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:71
+msgid "Internal memory (GB)"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:88
+msgid "Memory RAM (GB)"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:134
+#: templates/form.html:312
+msgid "Date of purchase"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:141
+msgid "Buying price"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:149
+msgid "Megapixel front camera"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:156
+msgid "Megapixel Rear Camera"
+msgstr ""
+
+#: templates/features_templates/telephones_features.html:163
+msgid "Battery capacity (mAh)"
+msgstr ""
+
+#: templates/features_templates/tv_features.html:5
+msgid "Slab"
+msgstr "Placa"
+
+#: templates/features_templates/tv_features.html:8
+msgid "Size (inch)"
+msgstr "Tamaño (pulgadas)"
+
+#: templates/features_templates/tv_features.html:15
+msgid "Size (cm)"
+msgstr "Tamaño (cm)"
+
+#: templates/features_templates/tv_features.html:59
+msgid "Refresh rate"
+msgstr "Frecuencia de actualizacion"
+
+#: templates/features_templates/tv_features.html:72
+msgid "Refresh index"
+msgstr "Índice de flujo"
+
+#: templates/features_templates/tv_features.html:105
+msgid "Connection"
+msgstr "Conexiones"
+
+#: templates/features_templates/tv_features.html:121
+msgid "Built-in wifi "
+msgstr "Wifi incorporado"
+
+#: templates/features_templates/tv_features.html:135
+msgid "Smart"
+msgstr "Inteligente"
+
+#: templates/features_templates/tv_features.html:149
+msgid "Others"
+msgstr "Otros"
+
+#: templates/features_templates/tv_features.html:152
+msgid "Ratio"
+msgstr "Proporción"
+
+#: templates/features_templates/tv_features.html:172
+msgid "Type panel"
+msgstr "Tipo panel"
+
+#: templates/features_templates/tv_features.html:182
+msgid "Frame rate"
+msgstr "Velocidad fotogramas"
+
+#: templates/features_templates/tv_features.html:192
+msgid "Design"
+msgstr "Diseño"
+
+#: templates/form.html:36
+msgid "NEW MISSION"
+msgstr "NUEVA MISIÓN"
+
+#: templates/form.html:39
+msgid "IDENTIFICATION WELL"
+msgstr "IDENTIFICACIÓN DE BIEN"
+
+#: templates/form.html:42
+msgid "TELE-ASSESSMENT"
+msgstr "TELE-EVALUACIÓN"
+
+#: templates/form.html:45
+msgid "EVALUATION"
+msgstr "EVALUACIÓN"
+
+#: templates/form.html:58
+msgid "Mission"
+msgstr "Misión"
+
+#: templates/form.html:62
+msgid "Mission type"
+msgstr "Tipo de misión"
+
+#: templates/form.html:73
+msgid "Mission Reference Company"
+msgstr "Compañía de referencia de la misión"
+
+#: templates/form.html:84
+msgid "Date of occurrence"
+msgstr "Fecha de ocurrencia"
+
+#: templates/form.html:93
+msgid "Company"
+msgstr "Empresa"
+
+#: templates/form.html:97
+msgid "Claim Number"
+msgstr "Número de reclamo"
+
+#: templates/form.html:101
+msgid "Guarantee"
+msgstr "Garantía"
+
+#: templates/form.html:112
+msgid "Franchise"
+msgstr "Franquicia"
+
+#: templates/form.html:119
+msgid "Insured"
+msgstr "Asegurado"
+
+#: templates/form.html:124
+msgid "First name"
+msgstr "Nombre de pila"
+
+#: templates/form.html:128
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/form.html:132
+msgid "Address"
+msgstr "Dirección"
+
+#: templates/form.html:136
+msgid "City"
+msgstr "Ciudad"
+
+#: templates/form.html:140
+msgid "Postal code"
+msgstr "Código Postal"
+
+#: templates/form.html:145
+msgid "Téléphonne (s)"
+msgstr "Teléfono (s)"
+
+#: templates/form.html:150
+msgid "Availability"
+msgstr "Disponibilidad"
+
+#: templates/form.html:170
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: templates/form.html:177
+msgid "Police"
+msgstr "Póliza"
+
+#: templates/form.html:180
+msgid "Vip"
+msgstr "VIP"
+
+#: templates/form.html:196 templates/form.html:441
+msgid "Following"
+msgstr "Seguir"
+
+#: templates/form.html:207
+msgid "Type de bien"
+msgstr "Tipo de bien"
+
+#: templates/form.html:226
+msgid ""
+"The TV market is booming! Flat screens plasma, LCD, LED, OLED, arrival of "
+"the very high definition TV called\" 4K \"... Not easy to find in such an "
+"abundance of offers and techniques .\n"
+"  \t\t\t\t\t\t\tThe first question to ask yourself when choosing a TV is: "
+"what will it do for me? If you want to lay the foundation stone of a home "
+"theater installation, a widescreen stereo TV is a minimum. If it's an extra "
+"TV for the kitchen you need, a small 4-inch screen with mono sound is more "
+"than enough"
+msgstr ""
+
+#: templates/form.html:229
+msgid ""
+"Also called combined refrigerators (or combined inverted). They have at "
+"least two main advantages: the freezer portion has a larger volume than when "
+"the freezer is at the top. There are generally at least 2 bins that can be "
+"pulled to either, allowing for better storage and faster food availability. "
+"Frozen foods can be seen quickly through bins or from above. This is the "
+"version most sought after by the majority of users. It is a good general "
+"compromise"
+msgstr ""
+
+#: templates/form.html:231
+msgid ""
+"Regardless of their height, they are those with a width of less than 55cm. "
+"This makes it easier to fit them in a small place"
+msgstr ""
+
+#: templates/form.html:234
+msgid ""
+"The American fridge, inaccessible in terms of price for a few years, tends "
+"to become more reasonable thanks to some brands that pull prices down while "
+"offering similar services. If you are looking for a double compartment "
+"fridge / freezer separated on the height, with storage volumes multiplied by "
+"2 or 3 compared to the refrigerators combined, with the possibility of "
+"having a water dispenser, or even ice on the front, sometimes a home-bar, an "
+"air now often ventilated type \"no frost\", so the American refrigerator is "
+"for you"
+msgstr ""
+
+#: templates/form.html:237
+msgid ""
+"They have an opening from the top and can have a large capacity for storing "
+"food. Practical and easy to use they are nevertheless rather bulky and "
+"require a certain space. This type of freezer is often equipped with bins to "
+"distinguish several levels of storage"
+msgstr ""
+
+#: templates/form.html:240
+msgid ""
+"It can hold from 6 to 52 bottles on average, and is easily integrated into a "
+"kitchen or dining room. It is aimed at a wide audience and allows optimal "
+"temperature. Ideal for refreshing your bottles. For this, it uses a "
+"compressor that guarantees low energy consumption"
+msgstr ""
+
+#: templates/form.html:243
+msgid ""
+"A laptop is a personal computer whose weight and limited dimensions allow "
+"easy transport. A laptop is equipped with the same types of components as a "
+"typical desktop computer, including a screen, speakers, and a physical "
+"keyboard. Since the 2010s, most have an integrated webcam and a pre-"
+"installed microphone. A laptop is equipped with an electric accumulator, or "
+"battery, rechargeable by means of a power socket"
+msgstr ""
+
+#: templates/form.html:246
+msgid ""
+"A mobile phone makes it possible to communicate by telephone without being "
+"connected by cable to a central station. Sounds are transmitted by "
+"electromagnetic waves in a specific network. It is therefore possible to "
+"communicate from any place where a relay antenna captures the emissions of "
+"the apparatus used"
+msgstr ""
+
+#: templates/form.html:249
+msgid ""
+"You are in the right place to begin your search for a porthole washing "
+"machine among the brands and dealers listed on the appliance.\n"
+"  \t\t\t\t\t\t\tThe front washing machine has the particularity of giving "
+"you room to put your laundry basket on top, or for some to let you stack a "
+"dryer to save space. Do not forget to check that you have enough room to "
+"open the door and also think that you will probably have to bend down to get "
+"out or get the laundry into the machine.\n"
+"  \t\t\t\t\t\t\tThe strong point of front-loading washing machines and "
+"having the possibility of greater loading capacity than top-loading washing "
+"machines"
+msgstr ""
+
+#: templates/form.html:272
+msgid "Mark"
+msgstr "Marca"
+
+#: templates/form.html:279 templates/form.html:284
+msgid "Model"
+msgstr "Modelo"
+
+#: templates/form.html:290
+msgid "Invoice"
+msgstr "Factura"
+
+#: templates/form.html:319
+msgid "Buying shop"
+msgstr "Tienda de compras"
+
+#: templates/form.html:328
+msgid "Main Features"
+msgstr "Principales características"
+
+#: templates/form.html:382
+msgid "Nature of the damage"
+msgstr "Naturaleza del daño"
+
+#: templates/form.html:388
+msgid "Damage total / vol"
+msgstr "Daño total / vol"
+
+#: templates/form.html:410
+msgid "Disaster Information"
+msgstr "Información de Desastre"
+
+#: templates/form.html:414
+msgid "Date of the claim"
+msgstr "Fecha del reclamo"
+
+#: templates/form.html:418
+msgid "Shop purchase"
+msgstr "Comprar en tienda"
+
+#: templates/form.html:423
+msgid "Information provided by the insured"
+msgstr "Información provista por el asegurado"
+
+#: templates/form.html:428
+msgid "Assured reparation amount"
+msgstr "Monto asegurado de la reparación"
+
+#: templates/form.html:434
+msgid "Insured substitution amount"
+msgstr "Cantidad asegurada de sustitución"
+
+#: templates/form.html:445
+msgid "Parts provided by the insured"
+msgstr "Piezas proporcionadas por el asegurado"
+
+#: templates/form.html:450
+msgid "Repair"
+msgstr "Reparar"
+
+#: templates/form.html:470 templates/form.html:507
+msgid "Amount"
+msgstr "Monto"
+
+#: templates/form.html:477 templates/form.html:514
+msgid "Siren"
+msgstr "Sirena"
+
+#: templates/form.html:486
+msgid "Substitution"
+msgstr "Sustitución"
+
+#: templates/form.html:534
+msgid "Indemnisation  -  Base substitution"
+msgstr "Indemnización - Sustitución de base"
+
+#: templates/form.html:551
+msgid "Repair value"
+msgstr "Valor de reparación"
+
+#: templates/form.html:556 templates/form.html:597
+msgid "Statistical evaluation"
+msgstr "Evaluación estadística"
+
+#: templates/form.html:561
+msgid "Evaluation Scale"
+msgstr "Evaluación por Baremo"
+
+#: templates/form.html:565 templates/form.html:610
+msgid "Assured evaluation"
+msgstr "Evaluación asegurada"
+
+#: templates/form.html:592
+msgid "Substitution value"
+msgstr "Valor de sustitución"
+
+#: templates/form.html:601
+msgid "Value to nine identical model"
+msgstr "Valor de nuevo modelo idéntico"
+
+#: templates/form.html:605
+msgid "Value to nine similar model"
+msgstr "Valor de nuevo modelo similar"
+
+#: templates/form.html:726
+msgid "Basis of Assessment - Similar Models"
+msgstr "Base de evaluación - Modelos Similares"
+
+#, fuzzy
+#~| msgid "Téléphonne (s)"
+#~ msgid "Telephone (s)"
+#~ msgstr "Teléfono (s)"
+
+#, fuzzy
+#~| msgid "Police"
+#~ msgid "Policy"
+#~ msgstr "Póliza"

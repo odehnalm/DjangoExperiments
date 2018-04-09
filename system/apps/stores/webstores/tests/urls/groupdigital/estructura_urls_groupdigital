@@ -1,0 +1,50 @@
+*****************
+TV TV TV TV TV TV
+*****************
+
+orden de filtros en url:
+
+El orden es muy estricto, aunque los filtros son totalmente opcionales:
+
+https://www.group-digital.fr/le-catalogue/tv-video-home-cinema/television
+																		 type
+																 		      resolution
+															 		      				 marque
+														 		      				 			taille
+													 		      				 						design
+
+url sin filtros: https://www.group-digital.fr/le-catalogue/tv-video-home-cinema/television.html?dir=asc&order=price
+
+Los filtros se unen en una variable llamada filtros_gd, la cual se concatena luego a url_gd
+
+------ Sustituyendo TYPE
+
+Sólo se sustituirá si se selecciona OLED y aparecerá como /tv-oled/
+
+IMPORTANTE:
+TYPE es la única categoría que no se une a ninguna otra, ya que en la página es como un subtipo de televisor apartado.
+A partir de resolution, los filtros se concatenan mediante el caracter "_". En el generador se puede ver como se agrega un
+"/" al principio de cada filtro, pero en caso de no ser útil, este se limpia al final.
+
+------ Sustituyendo RESOLUTION
+
+Se busca siempre de ofrecer un producto igual o mejor, por lo tanto se ingluyen las categorías superiores:
+
+* 720p: hdtv_hdtv-1080p_ultra-hd-4k_3840x2160_ultra-hd-4k-_1920x1080p_4k-uhd_3840x2160p
+* 1080p: hdtv-1080p_ultra-hd-4k_3840x2160_ultra-hd-4k-_1920x1080p_4k-uhd_3840x2160p
+* 4K: ultra-hd-4k_3840x2160_ultra-hd-4k-_4k-uhd_3840x2160p
+
+------ Sustituyendo MARQUE
+
+Nada especial, no hay marcas con nombres combinados, así que se pasa simplemente a minúsculas
+
+------ Sustituyendo TAILLE
+
+Se busca por intervalos y se pueden seleccionar varios al mismo tiempo
+
+-- Design
+
+Sólo se agregaría el valor "incurve"
+
+Al final se realiza una limpieza para mantener los filtros unidos consistentemente (" '_/' --> '_' ").
+Para ordenar los productos por precio, se agrega ".html?dir=asc&order=price" al url, el cual no deberá tener ningún caracter especial al final.

@@ -1,0 +1,191 @@
+<div class="row" style="margin-top:20px;">
+	<div class="col-md-6" >
+		<h6 class="title-col">Matériel et logiciel</h6>
+		
+		<div class="form-group row" >
+	      <label class="col-sm-4 col-form-label filter-titlte">Système d'exploitation</label>
+	      <div class="col-sm-8">
+	         <select ng-model="$parent.telephoneSystemSelected" class="custom-select form-control">
+			  <option selected></option>
+			  <option ng-repeat="telephone_system in telephones_system"value="{{telephone_system}}">{{telephone_system}}</option>
+			</select>
+	      </div>
+	    </div>
+		
+		<div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Taille d’écran(pounces)</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephone_taillePouce" ng-change="setCM()" class="form-control" type="number">
+		  </div>
+		</div>
+
+		<div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Taille d’écran(cm)</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephone_tailleCM" ng-change="setPouce()" class="form-control" type="number">
+		  </div>
+		</div>
+		
+		<div class="form-group row" >
+	      <label class="col-sm-4 col-form-label filter-titlte">Résolution d’écran</label>
+	      <div class="col-sm-8">
+	         <select ng-model="$parent.telephoneResolutionSelected" class="custom-select form-control">
+			  <option selected></option>
+			  <option ng-repeat="telephone_resolution in telephones_resolution"value="{{telephone_resolution}}">{{telephone_resolution}}</option>
+			</select>
+	      </div>
+	    </div>
+
+	   <!--  <div class="form-group row" >
+	     <label class="col-sm-4 col-form-label filter-titlte">Résolution d’écran</label>
+	     <div class="col-sm-8">
+	   
+	     	<div class="row">
+	     		<div class="col-md-5">
+	     			<input ng-model="$parent.telephoneResolutionSelected_1" ng-change="combineResolution()" class="form-control" type="number">
+	     		</div>
+	     		<div class="col-md-1" style="margin-top: 10px;">
+	     			<h6>X</h6>
+	     		</div>
+	     		<div class="col-md-5">
+	     			<input ng-model="$parent.telephoneResolutionSelected_2" ng-change="combineResolution()"class="form-control" type="number">
+	     		</div>
+	     	</div>        
+	     </div>
+	   </div> -->
+
+
+	   <!--  <div class="form-group row" >
+	     <label class="col-sm-4 col-form-label filter-titlte">Mémoire interne (Go)</label>
+	     <div class="col-sm-8">
+	        <select ng-model="$parent.telephoneMemorySelected" class="custom-select form-control">
+	   			  <option selected></option>
+	   			  <option ng-repeat="telephone_memory in telephones_memory"value="{{telephone_memory}}">{{telephone_memory}}</option>
+	   			</select>
+	     </div>
+	   </div>
+	    -->
+	    <div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Mémoire interne (Go)</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephoneMemorySelected" class="form-control" type="number">
+		  </div>
+		</div>
+
+	    <!-- <div class="form-group row" >
+	      <label class="col-sm-4 col-form-label filter-titlte">Mémoire vive (RAM) (Go)</label>
+	      <div class="col-sm-8">
+	         <select ng-model="$parent.telephoneRamSelected" class="custom-select form-control">
+	    			  <option selected></option>
+	    			  <option ng-repeat="telephone_ram in telephones_ram"value="{{telephone_ram}}">{{telephone_ram}}</option>
+	    			</select>
+	      </div>
+	    </div> -->
+
+	    <div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Mémoire vive (RAM) (Go)</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephoneRamSelected" class="form-control" type="number">
+		  </div>
+		</div>
+
+	    <div class="form-group row">
+	      <label class="col-sm-4 col-form-label filter-titlte">Coeurs CPU</label>
+	      <div class="col-sm-8">
+					<label class="custom-control custom-radio">
+						<input ng-model="$parent.telephoneCoreSelected" id="radio-core1" name="select-core" type="radio" class="custom-control-input" value="1">
+						<span class="custom-control-indicator"></span>
+						<span class="custom-control-description">1</span>
+					</label>
+					<label class="custom-control custom-radio">
+						<input ng-model="$parent.telephoneCoreSelected" id="radio-core2" name="select-core" type="radio" class="custom-control-input" value="2" ng-init="telephoneCoreSelected='2'">
+						<span class="custom-control-indicator"></span>
+						<span class="custom-control-description">2</span>
+					</label>
+					<label class="custom-control custom-radio">
+						<input ng-model="$parent.telephoneCoreSelected" id="radio-core4" name="select-core" type="radio" class="custom-control-input" value="4">
+						<span class="custom-control-indicator"></span>
+						<span class="custom-control-description">4</span>
+					</label>
+											<label class="custom-control custom-radio">
+						<input ng-model="$parent.telephoneCoreSelected" id="radio-core6" name="select-core" type="radio" class="custom-control-input" value="6">
+						<span class="custom-control-indicator"></span>
+						<span class="custom-control-description">6</span>
+					</label>
+											<label class="custom-control custom-radio">
+						<input ng-model="$parent.telephoneCoreSelected" id="radio-core8" name="select-core" type="radio" class="custom-control-input" value="8">
+						<span class="custom-control-indicator"></span>
+						<span class="custom-control-description">8</span>
+					</label>
+	      </div>
+	    </div>
+
+
+		
+	</div>
+	<div class="col-md-6" >
+		<h6 class="title-col">Autres</h6>
+
+		
+
+		<div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Date d’achat</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephone_date" class="form-control" type="date" value="">
+		  </div>
+		</div>
+
+		<div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Prix d'achat</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephone_prix" class="form-control" type="number">
+		  </div>
+		</div>
+
+
+		<div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Mégapixels caméra frontale</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephone_megapixel_front" class="form-control" type="number">
+		  </div>
+		</div>
+
+		<div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Mégapixels Caméra arrière</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephone_megapixel_back" class="form-control" type="number" >
+		  </div>
+		</div>
+
+		<div class="form-group row">
+		  <label class="col-4 col-form-label filter-titlte ">Capacité batterie (mAh)</label>
+		  <div class="col-8">
+		    <input ng-model="$parent.telephone_battery" class="form-control" type="number" >
+		  </div>
+		</div>
+	
+
+		<div class="form-group row">
+	      <label class="col-sm-4 col-form-label filter-titlte">Couleur</label>
+	      <div class="col-sm-8">
+	         <select ng-model="$parent.telephoneCouleurSelected" class="custom-select form-control">
+			  <option selected></option>
+			  <option ng-repeat="telephone_couleur in telephones_couleur"value="{{telephone_couleur}}">{{telephone_couleur}}</option>
+			</select>
+	      </div>
+	    </div>
+	
+	</div>
+
+	<!-- <div class="col-sm-12" >
+		<h6 class="title-col">Reparation</h6>
+		<label ng-repeat="value in reparation_values">
+		  <input type="checkbox" checklist-model="reparation.values" checklist-value="value"> {{value}}
+		</label>
+	</div> -->
+
+	<div class="col-sm-2 offset-sm-10">
+	  	<button ng-click="SendData()" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">Rechercher</button>
+	</div>
+
+</div>

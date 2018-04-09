@@ -1,0 +1,305 @@
+{% load static i18n %} 
+
+<div class="row" style="margin-top:20px;">
+	<div class="col-md-6" >
+		<h6 class="title-col">{% trans "Weight and dimensions" %}</h6>
+		
+		<div class="form-group row">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Height (cm)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froidHauteur in froids_hauteur" class="custom-control custom-radio">
+				<input ng-model="froid_hauteur.value" type="radio" class="custom-control-input" name="select-froid_hauteur" value="{% verbatim %}{{froidHauteur}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froidHauteur}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    <div class="form-group row">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Width (cm)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froidLargeur in froids_largeur" class="custom-control custom-radio">
+				<input ng-model="froid_largeur.value" type="radio" class="custom-control-input" name="select-froid_largeur" value="{% verbatim %}{{froidLargeur}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froidLargeur}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    <div class="form-group row">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Depth (cm)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froidProfondeur in froids_profondeur" class="custom-control custom-radio">
+				<input ng-model="froid_profondeur.value" type="radio" class="custom-control-input" name="select-froid_profondeur" value="{% verbatim %}{{froidProfondeur}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froidProfondeur}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>		
+		
+
+	    <div class="form-group row" ng-show="is_froid_0">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Useful volume (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_0" class="custom-control custom-radio">
+				<input ng-model="froid_volume_utile.value" type="radio" class="custom-control-input" name="select-froid_volume_utile" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_0">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Net volume (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_0" class="custom-control custom-radio">
+				<input ng-model="froid_volume_net.value" type="radio" class="custom-control-input" value="{% verbatim %}{{froid}}{% endverbatim %}">			
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Useful volume of the refrigerator (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_0" class="custom-control custom-radio">
+				<input ng-model="froid_volume_utile_refrigerateur.value" type="radio" class="custom-control-input" name="select-froid_volume_utile_refrigerateur" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Net volume of the refrigerator (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_0" class="custom-control custom-radio">
+				<input ng-model="froid_volume_net_refrigerateur.value" type="radio" class="custom-control-input" name="select-froid_volume_net_refrigerateur" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Effective volume of the freezer (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_0" class="custom-control custom-radio">
+				<input ng-model="froid_volume_utile_congelateur.value" type="radio" class="custom-control-input" name="select-froid_volume_utile_congelateur" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Net volume of the freezer (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_0" class="custom-control custom-radio">
+				<input ng-model="froid_volume_net_congelateur.value" type="radio" class="custom-control-input" name="select-froid_volume_net_congelateur" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Total useful volume (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_1" class="custom-control custom-radio">
+				<input ng-model="froid_volume_total_utile.value" type="radio" class="custom-control-input" name="select-froid_volume_total_utile" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Net total volume (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_1" class="custom-control custom-radio">
+				<input ng-model="froid_volume_total_net.value" type="radio" class="custom-control-input" name="select-froid_volume_total_net" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    <div class="form-group row" ng-show="is_froid_2">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Useful volume (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_2_and_3" class="custom-control custom-radio">
+				<input ng-model="froid_volume_utile_2.value" type="radio" class="custom-control-input" name="select-froid_volume_utile_2" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_2 || is_froid_3">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Net volume (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_2_and_3" class="custom-control custom-radio">
+				<input ng-model="froid_volume_net_2_and_3.value" type="radio" class="custom-control-input" name="select-froid_volume_net_2_and_3" value="{% verbatim %}{{froid}}{% endverbatim %}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+			</label>
+	      </div>
+	    </div>
+
+
+		
+	</div>
+	<div class="col-md-6" >
+		<h6 class="title-col">{% trans "Detailed" %}</h6>
+
+		
+		
+	<div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Type of installation" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_posetype" class="custom-control custom-radio">
+			<input ng-model="poseFroidSelected.value" type="radio" class="custom-control-input" name="select-froid_posetype" value="{% verbatim %}{{froid}}{% endverbatim %}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+		</label>
+      </div>
+    </div>	
+
+    <div class="form-group row" ng-show="is_froid_3">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Storage (bottles)" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_Stockage_3" class="custom-control custom-radio">
+			<input ng-model="froid_Stockage.value" type="radio" class="custom-control-input" name="select-froids_Stockage" value="{% verbatim %}{{froid}}{% endverbatim %}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+		</label>
+      </div>
+    </div>
+
+	<div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Energy" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_energy" class="custom-control custom-radio">
+			<input ng-model="energyFroidSelected.value" type="radio" class="custom-control-input" name="select-froid_energy" value="{% verbatim %}{{froid}}{% endverbatim %}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+		</label>
+      </div>
+    </div>	
+
+		<!-- <div class="form-group row">
+			      <label class="col-sm-4 col-form-label filter-titlte">Energy</label>
+			      <div class="col-sm-8">
+			         <select ng-model="energyFroidSelected" class="custom-select form-control">
+			  <option selected></option>
+			  <option ng-repeat="energy_froid in froids_energy"value="{% verbatim %}{{energy_froid}}{% endverbatim %}">{% verbatim %}{{energy_froid}}{% endverbatim %}</option>
+			</select>
+			      </div>
+			    </div> -->
+		
+	
+	<div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Color" %}</label>
+      <div class="col-sm-8">
+         <select ng-model="froidCouleurSelected" class="custom-select form-control">
+		  <option selected></option>
+		  <option ng-repeat="froid_couleur in froids_couleur"value="{% verbatim %}{{froid_couleur}}{% endverbatim %}">{% verbatim %}{{froid_couleur}}{% endverbatim %}</option>
+		</select>
+      </div>
+    </div>
+		
+	<div class="form-group row" ng-show="!is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Cold system" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_system" class="custom-control custom-radio">
+			<input ng-model="froidSystemSelected.value" type="radio" class="custom-control-input" name="select-froid_system" value="{% verbatim %}{{froid}}{% endverbatim %}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+		</label>
+      </div>
+    </div>	
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Type of refrigeration" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_system" class="custom-control custom-radio">
+			<input ng-model="froid_type_refrigeration.value" type="radio" class="custom-control-input" name="select-froid_type_refrigeration" value="{% verbatim %}{{froid}}{% endverbatim %}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+		</label>
+      </div>
+    </div>	
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Freezing type" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_system" class="custom-control custom-radio">
+			<input ng-model="froid_type_congelation.value" type="radio" class="custom-control-input" name="select-froid_type_congelation" value="{% verbatim %}{{froid}}{% endverbatim %}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+		</label>
+      </div>
+    </div>	
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Technology" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_technologie_1" class="custom-control custom-radio">
+			<input ng-model="froid_technologie.value" type="radio" class="custom-control-input" name="select-froid_technologie" value="{% verbatim %}{{froid}}{% endverbatim %}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+		</label>
+      </div>
+    </div>	
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Display" %}</label>
+      <div class="col-sm-8">
+		<label class="custom-control custom-radio">
+			<input ng-model="froid_display" type="radio" class="custom-control-input" name="select-froid_display" value="Oui">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% trans "Yes" %}</span>
+		</label>
+		<label class="custom-control custom-radio">
+			<input ng-model="froid_display" type="radio" class="custom-control-input" name="select-froid_display" value="Non">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% trans "No" %}</span>
+		</label>
+      </div>
+    </div>
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Dispenser" %}</label>
+      <div class="col-sm-8">
+		<label class="custom-control custom-radio">
+			<input ng-model="froid_dispenseur" type="radio" class="custom-control-input" name="select-froid_dispenseur" value="Oui">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% trans "Yes" %}</span>
+		</label>
+		<label class="custom-control custom-radio">
+			<input ng-model="froid_dispenseur" type="radio" class="custom-control-input" name="select-froid_dispenseur" value="Non">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% trans "No" %}</span>
+		</label>
+      </div>
+    </div> 
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Consumption (kWh / year)" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_consommation" class="custom-control custom-radio">
+			<input ng-model="froidConsommationSelected.value" type="radio" class="custom-control-input" name="select-froid_consommation" value="{% verbatim %}{{froid}}{% endverbatim %}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% verbatim %}{{froid}}{% endverbatim %}</span>
+		</label>
+      </div>
+    </div>	
+
+	
+		
+		<div style="margin-top:10px;" class="row">
+			<div class="col-sm-8"></div>
+			<div class="col-sm-4">
+			  	<button ng-click="SendData()" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">{% trans "Search" %}</button>
+			</div>
+
+		</div>
+		
+
+	
+		
+	</div>
+		
+	
+</div>

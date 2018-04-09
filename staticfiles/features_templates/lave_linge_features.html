@@ -1,0 +1,499 @@
+<div class="row" style="margin-top:20px;">
+	<div class="col-md-4" >
+		<h6 class="title-col"> Type </h6>
+		
+		<div class="form-group row">
+			<div class="col-sm-8">
+				<h6 class="separator-cel filter-titlte">Type</h6>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.type_lavelinge"name="select-type_lavelinge" type="radio" class="custom-control-input" value="Lave_linge">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Lave Linge</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.type_lavelinge" name="select-type_lavelinge" type="radio" class="custom-control-input" value="Mixte">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Mixte</span>
+				</label>
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<div class="col-sm-8">
+				<h6 class="separator-cel filter-titlte">Type Charge</h6>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.typeCharge_lavelinge" name="select-typeCharge_lavelinge" type="radio" class="custom-control-input" value="Hublot">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Hublot</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.typeCharge_lavelinge" name="select-typeCharge_lavelinge" type="radio" class="custom-control-input" value="Par_de_lessus" >
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Par le dessus</span>
+				</label>
+			</div>
+		</div>
+
+		<h6 class="separator-cel filter-titlte">Couleur</h6>
+
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.coleur_lavelinge" id="radio-coleur_lavelinge1" name="select-coleur_lavelinge" type="radio" class="custom-control-input" value="Argent">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Argent</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.coleur_lavelinge" id="radio-coleur_lavelinge2" name="select-coleur_lavelinge" type="radio" class="custom-control-input" value="Blanc" ng-init="coleur_lavelinge='Blanc'">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Blanc</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.hcoleur_lavelinge" id="radio-coleur_lavelinge3" name="select-coleur_lavelinge" type="radio" class="custom-control-input" value="Bleue">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Bleue</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.coleur_lavelinge" id="radio-coleur_lavelinge3" name="select-coleur_lavelinge" type="radio" class="custom-control-input" value="Creme">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Creme</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.coleur_lavelinge" id="radio-coleur_lavelinge4" name="select-coleur_lavelinge" type="radio" class="custom-control-input" value="Noir">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Noir</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.coleur_lavelinge" id="radio-coleur_lavelinge4" name="select-coleur_lavelinge" type="radio" class="custom-control-input" value="Rose">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Rose</span>
+			</label>
+			
+		</div>
+
+		<div class="col-md-4" >
+			<h6 class="title-col">Dimmensions </h6>
+	
+				<h6 class="separator-cel filter-titlte">Haut</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.haut" id="radio-haut1" name="select-haut" type="radio" class="custom-control-input" value="Moins de 60">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Moins de 60</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.haut" id="radio-haut2" name="select-haut" type="radio" class="custom-control-input" value="61 á 69 cm" ng-init="haut='61 á 69 cm'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">61 á 69 cm</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.haut" id="radio-haut3" name="select-haut" type="radio" class="custom-control-input" value="70 á 79 cm">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">70 á 79 cm</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.haut" id="radio-haut3" name="select-haut" type="radio" class="custom-control-input" value="80 á 89 cm">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">80 á 89 cm</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.haut" id="radio-haut4" name="select-haut" type="radio" class="custom-control-input" value="Plus de 90">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Plus de 90</span>
+				</label>
+		
+		<h6 class="separator-cel filter-titlte">Largeur (cm)</h6>
+
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.largeur" id="radio-largeur1" name="select-largeur" type="radio" class="custom-control-input" value="Moins de 45">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Moins de 45</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.largeur" id="radio-largeur2" name="select-type" type="radio" class="custom-control-input" value="45 á 49 cm" ng-init="largeur='45 á 49 cm'">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">45 á 49 cm</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.largeur" id="radio-largeur3" name="select-type" type="radio" class="custom-control-input" value="50 á 54 cm">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">50 á 54 cm</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.largeur" id="radio-largeur4" name="select-type" type="radio" class="custom-control-input" value="55 á 59 cm">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">55 á 59 cm</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.largeur" id="radio-largeur5" name="select-type" type="radio" class="custom-control-input" value="60 (Standard)">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">60 (Standard)</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.largeur" id="radio-largeur6" name="select-type" type="radio" class="custom-control-input" value="Plus de 60">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Plus de 60</span>
+			</label>
+
+		<h6 class="separator-cel filter-titlte">Profounder (cm)</h6>
+
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.profounder" id="radio-profounder1" name="select-profounder" type="radio" class="custom-control-input" value="Moins de 50">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Moins de 50</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.profounder" id="radio-profounder2" name="select-profounder" type="radio" class="custom-control-input" value="50 á 55 cm" ng-init="profounder='50 á 55 cm'">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">50 á 55 cm</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.profounder" id="radio-profounder3" name="select-profounder" type="radio" class="custom-control-input" value="60 (Standard)">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">60 (Standard)</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.profounder" id="radio-profounder4" name="select-profounder" type="radio" class="custom-control-input" value="61 á 70 cm">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">61 á 70 cm</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.profounder" id="radio-profounder5" name="select-profounder" type="radio" class="custom-control-input" value="Plus de 70">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Plus de 70</span>
+			</label>
+		</div>
+
+		<div class="col-md-4" >
+			<h6 class="title-col">Type Pose </h6>
+			
+				<h6 class="separator-cel filter-titlte">Type Pose</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.typePose_lavelinge" id="radio-typePose_lavelinge1" name="select-typePose_lavelinge" type="radio" class="custom-control-input" value="Encastrable">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Encastrable</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.typePose_lavelinge" id="radio-typePose_lavelinge2" name="select-typePose_lavelinge" type="radio" class="custom-control-input" value="Integrable" ng-init="typePose='Integrable'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Integrable</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.typePose_lavelinge" id="radio-typePose_lavelinge3" name="select-typePose_lavelinge" type="radio" class="custom-control-input" value="Pose Libre">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Pose Libre</span>
+				</label>
+
+				<h6 class="separator-cel filter-titlte">Vitesse d'essorage maximale (tpm)</h6>	
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.tpm" id="radio-tpm1" name="select-tpm" type="radio" class="custom-control-input" value="Moins de 1100">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Moins de 1100</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.tpm" id="radio-tpm2" name="select-tpm" type="radio" class="custom-control-input" value="1100 á 1299" ng-init="tpm='1100 á 1299'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">1100 á 1299</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.tpme" id="radio-tpm3" name="select-tpm" type="radio" class="custom-control-input" value="1300 á 1499">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">1300 á 1499</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.tpm" id="radio-tpm3" name="select-tpm" type="radio" class="custom-control-input" value="1500 á 1699">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">1500 á 1699</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.tpm" id="radio-tpm4" name="select-tpm" type="radio" class="custom-control-input" value="Plus de 1699">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Plus de 1699</span>
+				</label>
+		
+			<h6 class="separator-cel filter-titlte">Capacité de chargement (kg)</h6>
+
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.chargerKg" id="radio-chargerKg1" name="select-chargerKg" type="radio" class="custom-control-input" value="Moins de 5">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Moins de 5</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.chargerKg" id="radio-chargerKg2" name="select-chargerKg" type="radio" class="custom-control-input" value="5 á 5,9" ng-init="chargerKg='5 á 5,9'">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">5 á 5,9</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.chargerKg" id="radio-chargerKg2" name="select-chargerKg" type="radio" class="custom-control-input" value="6 á 6,9">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">6 á 6,9</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.chargerKg" id="radio-chargerKg3" name="select-chargerKg" type="radio" class="custom-control-input" value="7 á 7,9">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">7 á 7,9</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.chargerKg" id="radio-chargerKg4" name="select-chargerKg" type="radio" class="custom-control-input" value="8 á 9">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">8 á 9</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.chargerKg" id="radio-chargerKg5" name="select-chargerKg" type="radio" class="custom-control-input" value="9 á 10">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">9 á 10</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.chargerKg" id="radio-chargerKg6" name="select-chargerKg" type="radio" class="custom-control-input" value="10 á 11">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">10 á 11</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.chargerKg" id="radio-chargerKg7" name="select-chargerKg" type="radio" class="custom-control-input" value="Plus de 11">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Plus de 11</span>
+			</label>
+
+			<h6 class="separator-cel filter-titlte">Niveau de bruit centriguge (dcB)</h6>
+
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.dcB" id="radio-dcB1" name="select-dcB" type="radio" class="custom-control-input" value="Moins de 50">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Moins de 50</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.dcB" id="radio-dcB2" name="select-dcB" type="radio" class="custom-control-input" value="51 á 55" ng-init="dcB='51 á 55'">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">51 á 55</span>
+			</label>
+
+			<h6 class="separator-cel filter-titlte">Fonction de séchage</h6>
+
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.sechage" id="radio-sechage1" name="select-sechage" type="radio" class="custom-control-input" value="Oui">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Oui</span>
+			</label>
+			<label class="custom-control custom-radio">
+				<input ng-model="$parent.sechage" id="radio-sechage2" name="select-sechage" type="radio" class="custom-control-input" value="51 á 55" ng-init="sechage='Non'">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">Non</span>
+			</label>
+		</div>
+
+		<div class="col-md-4" >
+			<h6 class="title-col">Type Séchoir</h6>
+
+			<h6 class="separator-cel filter-titlte">Type séchoir</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.typeSechoir" id="radio-typeSechoir1" name="select-typeSechoir" type="radio" class="custom-control-input" value="Évacuation">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Évacuation</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.typeSechoir" id="radio-typeSechoir2" name="select-typeSechoir" type="radio" class="custom-control-input" value="Condensation" ng-init="typeSechoir='Condensation'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Condensation</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.typeSechoir" id="radio-typeSechoir3" name="select-typeSechoir" type="radio" class="custom-control-input" value="Pompe á chaleur">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Pompe á chaleur</span>
+				</label>
+
+			<h6 class="separator-cel filter-titlte">Capacité de séchage (kg)</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.capaciteSechage" id="radio-capaciteSechage1" name="select-capaciteSechage" type="radio" class="custom-control-input" value="Moins de 5">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Moins de 5</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.capaciteSechage" id="radio-capaciteSechage2" name="select-capaciteSechage" type="radio" class="custom-control-input" value="5 á 5,9" ng-init="capaciteSechage='5 á 5,9'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">5 á 5,9</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.capaciteSechage" id="radio-capaciteSechage3" name="select-capaciteSechage" type="radio" class="custom-control-input" value="6 á 6,9">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">6 á 6,9</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.capaciteSechage" id="radio-capaciteSechage4" name="select-capaciteSechage" type="radio" class="custom-control-input" value="7 á 7,9">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">7 á 7,9</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.capaciteSechage" id="radio-capaciteSechage5" name="select-capaciteSechage" type="radio" class="custom-control-input" value="Plus de 7,9">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Plus de 7,9</span>
+				</label>
+
+			<h6 class="separator-cel filter-titlte">Niveau de bruit sec (dcB)</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.niveauBrut" id="radio-niveauBrut1" name="select-niveauBrut" type="radio" class="custom-control-input" value="Moins de 72">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Moins de 72</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.niveauBrut" id="radio-niveauBrut2" name="select-niveauBrut" type="radio" class="custom-control-input" value="73 á 76" ng-init="niveauBrut='73 á 76'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">73 á 76 </span>
+				</label>
+		</div>
+
+		<div class="col-md-4" >
+			<h6 class="title-col">Consommation</h6>
+				<h6 class="separator-cel filter-titlte">Consommation dénergie</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consomm_energie" id="radio-consomm_energie1" name="select-consomm_energie" type="radio" class="custom-control-input" value="A">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">A</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consomm_energie" id="radio-consomm_energie2" name="select-consomm_energie" type="radio" class="custom-control-input" value="A+" ng-init="consomm_energie='A+'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">A+ </span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consomm_energie" id="radio-consomm_energie3" name="select-consomm_energie" type="radio" class="custom-control-input" value="A++">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">A++</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consomm_energie" id="radio-consomm_energie4" name="select-consomm_energie" type="radio" class="custom-control-input" value="A+++">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">A+++</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consomm_energie" id="radio-consomm_energie5" name="select-consomm_energie" type="radio" class="custom-control-input" value="B">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">B</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consomm_energie" id="radio-consomm_energie6" name="select-consomm_energie" type="radio" class="custom-control-input" value="C">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">C</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consomm_energie" id="radio-consomm_energie7" name="select-consomm_energie" type="radio" class="custom-control-input" value="D">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">D</span>
+				</label>
+
+			<h6 class="separator-cel filter-titlte">Consommation (kWh/an)</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consommation" id="radio-consommation1" name="select-consommation" type="radio" class="custom-control-input" value="120-240">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">120-240</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consommation" id="radio-consommation2" name="select-consommation" type="radio" class="custom-control-input" value="241-360" ng-init="consommation='241-360'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">241-360 </span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consommation" id="radio-consommation3" name="select-consommation" type="radio" class="custom-control-input" value="361-480">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">361-480</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.consommation" id="radio-consommation4" name="select-consommation" type="radio" class="custom-control-input" value="Plus de 480">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Plus de 480</span>
+				</label>
+
+			<h6 class="separator-cel filter-titlte">Consommation d'eau (litres)</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.cons_eau" id="radio-cons_eau1" name="select-cons_eau" type="radio" class="custom-control-input" value="Moins de 50">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Moins de 50</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.cons_eau" id="radio-cons_eau2" name="select-cons_eau" type="radio" class="custom-control-input" value="50 á 60" ng-init="cons_eau='50 á 60'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">50 á 60 </span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.cons_eau" id="radio-cons_eau3" name="select-cons_eau" type="radio" class="custom-control-input" value="60 á 70">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">60 á 70</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.cons_eau" id="radio-cons_eau4" name="select-cons_eau" type="radio" class="custom-control-input" value="Plus de 70">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Plus de 70</span>
+				</label>
+		</div>
+
+		<div class="col-md-4" >
+			<h6 class="title-col">Display </h6>
+		
+				<h6 class="separator-cel filter-titlte">Display</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.display" id="radio-display1" name="select-display" type="radio" class="custom-control-input" value="Oui">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Oui</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.display" id="radio-display2" name="select-display" type="radio" class="custom-control-input" value="Non" ng-init="display='Non'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Non </span>
+				</label>
+
+				<h6 class="separator-cel filter-titlte">Programmes de lavage</h6>
+
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.programLavage" id="radio-programLavage1" name="select-programLavage" type="radio" class="custom-control-input" value="Add Wash">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Add Wash</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.programLavage" id="radio-programLavage2" name="select-programLavage" type="radio" class="custom-control-input" value="QuickDrive" ng-init="display='QuickDrive'">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">QuickDrive </span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.programLavage" id="radio-programLavage3" name="select-programLavage" type="radio" class="custom-control-input" value="6ème sens">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">6ème sens</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.programLavage" id="radio-programLavage4" name="select-programLavage" type="radio" class="custom-control-input" value="TwinWash">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">TwinWash</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.programLavage" id="radio-programLavage5" name="select-programLavage" type="radio" class="custom-control-input" value="TurboWash">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">TurboWash</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.programLavage" id="radio-programLavage6" name="select-programLavage" type="radio" class="custom-control-input" value="Eco Bubble">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Eco Bubble</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input ng-model="$parent.programLavage" id="radio-programLavage7" name="select-programLavage" type="radio" class="custom-control-input" value="Eco Bubble + Add Wash">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Eco Bubble + Add Wash</span>
+				</label>
+
+		</div>
+	
+		<div style="margin-top:70px; padding-left:820px;" class="row">
+			<div class="col-sm-8"></div>
+			<div class="col-sm-4">
+					<button ng-click="SendData()" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">Rechercher</button>
+			</div>
+		
+		</div>
+
+</div>
+	

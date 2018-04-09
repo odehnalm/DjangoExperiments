@@ -1,0 +1,14 @@
+{
+  "name": "bower",
+  "homepage": "None",
+  "authors": [
+    "Leonel <leonellima@protonmail.com>"
+  ],
+  "description": "Instalador de js para itemscompareform",
+  "main": "bower_components",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "tree.js": "^1.1.0"
+  }
+}

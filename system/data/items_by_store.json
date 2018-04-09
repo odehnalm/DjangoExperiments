@@ -1,0 +1,155 @@
+{
+	"fr": {
+		"name": "Francia",
+		"stores": {
+			"1": {
+				"name": "darty",
+				"items": {
+					"TV_000": {
+						"name": "Televisor"
+					},
+					"FRIGO_000": {
+						"name": "Refrigerador"
+					},
+					"FRIGO_001": {
+						"name": "Refrigerador combinado"
+					},
+					"FRIGO_002": {
+						"name": "Congelador"
+					},
+					"FRIGO_003": {
+						"name": "Cava de vino"
+					}	
+				}
+			},
+
+			"2": {
+				"name": "kelkoo",
+				"items": {
+					"TV_000": {
+						"name": "Televisor"
+					},
+					"FRIGO_000": {
+						"name": "Refrigerador"
+					},
+					"FRIGO_001": {
+						"name": "Refrigerador combinado"
+					},
+					"FRIGO_002": {
+						"name": "Congelador"
+					},
+					"FRIGO_003": {
+						"name": "Cava de vino"
+					},
+					"TLF_000": {
+						"name": "Telefono"
+					}
+				}
+			},
+
+			"3": {
+				"name": "boulanger",
+				"items": {
+					"FRIGO_000": {
+						"name": "Refrigerador"
+					},
+					"FRIGO_001": {
+						"name": "Refrigerador combinado"
+					},
+					"FRIGO_002": {
+						"name": "Congelador"
+					},
+					"FRIGO_003": {
+						"name": "Cava de vino"
+					},
+					"TLF_000": {
+						"name": "Telefono"
+					},
+					"COMPU_000":{
+						"name": "Laptop"
+					}				
+				}
+			},
+
+			"4": {
+				"name": "pricerunner",
+				"items": {
+					"TV_000": {
+						"name": "Televisor"
+					},
+					"FRIGO_000": {
+						"name": "Refrigerador"
+					},
+					"FRIGO_001": {
+						"name": "Refrigerador combinado"
+					},
+					"FRIGO_002": {
+						"name": "Congelador"
+					},
+					"FRIGO_003": {
+						"name": "Cava de vino"
+					},
+					"TLF_000": {
+						"name": "Telefono"
+					},
+					"COMPU_000":{
+						"name": "Laptop"
+					}				
+				}
+			},
+
+			"5": {
+				"name": "rueducommerce",
+				"items": {
+					"TLF_000": {
+						"name": "Telefono"
+					},
+					"COMPU_000":{
+						"name": "Laptop"
+					}	
+				}
+			},
+
+			"6": {
+				"name": "groupdigital",
+				"items": {
+					"TV_000": {
+						"name": "Televisor"
+					}		
+				}
+			},
+
+			"7": {
+				"name": "amazon",
+				"items": {
+					"TV_000": {
+						"name": "Televisor"
+					}		
+				}
+			},	
+
+			"9": {
+				"name": "productscompare",
+				"items": {
+					"TV_000": {
+						"name": "Televisor"
+					}		
+				}
+			}					
+		}
+	},
+
+	"es": {
+		"name": "Espana",
+		"stores": {
+			"8": {
+				"name": "mediamarkt",
+				"items": {
+					"TV_000": {
+						"name": "Televisor"
+					}	
+				}
+			}
+		}
+	}
+}

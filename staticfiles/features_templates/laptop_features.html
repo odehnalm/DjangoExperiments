@@ -1,0 +1,352 @@
+<div class="row" style="margin-top:20px;">
+  <div class="col-md-4">
+    <h6 class="title-col">Specs</h6>
+    <div class="form-group row">
+      <label class="col-4 col-form-label filter-titlte ">RAM (GB)</label>
+      <div class="col-sm-8">
+        <select ng-model="$parent.specRam" class="custom-select form-control">
+          <option selected></option>
+          <option ng-repeat="Ram in laptop_ram" value="{{Ram}}">{{Ram}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-4 col-form-label filter-titlte ">CPU</label>
+      <div class="col-sm-8">
+        <!-- <select ng-model="$parent.specCPU" class="custom-select form-control">
+          <option selected></option>
+          <option ng-repeat="CPU in laptop_cpu" value="{{CPU}}">{{CPU}}</option>
+        </select> -->
+        <input type="text" ng-model="$parent.specCPU" uib-typeahead="cpu for cpu in laptop_cpu_complete | filter:$viewValue " class="form-control custom-select" typeahead-min-length="0">
+
+      </div>
+    </div>
+    <h6 class="separator-cel filter-title" style="display:none;">Coeurs CPU</h6>
+    <div class="col-12">
+      <label class="custom-control custom-radio sr-only">
+        <input ng-model="$parent.coeursCPU" id="radio-coeurs1" name="select-coeurs" type="radio" class="custom-control-input" value="1">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">1</span>
+      </label>
+      <label class="custom-control custom-radio sr-only">
+        <input ng-model="$parent.coeursCPU" id="radio-coeurs2" name="select-coeurs" type="radio" class="custom-control-input" value="2" ng-init="type='2'">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">2</span>
+      </label>
+      <label class="custom-control custom-radio sr-only">
+        <input ng-model="$parent.coeursCPU" id="radio-coeurs3" name="select-coeurs" type="radio" class="custom-control-input" value="4">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">4</span>
+      </label>
+      <label class="custom-control custom-radio sr-only">
+        <input ng-model="$parent.coeursCPU" id="radio-coeurs4" name="select-coeurs" type="radio" class="custom-control-input" value="8">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">8</span>
+      </label>
+    </div>
+    <h6 class="separator-cel filter-titlte">GPU</h6>
+    <div class="col-12">
+      <input type="text" ng-model="$parent.gpu" uib-typeahead="gpu for gpu in laptop_gpu_complete | filter:$viewValue " class="form-control custom-select" typeahead-min-length="0">
+     <!--  <label class="custom-control custom-radio">
+       <input ng-model="$parent.gpu" id="radio-gpu1" name="select-gpu" type="radio" class="custom-control-input" value="dedicated">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">Dedicated</span>
+     </label>
+     <label class="custom-control custom-radio">
+       <input ng-model="$parent.gpu" id="radio-gpu2" name="select-gpu" type="radio" class="custom-control-input" value="integrated" ng-init="gpu='integrated'">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">Integrated</span>
+     </label> -->
+    </div>
+    <br>
+  </div>
+  <div class="col-md-8">
+    <h6 class="title-col">Autres</h6>
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">Sortie video</label>
+      <div class="col-sm-12">
+        <label ng-repeat="value in sortie_video_values" class="col-sm-4 custom-control custom-checkbox">
+    		  <input type="checkbox" class="custom-control-input" checklist-model="laptop_sortie_video.values" checklist-value="value"> 
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">{{value}}</span>
+    		</label>
+        <!-- <div class="col-sm-12"> -->
+         <!--  <div ng-dropdown-multiselect="" options="laptop_sortie_video" selected-model="$parent.laptop_sortie_video_model2" checkboxes="true" extra-settings="laptop_sortie_video_settings"></div> -->
+        <!-- </div> -->
+        <!-- translation-texts="laptop_sortie_video_customTexts" -->
+      </div>
+    </div>
+    <!-- <div class="form-group row"> -->
+      <h6 class="separator-cel filter-titlte">Lecteur/Graveur</h6>
+      <!-- <label class="col-12 separator-cel filter-titlte">Lecteur/Graveur</label> -->
+      <label ng-repeat="value in laptop_lecteurs" class="custom-control custom-radio">
+        <input ng-model="$parent.lecteur.value" id="radio-lecteur1" name="select-lecteur" type="radio" class="custom-control-input" value="{{value}}">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">{{value}}</span>
+      </label>
+    <!-- </div> -->
+   <!--  <div class="form-group row">
+     <br>
+     <label class="col-8 separator-cel filter-titlte">Lecteur/Graveur</label>
+     <br>
+     <label class=" custom-control custom-radio">
+       <input ng-model="$parent.lecteur" id="radio-lecteur1" name="select-lecteur" type="radio" class="custom-control-input" value="Aucun Lecteur">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">Aucun Lecteur</span>
+     </label>
+     <label class=" custom-control custom-radio">
+       <input ng-model="$parent.lecteur" id="radio-lecteur2" name="select-lecteur" type="radio" class="custom-control-input" value="CD-ROM" ng-init="lecteur='CD-ROM'">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">CD-ROM</span>
+     </label>
+     <label class=" custom-control custom-radio">
+       <input ng-model="$parent.lecteur" id="radio-lecteur3" name="select-lecteur" type="radio" class="custom-control-input" value="CD-RW/DVD-ROM">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">CD-RW/DVD-ROM</span>
+     </label>
+     <label class=" custom-control custom-radio">
+       <input ng-model="$parent.lecteur" id="radio-lecteur4" name="select-lecteur" type="radio" class="custom-control-input" value="DVD-ROM">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">DVD-ROM</span>
+     </label>
+     <label class=" custom-control custom-radio">
+       <input ng-model="$parent.lecteur" id="radio-lecteur5" name="select-lecteur" type="radio" class="custom-control-input" value="Graveur Blu-ray">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">Graveur Blu-ray</span>
+     </label>
+     <label class=" custom-control custom-radio">
+       <input ng-model="$parent.lecteur" id="radio-lecteur6" name="select-lecteur" type="radio" class="custom-control-input" value="Graveur DVD">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">Graveur DVD</span>
+     </label>
+     <label class=" custom-control custom-radio">
+       <input ng-model="$parent.lecteur" id="radio-lecteur7" name="select-lecteur" type="radio" class="custom-control-input" value="Lecteur Blur-ray/DVD+-RW Combo">
+       <span class="custom-control-indicator"></span>
+       <span class="custom-control-description">Lecteur Blur-ray/DVD+-RW Combo</span>
+     </label>
+   </div> -->
+    <h6 class="separator-cel filter-titlte">Système d'exploitation</h6>
+    <!-- <div class="form-group row"> -->
+    <!-- <label class="col-12 separator-cel filter-titlte">Système d'exploitation</label> -->
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.systeme" id="radio-systeme1" name="select-systeme" type="radio" class="custom-control-input" value="Mac OS X">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Mac OS X</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.systeme" id="radio-systeme2" name="select-systeme" type="radio" class="custom-control-input" value="Windows 7" ng-init="systeme='Windows 7'">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Windows 7</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.systeme" id="radio-systeme3" name="select-systeme" type="radio" class="custom-control-input" value="Windows 8">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Windows 8</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.systeme" id="radio-systeme4" name="select-systeme" type="radio" class="custom-control-input" value="Windows 10">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Windows 10</span>
+    </label>
+  </div>
+  <!-- </div> -->
+  <div class="col-md-4 separator-cel">
+    <h6 class="title-col">Stockage</h6>
+    <label class="col-12 separator-cel filter-titlte">Type de stockage</label>
+    <br>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.type_stockage" id="radio-type_stockage1" name="select-type_stockage" type="radio" class="custom-control-input" value="IDE">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">IDE</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.type_stockage" id="radio-type_stockage2" name="select-type_stockage" type="radio" class="custom-control-input" value="SATA" ng-init="type_stockage='SATA'">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">SATA</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.type_stockage" id="radio-type_stockage3" name="select-type_stockage" type="radio" class="custom-control-input" value="SSD">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">SSD</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.type_stockage" id="radio-type_stockage4" name="select-type_stockage" type="radio" class="custom-control-input" value="Hybride">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Hybride</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.type_stockage" id="radio-type_stockage5" name="select-type_stockage" type="radio" class="custom-control-input" value="Mémoire flash">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Mémoire flash</span>
+    </label>
+    <br>
+    <label class="col-12 separator-cel filter-titlte">Taille HDD (Go)</label>
+    <br>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleHdd" id="radio-tailleHdd1" name="select-tailleHdd" type="radio" class="custom-control-input" value="250">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">250</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleHdd" id="radio-tailleHdd2" name="select-tailleHdd" type="radio" class="custom-control-input" value="320" ng-init="tailleHdd='320'">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">320</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleHdd" id="radio-tailleHdd3" name="select-tailleHdd" type="radio" class="custom-control-input" value="500">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">500</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleHdd" id="radio-tailleHdd4" name="select-tailleHdd" type="radio" class="custom-control-input" value="750">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">750</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleHdd" id="radio-tailleHdd5" name="select-tailleHdd" type="radio" class="custom-control-input" value="1000">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">1000</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleHdd" id="radio-tailleHdd6" name="select-tailleHdd" type="radio" class="custom-control-input" value="2000">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">2000</span>
+    </label>
+    <label class="col-12 separator-cel filter-titlte">Taille SSD (Go)</label>
+    <br>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleSsd" id="radio-tailleSsd1" name="select-tailleSsd" type="radio" class="custom-control-input" value="32">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">32</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleSsd" id="radio-tailleSsd2" name="select-tailleSsd" type="radio" class="custom-control-input" value="64" ng-init="tailleSsd='64'">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">64</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleSsd" id="radio-tailleSsd3" name="select-tailleSsd" type="radio" class="custom-control-input" value="128">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">128</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleSsd" id="radio-tailleSsd4" name="select-tailleSsd" type="radio" class="custom-control-input" value="256">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">256</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleSsd" id="radio-tailleSsd5" name="select-tailleSsd" type="radio" class="custom-control-input" value="512">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">512</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleSsd" id="radio-tailleSsd6" name="select-tailleSsd" type="radio" class="custom-control-input" value="1000">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">1000</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleSsd" id="radio-tailleSsd7" name="select-tailleSsd" type="radio" class="custom-control-input" value="1500">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">1500</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.tailleSsd" id="radio-tailleSsd8" name="select-tailleSsd" type="radio" class="custom-control-input" value="2000">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">2000</span>
+    </label>
+  </div>
+  <div class="col-sm-8 separator-cel">
+    <!-- <div class="col-12"> -->
+      <h6 class="title-col">Écran</h6>
+    <!-- </div> -->
+    <label class="col-12 separator-cel filter-titlte">Taille (pouces)</label>
+    <br>
+    <label class="custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille1" name="select-taille" type="radio" class="custom-control-input" value="Jusqu'à 8">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Jusqu'à 8</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille2" name="select-taille" type="radio" class="custom-control-input" value="10" ng-init="taille='10'">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">10</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille3" name="select-taille" type="radio" class="custom-control-input" value="11">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">11</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille4" name="select-taille" type="radio" class="custom-control-input" value="12">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">12</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille5" name="select-taille" type="radio" class="custom-control-input" value="13">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">13</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille6" name="select-taille" type="radio" class="custom-control-input" value="14">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">14</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille7" name="select-taille" type="radio" class="custom-control-input" value="15">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">15</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille8" name="select-taille" type="radio" class="custom-control-input" value="17">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">17</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.taille" id="radio-taille9" name="select-taille" type="radio" class="custom-control-input" value="Plus de 18">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Plus de 18</span>
+    </label>
+    <label class="col-12 separator-cel filter-titlte">Résolution</label>
+    <br>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.resolution" id="radio-resolution1" name="select-resolution" type="radio" class="custom-control-input" value="HD_Ready">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">HD Ready</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.resolution" id="radio-resolution2" name="select-resolution" type="radio" class="custom-control-input" value="HD+" ng-init="resolution='HD+'">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">HD+</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.resolution" id="radio-resolution3" name="select-resolution" type="radio" class="custom-control-input" value="Full_HD">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Full HD</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.resolution" id="radio-resolution4" name="select-resolution" type="radio" class="custom-control-input" value="QHD">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">QHD</span>
+    </label>
+    <label class=" custom-control custom-radio">
+      <input ng-model="$parent.resolution" id="radio-resolution5" name="select-resolution" type="radio" class="custom-control-input" value="Ultra_HD_(4K)">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Ultra HD (4K)</span>
+    </label>
+    <br>
+    <br>
+    <label class="col-12 separator-cel filter-titlte">Proprietes</label>
+    <div class="col-sm-12">
+      <label ng-repeat="value in laptop_proprietes_values" class="col-sm-4 custom-control custom-checkbox">
+  	    <input type="checkbox" class="custom-control-input" checklist-model="laptop_proprietes.values" checklist-value="value"> 
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">{{value}}</span>
+  	  </label>
+      <!-- <div ng-dropdown-multiselect="" options="laptop_proprietes" selected-model="$parent.laptop_proprietes_model2" checkboxes="true" extra-settings="laptop_proprietes_settings"></div> -->
+    </div>
+    <!-- translation-texts="laptop_proprietes_customTexts" -->
+  </div>
+  <div class="col-sm-2 offset-sm-10">
+    <button ng-click="SendData()" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">Rechercher</button>
+  </div>
+</div>

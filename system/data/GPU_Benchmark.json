@@ -1,0 +1,5427 @@
+[
+{
+   "modelo": "128 DDR Radeon 9700 TX w/TV-Out",
+   "item_mark": "44",
+   "serie": "Radeon"
+},
+{
+   "modelo": "128MB DDR Radeon 9800 Pro",
+   "item_mark": "66",
+   "serie": "Radeon"
+},
+{
+   "modelo": "128MB RADEON X600 SE",
+   "item_mark": "49",
+   "serie": "Radeon"
+},
+{
+   "modelo": "256MB RADEON X600",
+   "item_mark": "67",
+   "serie": "Radeon"
+},
+{
+   "modelo": "7900 MOD - Radeon HD 6520G",
+   "item_mark": "610",
+   "serie": "Radeon"
+},
+{
+   "modelo": "A6 Micro-6500T Quad-Core APU with RadeonR4",
+   "item_mark": "224",
+   "serie": "Radeon"
+},
+{
+   "modelo": "ABIT Siluro T400",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "ALL-IN-WONDER 9000",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "ALL-IN-WONDER RADEON 8500DV",
+   "item_mark": "5",
+   "serie": "Radeon"
+},
+{
+   "modelo": "All-in-Wonder X1900",
+   "item_mark": "127",
+   "serie": ""
+},
+{
+   "modelo": "ALL-IN-WONDER X800 GT",
+   "item_mark": "84",
+   "serie": ""
+},
+{
+   "modelo": "ASUS EAH4870x2",
+   "item_mark": "496",
+   "serie": ""
+},
+{
+   "modelo": "Barco MXRT 5400",
+   "item_mark": "1334",
+   "serie": ""
+},
+{
+   "modelo": "Barco MXRT 5450",
+   "item_mark": "782",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.7b for Intel 945G",
+   "item_mark": "12",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.7b for Intel G33/G31",
+   "item_mark": "16",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.7b for Intel GMA 3150",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.7b for Mobile Intel 945",
+   "item_mark": "6",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.8a for Mobile Intel 965",
+   "item_mark": "22",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.8b for Intel 945G",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.8b for Intel G33/G31",
+   "item_mark": "7",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.8b for Mobile Intel 945",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "Chell 1.8b for Mobile Intel 965",
+   "item_mark": "13",
+   "serie": ""
+},
+{
+   "modelo": "Chipset Intel G41 Express",
+   "item_mark": "57",
+   "serie": ""
+},
+{
+   "modelo": "Device",
+   "item_mark": "2502",
+   "serie": ""
+},
+{
+   "modelo": "EAH6450",
+   "item_mark": "264",
+   "serie": ""
+},
+{
+   "modelo": "Famille de jeu de puces Express Intel 946GZ",
+   "item_mark": "7",
+   "serie": ""
+},
+{
+   "modelo": "FireGL X1",
+   "item_mark": "59",
+   "serie": ""
+},
+{
+   "modelo": "FireMV 2250",
+   "item_mark": "45",
+   "serie": ""
+},
+{
+   "modelo": "FirePro 2260",
+   "item_mark": "115",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro M4000 Mobility Pro",
+   "item_mark": "1709",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro M40003",
+   "item_mark": "1358",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro M4150",
+   "item_mark": "1102",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro M4170",
+   "item_mark": "1113",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro M6000 Mobility Pro",
+   "item_mark": "1705",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro V4800",
+   "item_mark": "1204",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro V5700",
+   "item_mark": "464",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro V7000 Adapter",
+   "item_mark": "3161",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro V7800",
+   "item_mark": "2091",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro V9800 Adapter",
+   "item_mark": "2714",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W4100 Adapter",
+   "item_mark": "1747",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W4170M",
+   "item_mark": "1281",
+   "serie": "Firepro"
+},
+{
+   "modelo": "Firepro W4190M",
+   "item_mark": "1269",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W5130M",
+   "item_mark": "1647",
+   "serie": "Firepro"
+},
+{
+   "modelo": "Firepro W5170M",
+   "item_mark": "2169",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W7000 Adapter",
+   "item_mark": "3963",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W7100 Adapter",
+   "item_mark": "5794",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W7170M",
+   "item_mark": "4643",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W8000 Adapter",
+   "item_mark": "4751",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W8100 Graphic Adapter",
+   "item_mark": "8219",
+   "serie": "Firepro"
+},
+{
+   "modelo": "FirePro W9100 Adapter",
+   "item_mark": "8299",
+   "serie": "Firepro"
+},
+{
+   "modelo": "GeForce 256",
+   "item_mark": "5",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 305M",
+   "item_mark": "190",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 310M",
+   "item_mark": "212",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 315M",
+   "item_mark": "211",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 320M",
+   "item_mark": "273",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 405",
+   "item_mark": "215",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 410M",
+   "item_mark": "350",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 505",
+   "item_mark": "191",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 605",
+   "item_mark": "318",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6100",
+   "item_mark": "21",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6100 nForce 400",
+   "item_mark": "25",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6100 nForce 405",
+   "item_mark": "22",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6100 nForce 420",
+   "item_mark": "25",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6100 nForce 430",
+   "item_mark": "23",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 610M",
+   "item_mark": "403",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 615",
+   "item_mark": "549",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6150",
+   "item_mark": "21",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6150 LE",
+   "item_mark": "21",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6150SE",
+   "item_mark": "24",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6150SE nForce 430",
+   "item_mark": "22",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6200 TurboCache",
+   "item_mark": "38",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6200SE TurboCache",
+   "item_mark": "29",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6610 XL",
+   "item_mark": "91",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 6700 XL",
+   "item_mark": "103",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7000M",
+   "item_mark": "13",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7000M / nForce 610M",
+   "item_mark": "13",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7025 / nForce 630a",
+   "item_mark": "25",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7050 / nForce 610i",
+   "item_mark": "27",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7050 / nForce 620i",
+   "item_mark": "31",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7050 / nForce 630i",
+   "item_mark": "26",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7050 PV / nForce 630a",
+   "item_mark": "22",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 705M",
+   "item_mark": "454",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 710A",
+   "item_mark": "484",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 710M",
+   "item_mark": "561",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7150 / nForce 630i",
+   "item_mark": "33",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7150M / nForce 630M",
+   "item_mark": "17",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 730A",
+   "item_mark": "774",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7350 LE",
+   "item_mark": "74",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 7650 GS",
+   "item_mark": "134",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 800A",
+   "item_mark": "440",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 800M",
+   "item_mark": "547",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8100 / nForce 720a",
+   "item_mark": "85",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 810A",
+   "item_mark": "638",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 810M",
+   "item_mark": "492",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8200",
+   "item_mark": "79",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8200M G",
+   "item_mark": "56",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 820A",
+   "item_mark": "693",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 820M",
+   "item_mark": "611",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 825M",
+   "item_mark": "750",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8300",
+   "item_mark": "92",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 830A",
+   "item_mark": "990",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 830M",
+   "item_mark": "859",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8400",
+   "item_mark": "100",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8400 SE",
+   "item_mark": "68",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8400M G",
+   "item_mark": "58",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8400M GS",
+   "item_mark": "82",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8400M GT",
+   "item_mark": "98",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 840A",
+   "item_mark": "876",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 840M",
+   "item_mark": "898",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 845M",
+   "item_mark": "1085",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8600GS",
+   "item_mark": "147",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8600M GS",
+   "item_mark": "124",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8600M GT",
+   "item_mark": "169",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8700M GT",
+   "item_mark": "211",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8800M GTS",
+   "item_mark": "474",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 8800M GTX",
+   "item_mark": "547",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9100",
+   "item_mark": "82",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9100M G",
+   "item_mark": "73",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 910M",
+   "item_mark": "475",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9200",
+   "item_mark": "81",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9200M GE",
+   "item_mark": "82",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9200M GS",
+   "item_mark": "86",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 920A",
+   "item_mark": "931",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 920M",
+   "item_mark": "727",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 920MX",
+   "item_mark": "1024",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9300",
+   "item_mark": "126",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9300 / nForce 730i",
+   "item_mark": "130",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9300GE",
+   "item_mark": "97",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9300M G",
+   "item_mark": "84",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9300M GS",
+   "item_mark": "95",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 930A",
+   "item_mark": "1174",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 930M",
+   "item_mark": "931",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 930MX",
+   "item_mark": "1153",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9400",
+   "item_mark": "144",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9400M",
+   "item_mark": "120",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9400M G",
+   "item_mark": "125",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 940A",
+   "item_mark": "810",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 940M",
+   "item_mark": "970",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 940MX",
+   "item_mark": "1292",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 945M",
+   "item_mark": "1466",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9500 GS",
+   "item_mark": "281",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9500M",
+   "item_mark": "103",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9500M G",
+   "item_mark": "166",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9500M GS",
+   "item_mark": "182",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9600M GS",
+   "item_mark": "233",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9600M GT",
+   "item_mark": "263",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9600M GT / GeForce GT 220M",
+   "item_mark": "293",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9650M GS",
+   "item_mark": "269",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9650M GT",
+   "item_mark": "257",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9700M GT",
+   "item_mark": "320",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9700M GTS",
+   "item_mark": "482",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9800 GTX/9800 GTX+",
+   "item_mark": "884",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9800 S",
+   "item_mark": "635",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9800M GS",
+   "item_mark": "548",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9800M GT",
+   "item_mark": "471",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9800M GTS",
+   "item_mark": "645",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce 9800M GTX",
+   "item_mark": "523",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce FX 5200LE",
+   "item_mark": "7",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce FX 5200SE",
+   "item_mark": "11",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce FX 5600XT",
+   "item_mark": "9",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce FX Go 5200",
+   "item_mark": "8",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce FX Go 5600",
+   "item_mark": "17",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce FX Go5300",
+   "item_mark": "12",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce FX Go5650",
+   "item_mark": "16",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce FX Go5700",
+   "item_mark": "47",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G 103M",
+   "item_mark": "106",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G 105M",
+   "item_mark": "114",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G100",
+   "item_mark": "100",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G102M",
+   "item_mark": "96",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G105M",
+   "item_mark": "183",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G200",
+   "item_mark": "134",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G205M",
+   "item_mark": "91",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G210",
+   "item_mark": "171",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce G210M",
+   "item_mark": "202",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 6100",
+   "item_mark": "18",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 6150",
+   "item_mark": "18",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 6200",
+   "item_mark": "14",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 6400",
+   "item_mark": "24",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 6600",
+   "item_mark": "69",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 6600 TE/6200 TE",
+   "item_mark": "44",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 6800",
+   "item_mark": "106",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 6800 Ultra",
+   "item_mark": "137",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7200",
+   "item_mark": "45",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7300",
+   "item_mark": "50",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7400",
+   "item_mark": "62",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7600",
+   "item_mark": "129",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7600 GT",
+   "item_mark": "163",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7700",
+   "item_mark": "147",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7800",
+   "item_mark": "116",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7800 GTX",
+   "item_mark": "208",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7900 GS",
+   "item_mark": "176",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce Go 7950 GTX",
+   "item_mark": "263",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GPU",
+   "item_mark": "1172",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 120M",
+   "item_mark": "277",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 130M",
+   "item_mark": "300",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 220M",
+   "item_mark": "263",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 230",
+   "item_mark": "476",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 230M",
+   "item_mark": "334",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 240M",
+   "item_mark": "353",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 320M",
+   "item_mark": "206",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 325M",
+   "item_mark": "296",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 330",
+   "item_mark": "555",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 330M",
+   "item_mark": "363",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 335M",
+   "item_mark": "502",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 415M",
+   "item_mark": "319",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 420M",
+   "item_mark": "544",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 425M",
+   "item_mark": "625",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 435M",
+   "item_mark": "664",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 445M",
+   "item_mark": "1055",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 520M",
+   "item_mark": "381",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 520MX",
+   "item_mark": "403",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 525M",
+   "item_mark": "600",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 540M",
+   "item_mark": "649",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 545",
+   "item_mark": "1292",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 550M",
+   "item_mark": "720",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 555M",
+   "item_mark": "895",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 620M",
+   "item_mark": "565",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 625M",
+   "item_mark": "479",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 630M",
+   "item_mark": "684",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 635",
+   "item_mark": "918",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 635M",
+   "item_mark": "690",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 640M",
+   "item_mark": "952",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 640M LE",
+   "item_mark": "783",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 645",
+   "item_mark": "2215",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 645M",
+   "item_mark": "869",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 650M",
+   "item_mark": "1219",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 710M",
+   "item_mark": "548",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 720A",
+   "item_mark": "661",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 720M",
+   "item_mark": "552",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 730A",
+   "item_mark": "732",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 730M",
+   "item_mark": "817",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 735M",
+   "item_mark": "661",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 740M",
+   "item_mark": "780",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 745A",
+   "item_mark": "1146",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 745M",
+   "item_mark": "960",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 750M",
+   "item_mark": "1286",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 755M",
+   "item_mark": "1575",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT 820M",
+   "item_mark": "698",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GT625M",
+   "item_mark": "517",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTS 160M",
+   "item_mark": "665",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTS 250M",
+   "item_mark": "564",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTS 350M",
+   "item_mark": "556",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTS 360M",
+   "item_mark": "757",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 1060 with Max-Q Design",
+   "item_mark": "7075",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 1070 Ti",
+   "item_mark": "12252",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 1070 with Max-Q Design",
+   "item_mark": "7809",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 1080 with Max-Q Design",
+   "item_mark": "10331",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 260M",
+   "item_mark": "593",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 280M",
+   "item_mark": "619",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 285M",
+   "item_mark": "741",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 460M",
+   "item_mark": "1392",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 470M",
+   "item_mark": "1949",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 480M",
+   "item_mark": "2042",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 485M",
+   "item_mark": "2382",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 560M",
+   "item_mark": "1555",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 570M",
+   "item_mark": "2017",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 580M",
+   "item_mark": "2323",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 660M",
+   "item_mark": "1423",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 670M",
+   "item_mark": "1925",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 670MX",
+   "item_mark": "2061",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 675M",
+   "item_mark": "2136",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 675MX",
+   "item_mark": "2402",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 680M",
+   "item_mark": "3365",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 680MX",
+   "item_mark": "4368",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 760A",
+   "item_mark": "1281",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 760M",
+   "item_mark": "1402",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 765M",
+   "item_mark": "1878",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 770M",
+   "item_mark": "2640",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 775M",
+   "item_mark": "4186",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 780M",
+   "item_mark": "3999",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 850A",
+   "item_mark": "802",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 850M",
+   "item_mark": "1554",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 860M",
+   "item_mark": "1815",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 870M",
+   "item_mark": "2368",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 880M",
+   "item_mark": "3635",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 950A",
+   "item_mark": "1445",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 950M",
+   "item_mark": "1784",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 960A",
+   "item_mark": "2310",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 960M",
+   "item_mark": "2147",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 965M",
+   "item_mark": "3101",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 970M",
+   "item_mark": "3990",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce GTX 980M",
+   "item_mark": "5816",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce MX130",
+   "item_mark": "2022",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce MX150",
+   "item_mark": "2012",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce2 GTS/GeForce2 Pro",
+   "item_mark": "3",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce2 Integrated GPU",
+   "item_mark": "4",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce2 MX 100/200",
+   "item_mark": "3",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce2 MX/MX 400",
+   "item_mark": "3",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce3 Ti 200",
+   "item_mark": "4",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce3 Ti 500",
+   "item_mark": "2",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 420 Go",
+   "item_mark": "3",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 420 Go 32M",
+   "item_mark": "5",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 4200 Go",
+   "item_mark": "3",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 440 Go",
+   "item_mark": "3",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 440 Go 64M",
+   "item_mark": "5",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 448 Go",
+   "item_mark": "5",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 460 Go --MobileForce M4 Stock--",
+   "item_mark": "5",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 MX 4000",
+   "item_mark": "4",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 MX 420",
+   "item_mark": "4",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 MX 440",
+   "item_mark": "4",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 MX 440 with AGP8X",
+   "item_mark": "4",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 MX 440SE",
+   "item_mark": "4",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 MX 460",
+   "item_mark": "4",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 MX Integrated GPU",
+   "item_mark": "6",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 Ti 4200",
+   "item_mark": "5",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 Ti 4400",
+   "item_mark": "7",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 Ti 4600",
+   "item_mark": "5",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce4 Ti 4800 SE",
+   "item_mark": "7",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GeForce9400M",
+   "item_mark": "105",
+   "serie": "GeForce"
+},
+{
+   "modelo": "GF117",
+   "item_mark": "554",
+   "serie": ""
+},
+{
+   "modelo": "GIGABYTE RADEON 9600 PRO",
+   "item_mark": "39",
+   "serie": "Radeon"
+},
+{
+   "modelo": "GRID M60-1Q",
+   "item_mark": "5309",
+   "serie": ""
+},
+{
+   "modelo": "GRID M60-2Q",
+   "item_mark": "5904",
+   "serie": ""
+},
+{
+   "modelo": "GRID M60-8Q",
+   "item_mark": "3867",
+   "serie": ""
+},
+{
+   "modelo": "GRID P6-4Q",
+   "item_mark": "4429",
+   "serie": ""
+},
+{
+   "modelo": "HD6450",
+   "item_mark": "227",
+   "serie": ""
+},
+{
+   "modelo": "Intel - Express Chipset G41",
+   "item_mark": "59",
+   "serie": ""
+},
+{
+   "modelo": "Intel - Express Chipset Q45/Q43",
+   "item_mark": "60",
+   "serie": ""
+},
+{
+   "modelo": "Intel 82845G Controller",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "Intel 82845G/GL Controller",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "Intel 82845G/GL/GE/PE/GV Controller",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "Intel 82865G Controller",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "Intel 82915G Express",
+   "item_mark": "5",
+   "serie": ""
+},
+{
+   "modelo": "Intel 82915G/GV/910GL Express",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "Intel 82945G Express",
+   "item_mark": "6",
+   "serie": ""
+},
+{
+   "modelo": "Intel 865 Embedded Controller",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "Intel 946GZ Embedded Chipset Function 0",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "Intel 946GZ Express",
+   "item_mark": "6",
+   "serie": ""
+},
+{
+   "modelo": "Intel B43 Express Chipset",
+   "item_mark": "65",
+   "serie": ""
+},
+{
+   "modelo": "Intel Coffee Lake UHD",
+   "item_mark": "1313",
+   "serie": ""
+},
+{
+   "modelo": "Intel G35 Express",
+   "item_mark": "30",
+   "serie": ""
+},
+{
+   "modelo": "Intel G41 Express Chipset",
+   "item_mark": "63",
+   "serie": ""
+},
+{
+   "modelo": "Intel G41 Express Chipset v2",
+   "item_mark": "71",
+   "serie": ""
+},
+{
+   "modelo": "Intel G41 Express-Chipsatz",
+   "item_mark": "58",
+   "serie": ""
+},
+{
+   "modelo": "Intel G965 Express",
+   "item_mark": "18",
+   "serie": ""
+},
+{
+   "modelo": "Intel Haswell HD - GT1",
+   "item_mark": "118",
+   "serie": ""
+},
+{
+   "modelo": "Intel Haswell HD - GT2",
+   "item_mark": "160",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 3000",
+   "item_mark": "313",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 4000",
+   "item_mark": "454",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 4400",
+   "item_mark": "563",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 5000",
+   "item_mark": "598",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 510",
+   "item_mark": "616",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 515",
+   "item_mark": "642",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 520",
+   "item_mark": "832",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 5200",
+   "item_mark": "777",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 530",
+   "item_mark": "1001",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 5300",
+   "item_mark": "402",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 5500",
+   "item_mark": "582",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 5600",
+   "item_mark": "663",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 6000",
+   "item_mark": "827",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 610",
+   "item_mark": "710",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 615",
+   "item_mark": "713",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 620",
+   "item_mark": "928",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD 630",
+   "item_mark": "1131",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD Family",
+   "item_mark": "430",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD manual-gen9_2015-133271",
+   "item_mark": "165",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD Modded",
+   "item_mark": "119",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD P3000",
+   "item_mark": "351",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD P4000",
+   "item_mark": "427",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD P4600",
+   "item_mark": "604",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD P4600/P4700",
+   "item_mark": "662",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD P530",
+   "item_mark": "1074",
+   "serie": ""
+},
+{
+   "modelo": "Intel HD P630",
+   "item_mark": "1204",
+   "serie": ""
+},
+{
+   "modelo": "Intel Infoshock HD",
+   "item_mark": "193",
+   "serie": ""
+},
+{
+   "modelo": "Intel Iris 5100",
+   "item_mark": "737",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris 540",
+   "item_mark": "1345",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris 550",
+   "item_mark": "1627",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris 6100",
+   "item_mark": "968",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris Plus 640",
+   "item_mark": "1392",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris Plus 650",
+   "item_mark": "1487",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris Pro 5200",
+   "item_mark": "1171",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris Pro 580",
+   "item_mark": "1836",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris Pro 6200",
+   "item_mark": "1523",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Iris Pro P580",
+   "item_mark": "2042",
+   "serie": "Iris"
+},
+{
+   "modelo": "Intel Media Accelerator",
+   "item_mark": "32",
+   "serie": ""
+},
+{
+   "modelo": "Intel Media Accelerator 3150",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "Intel Media Accelerator 500",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "Intel Media Accelerator 600",
+   "item_mark": "6",
+   "serie": ""
+},
+{
+   "modelo": "Intel Media Accelerator HD",
+   "item_mark": "115",
+   "serie": ""
+},
+{
+   "modelo": "Intel Q33 Express",
+   "item_mark": "11",
+   "serie": ""
+},
+{
+   "modelo": "Intel Q35 Express",
+   "item_mark": "10",
+   "serie": ""
+},
+{
+   "modelo": "Intel Q45/Q43 Express Chipset",
+   "item_mark": "67",
+   "serie": ""
+},
+{
+   "modelo": "Intel Q45/Q43 Express-Chipsatz",
+   "item_mark": "60",
+   "serie": ""
+},
+{
+   "modelo": "Intel Q965/Q963 Express",
+   "item_mark": "6",
+   "serie": ""
+},
+{
+   "modelo": "Intel Skylake HD DT GT2",
+   "item_mark": "576",
+   "serie": ""
+},
+{
+   "modelo": "Intel UHD 600",
+   "item_mark": "270",
+   "serie": ""
+},
+{
+   "modelo": "Intel UHD 605",
+   "item_mark": "204",
+   "serie": ""
+},
+{
+   "modelo": "Intel UHD 610",
+   "item_mark": "215",
+   "serie": ""
+},
+{
+   "modelo": "Intel UHD 620",
+   "item_mark": "1010",
+   "serie": ""
+},
+{
+   "modelo": "Intel UHD 630",
+   "item_mark": "1104",
+   "serie": ""
+},
+{
+   "modelo": "Intel US15 Embedded Media and Controller",
+   "item_mark": "7",
+   "serie": ""
+},
+{
+   "modelo": "ION",
+   "item_mark": "98",
+   "serie": ""
+},
+{
+   "modelo": "ION LE",
+   "item_mark": "104",
+   "serie": ""
+},
+{
+   "modelo": "KB 2C",
+   "item_mark": "235",
+   "serie": ""
+},
+{
+   "modelo": "M860G with Mobility Radeon 4100",
+   "item_mark": "75",
+   "serie": "Radeon"
+},
+{
+   "modelo": "M880G with Mobility Radeon HD 4200",
+   "item_mark": "93",
+   "serie": "Radeon"
+},
+{
+   "modelo": "M880G with Mobility Radeon HD 4225",
+   "item_mark": "71",
+   "serie": "Radeon"
+},
+{
+   "modelo": "M880G with Mobility Radeon HD 4250",
+   "item_mark": "104",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Matrox C420 LP PCIe x16",
+   "item_mark": "635",
+   "serie": ""
+},
+{
+   "modelo": "Matrox C680 PCIe x16",
+   "item_mark": "1951",
+   "serie": ""
+},
+{
+   "modelo": "Matrox C900 PCIe x16",
+   "item_mark": "1812",
+   "serie": ""
+},
+{
+   "modelo": "Matrox G200e WDDM 1.2",
+   "item_mark": "59",
+   "serie": ""
+},
+{
+   "modelo": "Matrox G200eh",
+   "item_mark": "40",
+   "serie": ""
+},
+{
+   "modelo": "Matrox G200eh WDDM 1.2",
+   "item_mark": "52",
+   "serie": ""
+},
+{
+   "modelo": "Matrox G200eR",
+   "item_mark": "36",
+   "serie": ""
+},
+{
+   "modelo": "Matrox G200eR WDDM 1.2",
+   "item_mark": "67",
+   "serie": ""
+},
+{
+   "modelo": "Matrox G200eW",
+   "item_mark": "42",
+   "serie": ""
+},
+{
+   "modelo": "Matrox G200eW WDDM 1.2",
+   "item_mark": "50",
+   "serie": ""
+},
+{
+   "modelo": "Matrox G200eW3 WDDM 2.0",
+   "item_mark": "111",
+   "serie": ""
+},
+{
+   "modelo": "Matrox M9140 LP PCIe x16",
+   "item_mark": "21",
+   "serie": ""
+},
+{
+   "modelo": "Matrox Millennium P650 PCIe 128",
+   "item_mark": "5",
+   "serie": ""
+},
+{
+   "modelo": "Matrox Millennium P690 PCIe x16",
+   "item_mark": "10",
+   "serie": ""
+},
+{
+   "modelo": "Matrox Millennium P690 Plus LP PCIe x16",
+   "item_mark": "6",
+   "serie": ""
+},
+{
+   "modelo": "Matrox Parhelia APVe",
+   "item_mark": "5",
+   "serie": ""
+},
+{
+   "modelo": "MEDION RADEON X740XL",
+   "item_mark": "94",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobile Intel - famiglia Express Chipset 45",
+   "item_mark": "37",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel - famiglia Express Chipset serie 4",
+   "item_mark": "47",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 4 Express-Chipsatzfamilie",
+   "item_mark": "44",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 45 Express",
+   "item_mark": "44",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 45 Express-Chipsatzfamilie",
+   "item_mark": "46",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 915GM/GMS/910GML Express",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 945 Express",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 945GM Express",
+   "item_mark": "5",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 945GM/GU Express",
+   "item_mark": "5",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 965 Express",
+   "item_mark": "20",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel 965 Express-Chipsatzfamilie",
+   "item_mark": "24",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel HD",
+   "item_mark": "409",
+   "serie": ""
+},
+{
+   "modelo": "Mobile Intel serie 4 Express",
+   "item_mark": "44",
+   "serie": ""
+},
+{
+   "modelo": "Mobility Radeon 4100",
+   "item_mark": "82",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 7000 IGP",
+   "item_mark": "6",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 7500",
+   "item_mark": "3",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9000",
+   "item_mark": "3",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9000 IGP",
+   "item_mark": "7",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9000/9100 IGP",
+   "item_mark": "5",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9100 IGP",
+   "item_mark": "2",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9200",
+   "item_mark": "3",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9600 PRO TURBO",
+   "item_mark": "24",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9600/9700",
+   "item_mark": "39",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9700",
+   "item_mark": "27",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON 9800",
+   "item_mark": "46",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 2300",
+   "item_mark": "50",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 2400",
+   "item_mark": "90",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 2400 XT",
+   "item_mark": "105",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 2600",
+   "item_mark": "170",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 2600 XT",
+   "item_mark": "190",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3410",
+   "item_mark": "62",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3430",
+   "item_mark": "97",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3450",
+   "item_mark": "92",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3470",
+   "item_mark": "93",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3470 Hybrid X2",
+   "item_mark": "93",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3650",
+   "item_mark": "214",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3670",
+   "item_mark": "232",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3850",
+   "item_mark": "365",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3870",
+   "item_mark": "547",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 3870 X2",
+   "item_mark": "564",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4200",
+   "item_mark": "92",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4225",
+   "item_mark": "66",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4250",
+   "item_mark": "98",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4270",
+   "item_mark": "92",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4330",
+   "item_mark": "137",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4350",
+   "item_mark": "148",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4550",
+   "item_mark": "192",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4570",
+   "item_mark": "199",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4650",
+   "item_mark": "400",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4670",
+   "item_mark": "464",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4830",
+   "item_mark": "511",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4850",
+   "item_mark": "858",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 4870",
+   "item_mark": "719",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5000",
+   "item_mark": "773",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5000 Serisi",
+   "item_mark": "478",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5165",
+   "item_mark": "284",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 530v",
+   "item_mark": "174",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 540v",
+   "item_mark": "188",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5430",
+   "item_mark": "181",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5450",
+   "item_mark": "214",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 545v",
+   "item_mark": "199",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5470",
+   "item_mark": "235",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 550v",
+   "item_mark": "266",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5570",
+   "item_mark": "713",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 560v",
+   "item_mark": "322",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5650",
+   "item_mark": "546",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 565v",
+   "item_mark": "325",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5730",
+   "item_mark": "673",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5850",
+   "item_mark": "765",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD 5870",
+   "item_mark": "1236",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon HD serie 4200",
+   "item_mark": "96",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X1300",
+   "item_mark": "39",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X1350",
+   "item_mark": "40",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X1400",
+   "item_mark": "43",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X1450",
+   "item_mark": "33",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X1600",
+   "item_mark": "92",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X1700",
+   "item_mark": "103",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON X1800",
+   "item_mark": "129",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X1900",
+   "item_mark": "134",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X2300",
+   "item_mark": "48",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X2300 HD",
+   "item_mark": "48",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon X2500",
+   "item_mark": "81",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON X300",
+   "item_mark": "34",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON X600",
+   "item_mark": "50",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON X600 SE",
+   "item_mark": "49",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON X700",
+   "item_mark": "65",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY RADEON XPRESS 200",
+   "item_mark": "26",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Mobility Radeon. HD 5470",
+   "item_mark": "215",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MOBILITY/RADEON 9000",
+   "item_mark": "4",
+   "serie": "Radeon"
+},
+{
+   "modelo": "MxGPU",
+   "item_mark": "2487",
+   "serie": ""
+},
+{
+   "modelo": "nForce 750a SLI",
+   "item_mark": "83",
+   "serie": ""
+},
+{
+   "modelo": "nForce 760i SLI",
+   "item_mark": "140",
+   "serie": ""
+},
+{
+   "modelo": "nForce 780a SLI",
+   "item_mark": "92",
+   "serie": ""
+},
+{
+   "modelo": "nForce 980a/780a SLI",
+   "item_mark": "80",
+   "serie": ""
+},
+{
+   "modelo": "NVS 810",
+   "item_mark": "1153",
+   "serie": ""
+},
+{
+   "modelo": "OpenXT Display Driver",
+   "item_mark": "30",
+   "serie": ""
+},
+{
+   "modelo": "PHDGD Ivy 4",
+   "item_mark": "377",
+   "serie": ""
+},
+{
+   "modelo": "PHDGD Quantic C3",
+   "item_mark": "104",
+   "serie": ""
+},
+{
+   "modelo": "PHDGD Quebec 4.0 for Intel Q45/Q43 Express Chipset",
+   "item_mark": "66",
+   "serie": ""
+},
+{
+   "modelo": "PHDGD Solo 1.2.0 x86",
+   "item_mark": "11",
+   "serie": ""
+},
+{
+   "modelo": "PHDGD Solo 2 x64",
+   "item_mark": "20",
+   "serie": ""
+},
+{
+   "modelo": "Quadro 1100M",
+   "item_mark": "755",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro 2000 D",
+   "item_mark": "1182",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro 2000D",
+   "item_mark": "1277",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro 280 NVS PCIe",
+   "item_mark": "5",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro CX",
+   "item_mark": "947",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro FX 4700 X2",
+   "item_mark": "665",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro FX 500/600 PCI",
+   "item_mark": "14",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro FX 500/FX 600",
+   "item_mark": "7",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro FX 5600",
+   "item_mark": "683",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro FX Go1400",
+   "item_mark": "101",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro GP100",
+   "item_mark": "10631",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro K2200M",
+   "item_mark": "2613",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro K620M",
+   "item_mark": "851",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M1000M",
+   "item_mark": "2194",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M1200",
+   "item_mark": "2778",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M2000M",
+   "item_mark": "2756",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M2200",
+   "item_mark": "3370",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M3000M",
+   "item_mark": "4285",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M4000M",
+   "item_mark": "4365",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M5000M",
+   "item_mark": "5334",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M500M",
+   "item_mark": "1000",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M520",
+   "item_mark": "1401",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M5500",
+   "item_mark": "9322",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M600M",
+   "item_mark": "1737",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro M620",
+   "item_mark": "2800",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 210S",
+   "item_mark": "23",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 210S / GeForce 6150LE",
+   "item_mark": "20",
+   "serie": "GeForce"
+},
+{
+   "modelo": "Quadro NVS 280 SD",
+   "item_mark": "2",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 285",
+   "item_mark": "34",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 285 128MB",
+   "item_mark": "38",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 290",
+   "item_mark": "92",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 420",
+   "item_mark": "102",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 440",
+   "item_mark": "38",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 450",
+   "item_mark": "91",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro NVS 55/280 PCI",
+   "item_mark": "6",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro P3000",
+   "item_mark": "4849",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro P400",
+   "item_mark": "1802",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro P4000",
+   "item_mark": "10491",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro P4000 with Max-Q Design",
+   "item_mark": "9082",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro P500",
+   "item_mark": "1875",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro P5200",
+   "item_mark": "11867",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro P600",
+   "item_mark": "3117",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro4 380 XGL",
+   "item_mark": "6",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Quadro4 980 XGL",
+   "item_mark": "5",
+   "serie": "Quadro"
+},
+{
+   "modelo": "Radeon 2100",
+   "item_mark": "59",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon 3000",
+   "item_mark": "99",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon 3100",
+   "item_mark": "74",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon 520",
+   "item_mark": "716",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon 530",
+   "item_mark": "1140",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon 540",
+   "item_mark": "1643",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon 6600M",
+   "item_mark": "737",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 7000 / RADEON VE Family",
+   "item_mark": "3",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 7500 Family",
+   "item_mark": "4",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 8500 Family",
+   "item_mark": "6",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9000 Family",
+   "item_mark": "3",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9100 Family",
+   "item_mark": "5",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9100 IGP",
+   "item_mark": "5",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9200 LE Family",
+   "item_mark": "2",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9200 PRO Family",
+   "item_mark": "2",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9500 PRO / 9700",
+   "item_mark": "41",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon 9550 / X1050",
+   "item_mark": "29",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9600 Family",
+   "item_mark": "26",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9600 PRO Family",
+   "item_mark": "26",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9600 TX Family",
+   "item_mark": "18",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON 9600SE",
+   "item_mark": "27",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON E4690",
+   "item_mark": "405",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon E6760",
+   "item_mark": "962",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon E8860",
+   "item_mark": "1577",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 2400",
+   "item_mark": "121",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 2400 PCI",
+   "item_mark": "14",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 2600 Pro AGP",
+   "item_mark": "110",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 3200",
+   "item_mark": "82",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 3300",
+   "item_mark": "127",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 3650 AGP",
+   "item_mark": "150",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 3670",
+   "item_mark": "244",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 4270",
+   "item_mark": "111",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 4300/4500 Serisi",
+   "item_mark": "155",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 4330",
+   "item_mark": "161",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 4650 AGP",
+   "item_mark": "263",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 5470",
+   "item_mark": "268",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 5600/5700",
+   "item_mark": "963",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6230",
+   "item_mark": "211",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6250",
+   "item_mark": "118",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6290",
+   "item_mark": "138",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6290M",
+   "item_mark": "137",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6300M",
+   "item_mark": "254",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6310",
+   "item_mark": "169",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6320",
+   "item_mark": "202",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6320 Graphic",
+   "item_mark": "216",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6320M",
+   "item_mark": "198",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6370M",
+   "item_mark": "274",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6380G",
+   "item_mark": "298",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6430M",
+   "item_mark": "193",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6450A",
+   "item_mark": "260",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6470M",
+   "item_mark": "313",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6480G",
+   "item_mark": "407",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6490M",
+   "item_mark": "378",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6520G",
+   "item_mark": "487",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6550A",
+   "item_mark": "707",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6610M",
+   "item_mark": "565",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6620G",
+   "item_mark": "562",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6630M",
+   "item_mark": "684",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6650M",
+   "item_mark": "718",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6670 + 6670 Dual",
+   "item_mark": "646",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6700M",
+   "item_mark": "1003",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6750M",
+   "item_mark": "929",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6770M",
+   "item_mark": "964",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6800M",
+   "item_mark": "980",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 6900M",
+   "item_mark": "1933",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7290",
+   "item_mark": "139",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7290M",
+   "item_mark": "123",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7310",
+   "item_mark": "171",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7310G",
+   "item_mark": "180",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7310M",
+   "item_mark": "166",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7340",
+   "item_mark": "207",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7340G",
+   "item_mark": "196",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7340M",
+   "item_mark": "221",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7400G",
+   "item_mark": "326",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7420G",
+   "item_mark": "430",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7450A",
+   "item_mark": "288",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7450M",
+   "item_mark": "329",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7470M",
+   "item_mark": "413",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7500G",
+   "item_mark": "414",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7500G + 7500M/7600M Dual",
+   "item_mark": "616",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7500G + 7550M Dual",
+   "item_mark": "497",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7500G + HD 7500M/7600M Dual",
+   "item_mark": "355",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G",
+   "item_mark": "449",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + 7400M Dual",
+   "item_mark": "486",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + 7600M Dual",
+   "item_mark": "591",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + 7610M Dual",
+   "item_mark": "588",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + 7650M Dual",
+   "item_mark": "453",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + 7670M Dual",
+   "item_mark": "525",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + 7700M Dual",
+   "item_mark": "1060",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + 8600/8700M Dual",
+   "item_mark": "311",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + HD 7400M Dual",
+   "item_mark": "544",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + HD 7600M Dual",
+   "item_mark": "612",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + HD 7670M Dual",
+   "item_mark": "547",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + HD 8600/8700M Dual",
+   "item_mark": "623",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7520G + HD 8750M Dual",
+   "item_mark": "651",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7540D + 6570 Dual",
+   "item_mark": "719",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7550M",
+   "item_mark": "472",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7550M/7650M",
+   "item_mark": "731",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7560D + 6570 Dual",
+   "item_mark": "833",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7560D + 6670 Dual",
+   "item_mark": "1130",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7560D + 7560D Dual",
+   "item_mark": "982",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7560D + 7670 Dual",
+   "item_mark": "1426",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7560D + HD 7000 Dual",
+   "item_mark": "534",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7560D + HD 7700 Dual",
+   "item_mark": "1346",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7560D + R5 235 Dual",
+   "item_mark": "563",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7570M",
+   "item_mark": "612",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7570M/HD 7670M",
+   "item_mark": "699",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7580D",
+   "item_mark": "350",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G",
+   "item_mark": "479",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G + 7450M Dual",
+   "item_mark": "389",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G + 7500M/7600M Dual",
+   "item_mark": "405",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G + 7550M Dual",
+   "item_mark": "423",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G + 8500M/8700M Dual",
+   "item_mark": "469",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G + HD 7500M/7600M Dual",
+   "item_mark": "555",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G + HD 7550M Dual",
+   "item_mark": "509",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G + HD 8670M Dual",
+   "item_mark": "543",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600G + HD Dual",
+   "item_mark": "442",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7600M + 7600M Dual",
+   "item_mark": "773",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7610M",
+   "item_mark": "630",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7620G",
+   "item_mark": "482",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7620G + 8600M Dual",
+   "item_mark": "503",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7620G + 8670M Dual",
+   "item_mark": "577",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7620G + HD 8600M Dual",
+   "item_mark": "442",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7620G + HD 8670M Dual",
+   "item_mark": "507",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G",
+   "item_mark": "611",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 6400M Dual",
+   "item_mark": "526",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 7400M Dual",
+   "item_mark": "637",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 7470M Dual",
+   "item_mark": "595",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 7500/7600 Dual",
+   "item_mark": "627",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 7600M Dual",
+   "item_mark": "705",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 7610M Dual",
+   "item_mark": "510",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 7670M Dual",
+   "item_mark": "641",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 7700M Dual",
+   "item_mark": "690",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 8500M Dual",
+   "item_mark": "585",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 8570M Dual",
+   "item_mark": "562",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 8600/8700M Dual",
+   "item_mark": "688",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 8670M Dual",
+   "item_mark": "558",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + 8750M Dual",
+   "item_mark": "654",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 7400M Dual",
+   "item_mark": "606",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 7600M Dual",
+   "item_mark": "706",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 7670M Dual",
+   "item_mark": "659",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 7700M Dual",
+   "item_mark": "589",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 8500M Dual",
+   "item_mark": "607",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 8500M N HD 8500M Dual",
+   "item_mark": "665",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 8570M Dual",
+   "item_mark": "696",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 8600/8700M Dual",
+   "item_mark": "578",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + HD 8750M Dual",
+   "item_mark": "1047",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G + R5 M200 Dual",
+   "item_mark": "515",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G N HD 7640G + HD 7600M N HD 7600M D",
+   "item_mark": "824",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7640G N HD 7640G + HD 7670M Dual",
+   "item_mark": "679",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7650A",
+   "item_mark": "792",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7650M",
+   "item_mark": "723",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660D + 6570 Dual",
+   "item_mark": "1100",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660D + 6670 Dual",
+   "item_mark": "1238",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660D + 7470 Dual",
+   "item_mark": "465",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660D + 7670 Dual",
+   "item_mark": "1061",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660D + HD 6670 Dual",
+   "item_mark": "1484",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660D + HD 7000 Dual",
+   "item_mark": "633",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660D + HD 7700 Dual",
+   "item_mark": "1958",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660D + R7 240 Dual",
+   "item_mark": "941",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G",
+   "item_mark": "803",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 7400M Dual",
+   "item_mark": "588",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 7470M Dual",
+   "item_mark": "630",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 7600M Dual",
+   "item_mark": "821",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 7610M Dual",
+   "item_mark": "744",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 7670M Dual",
+   "item_mark": "743",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 7700M Dual",
+   "item_mark": "757",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 7730M Dual",
+   "item_mark": "931",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 8600M Dual",
+   "item_mark": "445",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + 8670M Dual",
+   "item_mark": "587",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + HD 7500M/7600M Dual",
+   "item_mark": "999",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + HD 7600M Dual",
+   "item_mark": "788",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + HD 7670M Dual",
+   "item_mark": "706",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + HD 7700M Dual",
+   "item_mark": "751",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + HD 7730M Dual",
+   "item_mark": "881",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G + HD 8670M Dual",
+   "item_mark": "711",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G N HD 7660G + HD 7600M N HD 7600M D",
+   "item_mark": "722",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G N HD 7660G + HD 7670M Dual",
+   "item_mark": "704",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D",
+   "item_mark": "966",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7670A",
+   "item_mark": "1048",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7670M",
+   "item_mark": "812",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7670M + 7670M Dual",
+   "item_mark": "738",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7690M",
+   "item_mark": "1000",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7690M XT",
+   "item_mark": "1009",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7730M",
+   "item_mark": "1016",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7750M",
+   "item_mark": "1191",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7850M",
+   "item_mark": "1372",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7870M",
+   "item_mark": "1477",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 7970M",
+   "item_mark": "3814",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8180",
+   "item_mark": "198",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8210",
+   "item_mark": "252",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8240",
+   "item_mark": "279",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8250",
+   "item_mark": "258",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8280",
+   "item_mark": "320",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8280E",
+   "item_mark": "323",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8280G",
+   "item_mark": "269",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8330",
+   "item_mark": "339",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8330E",
+   "item_mark": "326",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8350G",
+   "item_mark": "419",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8370D",
+   "item_mark": "431",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8400",
+   "item_mark": "359",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8400E",
+   "item_mark": "341",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8410G",
+   "item_mark": "435",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8450G",
+   "item_mark": "413",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8450G + 8600M Dual",
+   "item_mark": "545",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8450G + 8670M Dual",
+   "item_mark": "474",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8450G + 8750M Dual",
+   "item_mark": "637",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8450G + HD 8600M Dual",
+   "item_mark": "452",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8450G + HD 8750M Dual",
+   "item_mark": "483",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8470D",
+   "item_mark": "518",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8470D + 6450 Dual",
+   "item_mark": "717",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8500M",
+   "item_mark": "555",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8500M/8700M",
+   "item_mark": "863",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8510G",
+   "item_mark": "508",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8510G + 8500M Dual",
+   "item_mark": "596",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550D",
+   "item_mark": "685",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G",
+   "item_mark": "707",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + 8500M Dual",
+   "item_mark": "602",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + 8570M Dual",
+   "item_mark": "532",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + 8600/8700M Dual",
+   "item_mark": "802",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + 8600M Dual",
+   "item_mark": "617",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + 8670M Dual",
+   "item_mark": "579",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + 8690M Dual",
+   "item_mark": "664",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + 8750M Dual",
+   "item_mark": "795",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + HD 7600M Dual",
+   "item_mark": "854",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + HD 8570M Dual",
+   "item_mark": "529",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + HD 8600/8700M Dual",
+   "item_mark": "813",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + HD 8600M Dual",
+   "item_mark": "593",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + HD 8670M Dual",
+   "item_mark": "546",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + HD 8750M Dual",
+   "item_mark": "819",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + R5 M200 Dual",
+   "item_mark": "619",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8550G + R5 M230 Dual",
+   "item_mark": "667",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570 + 8670D Dual",
+   "item_mark": "620",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D",
+   "item_mark": "677",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D + 6570 Dual",
+   "item_mark": "1239",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D + HD 6570 Dual",
+   "item_mark": "868",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D + HD 6670 Dual",
+   "item_mark": "1260",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D + HD 7000 Dual",
+   "item_mark": "753",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D + HD 7700 Dual",
+   "item_mark": "1834",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D + HD 8570 Dual",
+   "item_mark": "1032",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D + R7 200 Dual",
+   "item_mark": "999",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570D + R7 240 Dual",
+   "item_mark": "963",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8570M",
+   "item_mark": "534",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8600/8700M",
+   "item_mark": "1023",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8610G",
+   "item_mark": "554",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8610G + 8500M Dual",
+   "item_mark": "610",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8610G + 8600M Dual",
+   "item_mark": "588",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8610G + 8670M Dual",
+   "item_mark": "599",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8610G + HD 8500M Dual",
+   "item_mark": "645",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8610G + HD 8600M Dual",
+   "item_mark": "579",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8610G + HD 8670M Dual",
+   "item_mark": "574",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8610G + R5 M200 Dual",
+   "item_mark": "676",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650D",
+   "item_mark": "548",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G",
+   "item_mark": "946",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + 7600M Dual",
+   "item_mark": "741",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + 7670M Dual",
+   "item_mark": "778",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + 8500M Dual",
+   "item_mark": "626",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + 8570M Dual",
+   "item_mark": "654",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + 8600/8700M Dual",
+   "item_mark": "835",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + 8600M Dual",
+   "item_mark": "613",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + 8670M Dual",
+   "item_mark": "638",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + 8750M Dual",
+   "item_mark": "787",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + HD 7600M Dual",
+   "item_mark": "819",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + HD 7670M Dual",
+   "item_mark": "634",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + HD 8570M Dual",
+   "item_mark": "716",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + HD 8600/8700M Dual",
+   "item_mark": "765",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + HD 8600M Dual",
+   "item_mark": "597",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + HD 8670M Dual",
+   "item_mark": "589",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + HD 8750M Dual",
+   "item_mark": "786",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + R5 M200 Dual",
+   "item_mark": "722",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G + R5 M230 Dual",
+   "item_mark": "686",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G N HD 8650G + HD 8570M Dual",
+   "item_mark": "773",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8650G N HD 8650G + HD 8600M N HD 8600M D",
+   "item_mark": "679",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670D",
+   "item_mark": "792",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670D + 6670 Dual",
+   "item_mark": "1361",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670D + 7700 Dual",
+   "item_mark": "1788",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670D + HD 6670 Dual",
+   "item_mark": "1221",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670D + HD 7000 Dual",
+   "item_mark": "718",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670D + R5 235 Dual",
+   "item_mark": "836",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670D + R7 200 Dual",
+   "item_mark": "949",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670D + R7 240 Dual",
+   "item_mark": "1020",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8670M",
+   "item_mark": "513",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8690A",
+   "item_mark": "919",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8690M",
+   "item_mark": "984",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8730M",
+   "item_mark": "964",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8750M",
+   "item_mark": "1055",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8790M",
+   "item_mark": "1297",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8790M / R9 M290X",
+   "item_mark": "1236",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8850M",
+   "item_mark": "957",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8850M / R9 M265X",
+   "item_mark": "1139",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8870M",
+   "item_mark": "1638",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8870M / R9 M270X / M370X",
+   "item_mark": "1799",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD 8970M",
+   "item_mark": "3876",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON HD6370D",
+   "item_mark": "331",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON HD6410D",
+   "item_mark": "422",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON HD6530D",
+   "item_mark": "531",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD7570",
+   "item_mark": "1028",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD8490",
+   "item_mark": "369",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon HD8970M",
+   "item_mark": "3131",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon IGP 320M",
+   "item_mark": "3",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon IGP 340M",
+   "item_mark": "2",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON IGP 345M",
+   "item_mark": "2",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON IGP 350M",
+   "item_mark": "6",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro 450",
+   "item_mark": "2798",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro 460",
+   "item_mark": "3490",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro 555",
+   "item_mark": "3140",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro 560",
+   "item_mark": "3553",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro Vega 56",
+   "item_mark": "12300",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro Vega 64",
+   "item_mark": "13397",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro WX 2100",
+   "item_mark": "1776",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro WX 3100",
+   "item_mark": "3502",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro WX 4100",
+   "item_mark": "3890",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro WX 4130",
+   "item_mark": "2584",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro WX 4150",
+   "item_mark": "3408",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro WX 5100",
+   "item_mark": "5506",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro WX 9100",
+   "item_mark": "10778",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Pro WX4100",
+   "item_mark": "3949",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R2",
+   "item_mark": "305",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R2E",
+   "item_mark": "257",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R3",
+   "item_mark": "374",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R3E",
+   "item_mark": "256",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R4",
+   "item_mark": "397",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 230",
+   "item_mark": "233",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 235 + HD 7560D Dual",
+   "item_mark": "743",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 310",
+   "item_mark": "337",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 340",
+   "item_mark": "1072",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 420",
+   "item_mark": "757",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 430",
+   "item_mark": "1008",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 A10-9600P RADEON R5, 10 COMPUTE CORES 4C",
+   "item_mark": "800",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 A10-9620P RADEON R5, 10 COMPUTE CORES 4C",
+   "item_mark": "767",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 A10-9630P RADEON R5, 10 COMPUTE CORES 4C",
+   "item_mark": "1527",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 A6-9500 RADEON R5, 8 COMPUTE CORES 2C+6G",
+   "item_mark": "940",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 M230",
+   "item_mark": "563",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 M240",
+   "item_mark": "521",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 M255",
+   "item_mark": "751",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 M315",
+   "item_mark": "609",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 M320",
+   "item_mark": "598",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 M330",
+   "item_mark": "602",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 M335",
+   "item_mark": "554",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 M430",
+   "item_mark": "640",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 Opteron X3216",
+   "item_mark": "446",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 PRO A10-8730B R5, 10 COMPUTE CORES 4C+6G",
+   "item_mark": "780",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 PRO A6-8530B R5, 6 COMPUTE CORES 2C+4G",
+   "item_mark": "715",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 PRO A6-8570 R5, 8 COMPUTE CORES 2C+6G",
+   "item_mark": "1060",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 PRO A6-9500E R5, 6 COMPUTE CORES 2C+4G",
+   "item_mark": "966",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5 PRO A8-9600B R5, 10 COMPUTE CORES 4C+6G",
+   "item_mark": "824",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R5E",
+   "item_mark": "336",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R6",
+   "item_mark": "644",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R6 + R7 M265DX Dual",
+   "item_mark": "570",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R6 A10-8700P",
+   "item_mark": "691",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R6 A8-8600P",
+   "item_mark": "501",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R6 PRO A10-8700B R6, 10 Compute Cores 4C+6G",
+   "item_mark": "543",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R6 PRO A8-8600B R6, 10 Compute Cores 4C+6G",
+   "item_mark": "608",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 + HD 7700 Dual",
+   "item_mark": "1962",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 + R5 330 Dual",
+   "item_mark": "1014",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 + R5 435 Dual A10-9700 RADEON",
+   "item_mark": "885",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 + R7 200 Dual",
+   "item_mark": "1287",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 + R7 240 Dual",
+   "item_mark": "1045",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 + R7 350 Dual",
+   "item_mark": "1982",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 240 + HD 8570D Dual",
+   "item_mark": "917",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 240 + HD 8670D Dual",
+   "item_mark": "930",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 340",
+   "item_mark": "1041",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 430",
+   "item_mark": "1433",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10 Extreme Edition",
+   "item_mark": "806",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10 PRO-7800B",
+   "item_mark": "867",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10 PRO-7850B",
+   "item_mark": "1008",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10-7700K",
+   "item_mark": "898",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10-7800",
+   "item_mark": "890",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10-7860K",
+   "item_mark": "998",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10-7870K",
+   "item_mark": "1145",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10-7890K",
+   "item_mark": "1185",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10-8750",
+   "item_mark": "1004",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10-9700 RADEON",
+   "item_mark": "1233",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A10-9700E RADEON",
+   "item_mark": "1065",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A12-9700P RADEON",
+   "item_mark": "736",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A12-9720P RADEON",
+   "item_mark": "906",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A12-9730P RADEON",
+   "item_mark": "747",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A12-9800 RADEON",
+   "item_mark": "1263",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A12-9800E RADEON",
+   "item_mark": "1187",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A265",
+   "item_mark": "987",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A370",
+   "item_mark": "1281",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A8 PRO-7600B",
+   "item_mark": "728",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A8-7500 Radeon R7, 10 Compute Cores 4C+6",
+   "item_mark": "1015",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A8-7600",
+   "item_mark": "934",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A8-7650K",
+   "item_mark": "867",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A8-7670K",
+   "item_mark": "838",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A8-8650",
+   "item_mark": "910",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 A8-9600 RADEON",
+   "item_mark": "1113",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 FX-8800P",
+   "item_mark": "795",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 FX-9800P RADEON",
+   "item_mark": "852",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 FX-9830P RADEON",
+   "item_mark": "1796",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M260",
+   "item_mark": "656",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M260X",
+   "item_mark": "1114",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M265",
+   "item_mark": "815",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M270",
+   "item_mark": "745",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M340",
+   "item_mark": "766",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M350",
+   "item_mark": "1198",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M360",
+   "item_mark": "707",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M365X",
+   "item_mark": "901",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M370",
+   "item_mark": "1384",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M440",
+   "item_mark": "940",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M445",
+   "item_mark": "1003",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M460",
+   "item_mark": "1058",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 M465",
+   "item_mark": "1306",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 Opteron X3421",
+   "item_mark": "825",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A10-8750B",
+   "item_mark": "921",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A10-8770",
+   "item_mark": "1319",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A10-8770E",
+   "item_mark": "1185",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A10-8850B",
+   "item_mark": "945",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A10-9700",
+   "item_mark": "1370",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A10-9700B",
+   "item_mark": "1082",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A10-9700E",
+   "item_mark": "1127",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A12-8800B",
+   "item_mark": "782",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A12-8830B",
+   "item_mark": "732",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A12-8870",
+   "item_mark": "1377",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A12-8870E",
+   "item_mark": "1160",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A12-9800",
+   "item_mark": "1346",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A12-9800B",
+   "item_mark": "917",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A12-9800E",
+   "item_mark": "1061",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A8-8650B",
+   "item_mark": "892",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A8-8670E",
+   "item_mark": "1248",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R7 PRO A8-9600",
+   "item_mark": "1082",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 260",
+   "item_mark": "3018",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 Fury",
+   "item_mark": "9320",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M265X",
+   "item_mark": "1276",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M270X",
+   "item_mark": "1417",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M275",
+   "item_mark": "1111",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M275X / M375",
+   "item_mark": "1490",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M290X",
+   "item_mark": "4187",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M295X",
+   "item_mark": "5150",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M360",
+   "item_mark": "1944",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M370X",
+   "item_mark": "1954",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M375",
+   "item_mark": "1209",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M375X",
+   "item_mark": "2062",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M380",
+   "item_mark": "3094",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M390X",
+   "item_mark": "4175",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M395",
+   "item_mark": "4911",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M395X",
+   "item_mark": "5762",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M470",
+   "item_mark": "2117",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon R9 M470X",
+   "item_mark": "3593",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon RX Vega 10",
+   "item_mark": "1982",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon RX Vega 11",
+   "item_mark": "2393",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon RX Vega 56",
+   "item_mark": "11190",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon RX Vega M GH",
+   "item_mark": "7632",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon RX Vega M GL",
+   "item_mark": "5629",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon TM R9 A360",
+   "item_mark": "2148",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Vega 10 Mobile",
+   "item_mark": "1285",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Vega 8",
+   "item_mark": "2034",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Vega 8 Mobile",
+   "item_mark": "1687",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1200",
+   "item_mark": "32",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1250",
+   "item_mark": "37",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1270",
+   "item_mark": "31",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1300 PRO",
+   "item_mark": "86",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1550 64-bit",
+   "item_mark": "47",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1600",
+   "item_mark": "49",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1600 Pro / X1300XT",
+   "item_mark": "69",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1650 GTO",
+   "item_mark": "74",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1650 SE",
+   "item_mark": "71",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X1700 Targa Edition",
+   "item_mark": "116",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON X300SE",
+   "item_mark": "38",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON X550XT",
+   "item_mark": "54",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon X550XTX",
+   "item_mark": "70",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON X600XT",
+   "item_mark": "91",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON X800GT",
+   "item_mark": "79",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Xpress 1100",
+   "item_mark": "33",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Xpress 1150",
+   "item_mark": "29",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Xpress 1200",
+   "item_mark": "35",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Xpress 1250",
+   "item_mark": "42",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Radeon Xpress 1270",
+   "item_mark": "26",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON XPRESS 200",
+   "item_mark": "29",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RADEON XPRESS 200M",
+   "item_mark": "21",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RadeonT R5 430",
+   "item_mark": "1087",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RadeonT R7 450",
+   "item_mark": "2175",
+   "serie": "Radeon"
+},
+{
+   "modelo": "RAGE 128 PRO AGP 4X TMDS",
+   "item_mark": "1",
+   "serie": ""
+},
+{
+   "modelo": "Rage Fury Pro/Xpert 2000 Pro",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "Red Hat QXL controller",
+   "item_mark": "31",
+   "serie": ""
+},
+{
+   "modelo": "RGH Drivers v3",
+   "item_mark": "11",
+   "serie": ""
+},
+{
+   "modelo": "RIVA TNT2 Model 64/Model 64 Pro",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "RIVA TNT2/TNT2 Pro",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "RV530 PRO",
+   "item_mark": "118",
+   "serie": ""
+},
+{
+   "modelo": "S3 Chrome 430 ULP",
+   "item_mark": "39",
+   "serie": ""
+},
+{
+   "modelo": "S3 ProSavageDDR",
+   "item_mark": "1",
+   "serie": ""
+},
+{
+   "modelo": "SAPPHIRE RADEON 9600 ATLANTIS",
+   "item_mark": "47",
+   "serie": "Radeon"
+},
+{
+   "modelo": "SAPPHIRE Radeon X1550",
+   "item_mark": "61",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Sapphire RADEON X800 GT",
+   "item_mark": "112",
+   "serie": "Radeon"
+},
+{
+   "modelo": "Sherry 1.3 for GMA 3150",
+   "item_mark": "1",
+   "serie": ""
+},
+{
+   "modelo": "Sherry 1.3.2 beta for 945 chipsets",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "SiS 630/730",
+   "item_mark": "1",
+   "serie": ""
+},
+{
+   "modelo": "SiS 650_651_M650_M652_740",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "SiS 651",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "SiS 661FX",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "SiS 661FX/GX Mirage",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "SiS 661FX_760_741_M661FX_M760_M741",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "SiS 741",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "SiS 760",
+   "item_mark": "5",
+   "serie": ""
+},
+{
+   "modelo": "SiS M661MX",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "SiS M760GX",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "SiS Mirage",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "SiS Mirage 3",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "SUMO 9640",
+   "item_mark": "650",
+   "serie": ""
+},
+{
+   "modelo": "SUMO 964A",
+   "item_mark": "497",
+   "serie": ""
+},
+{
+   "modelo": "Tesla C2050",
+   "item_mark": "3465",
+   "serie": ""
+},
+{
+   "modelo": "Tesla C2075",
+   "item_mark": "3324",
+   "serie": ""
+},
+{
+   "modelo": "TITAN V",
+   "item_mark": "13161",
+   "serie": ""
+},
+{
+   "modelo": "TITAN Xp COLLECTORS EDITION",
+   "item_mark": "14982",
+   "serie": ""
+},
+{
+   "modelo": "TRINITY DEVASTATOR MOBILE",
+   "item_mark": "575",
+   "serie": ""
+},
+{
+   "modelo": "Vanta/Vanta LT",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "VIA Chrome9 HC IGP",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "VIA Chrome9 HC IGP Family",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "VIA Chrome9 HC IGP Family WDDM",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "VIA Chrome9 HC IGP Prerelease WDDM 1.1",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "VIA Chrome9 HC IGP WDDM",
+   "item_mark": "2",
+   "serie": ""
+},
+{
+   "modelo": "VIA Chrome9 HC IGP WDDM 1.1",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "VIA Chrome9 HCM IGP",
+   "item_mark": "1",
+   "serie": ""
+},
+{
+   "modelo": "VIA Chrome9 HD IGP",
+   "item_mark": "11",
+   "serie": ""
+},
+{
+   "modelo": "VIA/S3G Chrome 645/640 GPU",
+   "item_mark": "106",
+   "serie": ""
+},
+{
+   "modelo": "VIA/S3G DeltaChrome IGP",
+   "item_mark": "3",
+   "serie": ""
+},
+{
+   "modelo": "VIA/S3G KM400/KN400",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "VIA/S3G UniChrome IGP",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "VIA/S3G UniChrome Pro IGP",
+   "item_mark": "4",
+   "serie": ""
+},
+{
+   "modelo": "VIA/S3G UniChromeII",
+   "item_mark": "5",
+   "serie": ""
+},
+{
+   "modelo": "VirtualBox Adapter for Windows 8+",
+   "item_mark": "441",
+   "serie": ""
+},
+{
+   "modelo": "Wine Display Adapter",
+   "item_mark": "261",
+   "serie": ""
+},
+{
+   "modelo": "Xabre",
+   "item_mark": "5",
+   "serie": ""
+}
+]

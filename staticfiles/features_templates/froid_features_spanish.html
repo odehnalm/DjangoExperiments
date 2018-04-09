@@ -1,0 +1,303 @@
+<div class="row" style="margin-top:20px;">
+	<div class="col-md-6" >
+		<h6 class="title-col">{% trans "Peso y dimensiones" %}</h6>
+		
+		<div class="form-group row">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Altura (cm)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froidHauteur in froids_hauteur" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_hauteur.value" type="radio" class="custom-control-input" name="select-froid_hauteur" value="{{froidHauteur}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froidHauteur}}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    <div class="form-group row">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Ancho (cm)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froidLargeur in froids_largeur" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_largeur.value" type="radio" class="custom-control-input" name="select-froid_largeur" value="{{froidLargeur}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froidLargeur}}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    <div class="form-group row">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Profundidad (cm)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froidProfondeur in froids_profondeur" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_profondeur.value" type="radio" class="custom-control-input" name="select-froid_profondeur" value="{{froidProfondeur}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froidProfondeur}}</span>
+			</label>
+	      </div>
+	    </div>		
+		
+
+	    <div class="form-group row" ng-show="is_froid_0">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen útil (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_0" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_utile.value" type="radio" class="custom-control-input" name="select-froid_volume_utile" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_0">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen neto (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_0" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_net.value" type="radio" class="custom-control-input" value="{{froid}}">			
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen útil del refrigerador (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_0" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_utile_refrigerateur.value" type="radio" class="custom-control-input" name="select-froid_volume_utile_refrigerateur" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen neto del refrigerador (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_0" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_net_refrigerateur.value" type="radio" class="custom-control-input" name="select-froid_volume_net_refrigerateur" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen efectivo del congelador (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_0" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_utile_congelateur.value" type="radio" class="custom-control-input" name="select-froid_volume_utile_congelateur" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen neto del congelador (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_0" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_net_congelateur.value" type="radio" class="custom-control-input" name="select-froid_volume_net_congelateur" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen útil total (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_1" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_total_utile.value" type="radio" class="custom-control-input" name="select-froid_volume_total_utile" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_1">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen total neto (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_1_1" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_total_net.value" type="radio" class="custom-control-input" name="select-froid_volume_total_net" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+
+	    <div class="form-group row" ng-show="is_froid_2">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen útil (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_2_and_3" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_utile_2.value" type="radio" class="custom-control-input" name="select-froid_volume_utile_2" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+	    <div class="form-group row" ng-show="is_froid_2 || is_froid_3">
+	      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Volumen neto (L)" %}</label>
+	      <div class="col-sm-8">
+			<label ng-repeat="froid in froids_volume_2_and_3" class="custom-control custom-radio">
+				<input ng-model="$parent.froid_volume_net_2_and_3.value" type="radio" class="custom-control-input" name="select-froid_volume_net_2_and_3" value="{{froid}}">
+				<span class="custom-control-indicator"></span>
+				<span class="custom-control-description">{{froid}}</span>
+			</label>
+	      </div>
+	    </div>
+
+
+		
+	</div>
+	<div class="col-md-6" >
+		<h6 class="title-col">{% trans "Detallado" %}</h6>
+
+		
+		
+	<div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Tipo de pose" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_posetype" class="custom-control custom-radio">
+			<input ng-model="$parent.poseFroidSelected.value" type="radio" class="custom-control-input" name="select-froid_posetype" value="{{froid}}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{{froid}}</span>
+		</label>
+      </div>
+    </div>	
+
+    <div class="form-group row" ng-show="is_froid_3">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Almacenamiento (botellas)" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_Stockage_3" class="custom-control custom-radio">
+			<input ng-model="$parent.froid_Stockage.value" type="radio" class="custom-control-input" name="select-froids_Stockage" value="{{froid}}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{{froid}}</span>
+		</label>
+      </div>
+    </div>
+
+	<div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Energía" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_energy" class="custom-control custom-radio">
+			<input ng-model="$parent.energyFroidSelected.value" type="radio" class="custom-control-input" name="select-froid_energy" value="{{froid}}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{{froid}}</span>
+		</label>
+      </div>
+    </div>	
+
+		<!-- <div class="form-group row">
+			      <label class="col-sm-4 col-form-label filter-titlte">Energy</label>
+			      <div class="col-sm-8">
+			         <select ng-model="$parent.energyFroidSelected" class="custom-select form-control">
+			  <option selected></option>
+			  <option ng-repeat="energy_froid in froids_energy"value="{{energy_froid}}">{{energy_froid}}</option>
+			</select>
+			      </div>
+			    </div> -->
+		
+	
+	<div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Color" %}</label>
+      <div class="col-sm-8">
+         <select ng-model="$parent.froidCouleurSelected" class="custom-select form-control">
+		  <option selected></option>
+		  <option ng-repeat="froid_couleur in froids_couleur"value="{{froid_couleur}}">{{froid_couleur}}</option>
+		</select>
+      </div>
+    </div>
+		
+	<div class="form-group row" ng-show="!is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Sistema de frío" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_system" class="custom-control custom-radio">
+			<input ng-model="$parent.froidSystemSelected.value" type="radio" class="custom-control-input" name="select-froid_system" value="{{froid}}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{{froid}}</span>
+		</label>
+      </div>
+    </div>	
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Tipo de refrigeración" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_system" class="custom-control custom-radio">
+			<input ng-model="$parent.froid_type_refrigeration.value" type="radio" class="custom-control-input" name="select-froid_type_refrigeration" value="{{froid}}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{{froid}}</span>
+		</label>
+      </div>
+    </div>	
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Tipo de congelación" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_system" class="custom-control custom-radio">
+			<input ng-model="$parent.froid_type_congelation.value" type="radio" class="custom-control-input" name="select-froid_type_congelation" value="{{froid}}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{{froid}}</span>
+		</label>
+      </div>
+    </div>	
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Tecnología" %}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_technologie_1" class="custom-control custom-radio">
+			<input ng-model="$parent.froid_technologie.value" type="radio" class="custom-control-input" name="select-froid_technologie" value="{{froid}}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{{froid}}</span>
+		</label>
+      </div>
+    </div>	
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Visualización" %}</label>
+      <div class="col-sm-8">
+		<label class="custom-control custom-radio">
+			<input ng-model="$parent.froid_display" type="radio" class="custom-control-input" name="select-froid_display" value="Oui">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% trans "Si" %}</span>
+		</label>
+		<label class="custom-control custom-radio">
+			<input ng-model="$parent.froid_display" type="radio" class="custom-control-input" name="select-froid_display" value="Non">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% trans "No" %}</span>
+		</label>
+      </div>
+    </div>
+    <div class="form-group row" ng-show="is_froid_1">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Dispensador" %}</label>
+      <div class="col-sm-8">
+		<label class="custom-control custom-radio">
+			<input ng-model="$parent.froid_dispenseur" type="radio" class="custom-control-input" name="select-froid_dispenseur" value="Oui">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% trans "Si" %}</span>
+		</label>
+		<label class="custom-control custom-radio">
+			<input ng-model="$parent.froid_dispenseur" type="radio" class="custom-control-input" name="select-froid_dispenseur" value="Non">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{% trans "No" %}</span>
+		</label>
+      </div>
+    </div> 
+    <div class="form-group row">
+      <label class="col-sm-4 col-form-label filter-titlte">{% trans "Consumo (kWh / año)"}</label>
+      <div class="col-sm-8">
+		<label ng-repeat="froid in froids_consommation" class="custom-control custom-radio">
+			<input ng-model="$parent.froidConsommationSelected.value" type="radio" class="custom-control-input" name="select-froid_consommation" value="{{froid}}">
+			<span class="custom-control-indicator"></span>
+			<span class="custom-control-description">{{froid}}</span>
+		</label>
+      </div>
+    </div>	
+
+	
+		
+		<div style="margin-top:10px;" class="row">
+			<div class="col-sm-8"></div>
+			<div class="col-sm-4">
+			  	<button ng-click="SendData()" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">{% trans "Buscar" %}</button>
+			</div>
+
+		</div>
+		
+
+	
+		
+	</div>
+		
+	
+</div>

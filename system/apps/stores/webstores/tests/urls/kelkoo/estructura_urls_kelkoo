@@ -1,0 +1,284 @@
+*****************
+TV TV TV TV TV TV
+*****************
+
+orden de filtros en url:
+http://www.kelkoo.fr/
+              c-100311823-xxxxxxxxxxx/
+              v-100311823-xxxxxxxxxxx/
+                              compatibilite-hd/xxxxxx/
+                                        format-d-ecran/xxxxxxx/
+                                                      marque/xxxxxx/
+                                                                  taille-de-la-diagonale/xxxxxxx/
+                                                                                       type-de-tv/URLxxxxxxx
+url sin filtros: http://www.kelkoo.fr/c-100311823-televiseur.html
+
+------ Sustituyendo la MARCA (importancia en la edicion de url: 1)
+
+--Grupo X
+-Subgrupo X-1
+SAMSUNG:    http://www.kelkoo.fr/v-100311823-tv-samsung
+SONY:       http://www.kelkoo.fr/v-100311823-tv-sony
+
+-Subgrupo X-2
+PHILIPS:    http://www.kelkoo.fr/v-100311823-tv-philips
+TOSHIBA:    http://www.kelkoo.fr/v-100311823-tv-toshiba
+LG:         http://www.kelkoo.fr/v-100311823-tv-lg
+PANASONIC:  http://www.kelkoo.fr/v-100311823-tv-panasonic
+
+--Grupo a
+GRUNDIG:    http://www.kelkoo.fr/c-100311823-televiseur/marque/grundig
+HISENSE:    http://www.kelkoo.fr/c-100311823-televiseur/marque/hisense
+AKAI:       http://www.kelkoo.fr/c-100311823-televiseur/marque/akai
+AYA:        http://www.kelkoo.fr/c-100311823-televiseur/marque/aya
+DYON:       http://www.kelkoo.fr/c-100311823-televiseur/marque/dyon
+FOEHN:      http://www.kelkoo.fr/c-100311823-televiseur/marque/foehn-E-hirsch
+FUNAI:      http://www.kelkoo.fr/c-100311823-televiseur/marque/funai
+...
+
+
+------ Marcando type-de-tv: LED  (importancia en la edicion de url: 2)
+
+LED SOLO
+*) Si la url contiene 'c-100311823-televiseur', sustituye esto por 'v-100311823-tv-led'
+
+-- En Grupo X:
+- Subgrupo X-1
+SAMSUNG, LED
+http://www.kelkoo.fr/v-100311823-tv-led-samsung
+SONY, LED
+http://www.kelkoo.fr/v-100311823-tv-led-sony
+
+- Subgrupo X-2
+TOSHIBA, LED
+http://www.kelkoo.fr/v-100311823-tv-toshiba/type-de-tv/tv-led
+LG, LED
+http://www.kelkoo.fr/v-100311823-tv-lg/type-de-tv/tv-led
+PANASONIC, LED
+http://www.kelkoo.fr/v-100311823-tv-panasonic/type-de-tv/tv-led
+PHILIPS, LED
+http://www.kelkoo.fr/v-100311823-tv-philips/type-de-tv/tv-led
+
+
+-- En Grupo a:
+
+GRUNDIG, LED
+         http://www.kelkoo.fr/v-100311823-tv-led/marque/grundig
+LOEWE, LED
+         http://www.kelkoo.fr/v-100311823-tv-led/marque/loewe
+TCL, LED
+         http://www.kelkoo.fr/v-100311823-tv-led/marque/tcl
+AKAI, LED
+         http://www.kelkoo.fr/v-100311823-tv-led/marque/akai
+...
+
+
+-- Marcando CUALQUIER TIPO DE TV excepto LED
+
+Concatenar a la url base 'type-de-tv/tv-XXXXX'
+
+
+------ Marcando compatibilite-hd (importancia en la edicion de url: 3)
+
+-- FULL HD
+
+*)Si la url contiene 'c-100311823-televiseur', sustituye esto por 'v-100311823-tv-full-hd'
+  Sino, Si la url contiene 'v-100311823-tv-led', sustituye esto por 'v-100311823-tv-full-hd' y agrega 'type-de-tv/tv-led' a la url
+  Sino, se agrega 'compatibilite-hd/full-hd/'
+
+-- HD READY
+
+*)Si la url contiene 'c-100311823-televiseur', sustituye esto por 'v-100311823-tv-hd-ready'
+  Sino, Si la url contiene 'v-100311823-tv-led', sustituye esto por 'v-100311823-tv-hd-ready' y agrega 'type-de-tv/tv-led' a la url
+  Sino, se agrega 'compatibilite-hd/hd-ready/'
+
+
+Cuando hay tres o mas filtros despues de 'x-100311823-xxxxxxxxxxx/', se debe sustituir 'x-100311823-xxxxxxxxxxx/' por 'nf/x-100311823-xxxxxxxxxxx/'
+(A excepcion de PRIX, el cual siempre agrega nf, pero este filtro no se usara)
+
+PARA ORDENAR: ?sortby=price_ascending
+
+
+
+*************************
+REFRIGERADOR REFRIGERADOR
+*************************
+
+Orden de filtros en url:
+http://www.kelkoo.fr/
+              c-146401-refrigerateur/
+              v-146401-refrigerateur/
+                            classe-energetique/classe-x/
+                                          froid-ventile/xxxx-froid-ventilo/
+                                                              largeur/xxxxxxxxxx
+                                                                            marque/xxxxxx/
+                                                                                     type-de-pose/xxxxxxx/
+                                                                                                volume-net-en-litres/xxxxxxxxx/
+
+url sin filtros: http://www.kelkoo.fr/c-146401-refrigerateur.html
+
+------ Sustituyendo la MARCA (importancia en la edicion de url: 1)
+
+--Grupo X
+BEKO:    http://www.kelkoo.fr/v-146401-refrigerateur-beko
+BOSCH:    http://www.kelkoo.fr/v-146401-refrigerateur-bosch
+SIEMENS:    http://www.kelkoo.fr/v-146401-refrigerateur-siemens
+
+--Grupo a
+AEG:    http://www.kelkoo.fr/c-146401-refrigerateur/marque/aeg
+ARISTON:    http://www.kelkoo.fr/c-146401-refrigerateur/marque/ariston
+AYA:    http://www.kelkoo.fr/c-146401-refrigerateur/marque/aya
+BAUKNECHT:    http://www.kelkoo.fr/c-146401-refrigerateur/marque/bauknecht
+BOMANN:    http://www.kelkoo.fr/c-146401-refrigerateur/marque/bomann
+...
+
+------ Sustituyendo classe-energetique
+
+-- CLASSE A+
+*) Si la url contiene 'c-146401-refrigerateur', sustituye esto por 'v-146401-refrigerateur-classe-ap'
+   Sino, si la url contiene 'v-146401-refrigerateur', se agrega 'classe-energetique/classe-a-p/'
+
+-- Marcando CUALQUIER TIPO DE CLASE excepto A+
+
+Agregar a la url base 'classe-energetique/classe-x/'
+
+Cuando hay tres o mas filtros despues de 'x-146401-xxxxxxxxxxx/', se debe sustituir 'x-146401-xxxxxxxxxxx/' por 'nf/x-146401-xxxxxxxxxxx/'
+(A excepcion de PRIX, el cual siempre agrega nf, pero este filtro no se usara)
+
+PARA ORDENAR: ?sortby=price_ascending
+
+***********************************
+REFRIGERADOR REFRIGERADOR COMBINADO
+***********************************
+
+Orden de filtros en url:
+http://www.kelkoo.fr/
+              c-145801-refrigerateur/
+              v-145801-refrigerateur/
+                            classe-energetique/classe-x/
+                                              froid-ventile/xxxx-froid-ventilo/
+                                                                    largeur/xxxxxxxxxx
+                                                                                  marque/xxxxxx/
+                                                                                            type-de-pose/xxxxxxx/
+                                                                                                        type-de-refrigerateur-congelateur/xxxxxxx/
+                                                                                                                                          volume-total-du-combi/xxxxxxxxx/
+
+url sin filtros: http://www.kelkoo.fr/c-145801-combine-refrigerateur-congelateur.html
+
+------ Sustituyendo type de pose (más importante que clase energetica A+)
+
+-- TYPE DE POSE
+*) Si la url contiene 'c-145801-combine-refrigerateur-congelateur', sustituye esto por 'v-145801-refrigerateur-congelateur-encastrable'
+
+------ Sustituyendo classe-energetique
+
+-- CLASSE A+
+*) Si la url contiene 'c-145801-refrigerateur', sustituye esto por 'v-145801-refrigerateur-classe-ap'
+   Sino, si la url contiene 'v-145801-refrigerateur-congelateur-encastrable', se agrega 'classe-energetique/classe-a-p/'
+
+-- Marcando CUALQUIER TIPO DE CLASE excepto A+ y ENCASTRABLE
+
+Agregar a la url base 'classe-energetique/classe-x/'
+
+Cuando hay tres o mas filtros despues de 'x-145801-xxxxxxxxxxx/', se debe sustituir 'x-145801-xxxxxxxxxxx/' por 'nf/x-145801-xxxxxxxxxxx/'
+(A excepcion de PRIX, el cual siempre agrega nf, pero este filtro no se usara)
+
+PARA ORDENAR: ?sortby=price_ascending
+
+***********************
+REFRIGERADOR CONGELADOR
+***********************
+
+Orden de filtros en url:
+http://www.kelkoo.fr/
+                      c-145701-xxxxxxxxx/
+                      v-145701-xxxxxxxxx/
+                                          classe-energetique/classe-x/
+                                                                        marque/xxxxxx/
+                                                                                        type-de-congelateur/subtype/
+                                                                                                                      type-de-pose/xxxxxxx/  
+url sin filtros: http://www.kelkoo.fr/c-145701-congelateur.html
+
+------ Sustituyendo el SUBTIPO (importancia en la edicion de url: 1)
+
+*)Si NO se selecciona como "Type de pose" "integrable", entonces queda en el principio:
+
+Congélateur armoire:    http://www.kelkoo.fr/v-145701-congelateur-armoire
+Congélateur coffre:    http://www.kelkoo.fr/v-145701-congelateur-coffre
+SIN SUBTIPO:    http://www.kelkoo.fr/v-145701-congelateur
+
+------ Sustituyendo el TIPO DE POSE (importancia en la edicion de url:
+
+Integrable:   http://www.kelkoo.fr/v-145701-congelateur-encastrable
+Pose libre:   http://www.kelkoo.fr/v-145701-xxxxxxxxxxx/marque/xxxxxxxxx/type-de-pose/pose-libre
+
+Cuando hay tres o mas filtros despues de 'x-145701-xxxxxxxxxxx/', se debe sustituir 'x-145701-xxxxxxxxxxx/' por 'nf/x-145701-xxxxxxxxxxx/'
+(A excepcion de PRIX, el cual siempre agrega nf, pero este filtro no se usara)
+
+PARA ORDENAR: ?sortby=price_ascending
+
+*************
+CAVA DE VINOS
+*************
+
+Orden de filtros en url:
+http://www.kelkoo.fr/
+                      c-100014413-cave-a-vin/
+                                              marque/xxxxxx/
+                                                            stockage/xxxxxxx/                                                                                    
+                                                                                  type-de-cave-a-vin/subtype/
+                                                                                                                      
+url sin filtros: http://www.kelkoo.fr/c-100014413-cave-a-vin.html
+
+------ Sustituyendo el SUBTIPO (importancia en la edicion de url: 1)
+
+La creación del URL es extremadamente sencilla, ya que no hay cambios en c-100014413-xxxxxxxx si se aplica cualquier filtro. Tanto la marca, como la capacidad de
+almacenamiento en botellas o el tipo de aparato con campos gnéricos sin formato especial.
+
+Cuando hay tres o mas filtros despues de 'c-100014413-cave-a-vin/', se debe sustituir 'c-100014413-cave-a-vin/' por 'nf/c-100014413-cave-a-vin/'
+(A excepcion de PRIX, el cual siempre agrega nf, pero este filtro no se usara)
+
+PARA ORDENAR: ?sortby=price_ascending
+
+***********************
+TLF TLF TLF TLF TLF TLF
+***********************
+
+http://www.kelkoo.fr/nf/c-100020213-telephone-portable-sans-abonnement/marque/lg/resolution-de-l-appareil-photo/plus-de-5-megapixels/systeme-d-exploitation/android
+
+rden de filtros en url:
+http://www.kelkoo.fr/
+             c-100020213-telephone-portable-/
+             v-100020213-telephone-portable-
+             v-100020213-iphone/
+                                 marque/xxxxxxx/
+                                           resolution-de-l-appareil-photo/xxxxxxxx
+                                                                  systeme-d-exploitation/xxxxxxxxxx
+
+
+url sin filtros: http://www.kelkoo.fr/c-100020213-telephone-portable-sans-abonnement.html
+
+------ Sustituyendo la MARCA (importancia en la edicion de url: 1)
+
+--Grupo i
+IPHONE:       http://www.kelkoo.fr/v-100020213-iphone
+BLACKBERRY:   http://www.kelkoo.fr/v-100020213-blackberry
+
+--Grupo p
+HTC:          http://www.kelkoo.fr/v-100020213-telephone-portable-htc
+NOKIA:        http://www.kelkoo.fr/v-100020213-telephone-portable-nokia
+SAMSUNG:      http://www.kelkoo.fr/v-100020213-telephone-portable-samsung
+
+--Grupo a
+ACER:         http://www.kelkoo.fr/c-100020213-telephone-portable-sans-abonnement/marque/acer
+AEG:          http://www.kelkoo.fr/c-100020213-telephone-portable-sans-abonnement/marque/aeg
+...
+
+Cuando hay tres o mas filtros despues de 'x-100020213-xxxxxxxxxxx/', se debe sustituir 'x-100020213-xxxxxxxxxxx/' por 'nf/x-100020213-xxxxxxxxxxx/'
+(A excepcion de PRIX, el cual siempre agrega nf, pero este filtro no se usara)
+
+PARA ORDENAR: ?sortby=price_ascending
+
+
+
+

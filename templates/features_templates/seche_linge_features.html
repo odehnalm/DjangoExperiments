@@ -1,0 +1,102 @@
+{% load static i18n %}
+
+<div class="row" style="margin-top:20px;"> 
+					<div class="col-md-4" >
+						<h6 class="title-col"></h6>
+						
+
+						<h6 class="separator-cel filter-titlte">Type</h6>
+
+						<label class="custom-control custom-radio">
+						  <input name="select-type" type="radio" class="custom-control-input" value="à condensation">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">à condensation</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input  name="select-type" type="radio" class="custom-control-input" value="pompe à chaleur">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">pompe à chaleur</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input  name="select-type" type="radio" class="custom-control-input" value="à évacuation">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">à évacuation</span>
+						</label>
+
+
+						<h6 class="separator-cel filter-titlte">Silence</h6>
+						<label class="custom-control custom-radio">
+						  <input  name="select-resolution" type="radio" class="custom-control-input" value="Normal">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">Normal</span>
+						</label>
+						<label class="custom-control custom-radio">
+						  <input name="select-resolution" type="radio" class="custom-control-input" value="Peu bruyant">
+						  <span class="custom-control-indicator"></span>
+						  <span class="custom-control-description">Peu bruyant</span>
+						</label>
+						
+
+						
+					</div>
+					<div class="col-md-4" >
+						<h6 class="title-col"></h6>
+
+						
+						<div class="form-group row">
+					      <label class="col-sm-4 col-form-label filter-titlte">Type de pose</label>
+					      <div class="col-sm-8">
+					         <select class="custom-select form-control">
+							  
+							  <option selected>option 1</option>
+							  <option selected>option 2</option>
+							  <option selected>option 3</option>
+							  <option selected></option>
+							  <!-- <option ng-repeat="ratio in Ratio"value="{% verbatim %}{% verbatim %}{{ratio}}{% endverbatim %}{% endverbatim %}">{% verbatim %}{% verbatim %}{{ratio}}{% endverbatim %}{% endverbatim %}</option>
+							  							 -->							</select>
+					      </div>
+					    </div>
+
+
+						
+						
+					</div>					
+
+					<div class="col-md-4" >
+						<h6 class="title-col"></h6>
+
+						<div class="form-group row">
+					      <label class="col-sm-4 col-form-label filter-titlte">Capacité de chargement du linge</label>
+					      <div class="col-sm-8">
+					         <select class="custom-select form-control">
+							  
+							  <option selected>option 1</option>
+							  <option selected>option 2</option>
+							  <option selected>option 3</option>
+							  <option selected></option>
+							  <!-- <option ng-repeat="ratio in Ratio"value="{% verbatim %}{% verbatim %}{{ratio}}{% endverbatim %}{% endverbatim %}">{% verbatim %}{% verbatim %}{{ratio}}{% endverbatim %}{% endverbatim %}</option>
+							  							 -->							</select>
+					      </div>
+					    </div>
+					    
+
+					
+
+					   
+
+						
+						<div style="margin-top:180px;" class="row">
+							<div class="col-sm-8"></div>
+							<div class="col-sm-4">
+							  	<button ng-click="SendData()" class="btn" style="margin-top: 30px; background-color:#1565C0; color:white;">Rechercher</button>
+							</div>
+
+						</div>
+					    
+
+
+					</div>
+						
+					
+					<!-- <div class="col-md-1"></div> -->
+				</div>

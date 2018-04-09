@@ -1,0 +1,38 @@
+{
+	"COMPU_000": {
+		"name": "Laptop",
+		"form_type": "COMPU_000"
+	},
+	"TV_000": {
+		"name": "Televisor",
+		"form_type": "TV_000"
+	},
+	"FRIGO_000": {
+		"name": "Refrigerador",
+		"form_type": "FRIGO_000"
+	},
+	"FRIGO_001": {
+		"name": "Refrigerador combinado",
+		"form_type": "FRIGO_001"
+	},
+	"FRIGO_002": {
+		"name": "Congelador",
+		"form_type": "FRIGO_002"
+	},
+	"FRIGO_003": {
+		"name": "Cava de vino",
+		"form_type": "FRIGO_003"
+	},
+	"TLF_000": {
+		"name": "Movil",
+		"form_type": "TLF_000"
+	},
+	"5": {
+		"name": "Lavadora",
+		"form_type": "5"
+	},
+	"6": {
+		"name": "Secadora",
+		"form_type": "6"
+	},
+}
